@@ -83,6 +83,13 @@ Hinweise:
 - Coding Conventions Selbstcheck? **Code Style Checker** ⚠️ wie [checkstyle](https://checkstyle.sourceforge.io/) (Java), [StyleCop](https://github.com/DotNetAnalyzers/StyleCopAnalyzers) (C#), [JSCS](https://jscs-dev.GitHub.io/) (JS), etc. pp.
   - Zzgl. **Auto-Formatter** ⚠️, welche in den meisten IDEs eingebaut sind, meist per **Ctrl+Shift+F**
   - Zzgl. **Code-Cleanup** ⚠️ Funktionalitäten, bspw. [Eclipse's Clean Up](https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Freference%2Fpreferences%2Fjava%2Fcodestyle%2Fref-preferences-cleanup.htm) bzw. [Intellij IDEA's Code Cleanup](https://www.jetbrains.com/help/idea/reformat-and-rearrange-code.html) (Java) oder [ReSharper’s Cleanup Code](https://www.jetbrains.com/help/resharper/Code_Cleanup__Index.html) (C#)
+- SQL:
+  - IDE? **[DataGrip](https://www.jetbrains.com/datagrip/)** (siehe unten)
+  - SQL-Dialekt-Konvertierung: [SQLines](https://www.sqlines.com/online)
+  - SQL-Testing: siehe unten
+  - KI-gestützte SQL Code-Completion: siehe unen
+  - E/R-Diagramme: siehe unten
+  - Schema Diagrams: siehe unten
 - [Visual Studio **Code**](https://code.visualstudio.com/) \[**choco install vscode --ignore-dependencies**\]
   - Es gibt viele wertvolle Extensions → [Awesome VS Code](https://github.com/viatsko/awesome-vscode) bzw. [Best-Of-Listen](https://metager.org/meta/meta.ger3?eingabe=best+vs+code+extensions)
   - Auswahl: [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml), [draw.io](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio), [AsciiDoc](https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor-vscode), [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode), [TabNine](https://www.tabnine.com/install/vscode), uvm.
@@ -152,8 +159,9 @@ Hinweise:
   - **[Protractor](https://www.protractortest.org)** speziell für AngularJS und Angular
   - (Weitere Alternativen: Selenium, …)
 - AI-powerd E2E Test Automation: **[testRigor](https://testrigor.com/)**, kostenlos für public open source | **[testIM](https://www.testim.io/)** mit kostenlosen Kontingenten
-- [**Gatling** Open Source](https://gatling.io/open-source/): (Web/Self-Hosted:) WebApp Load-Testing
-- **[JMeter](https://jmeter.apache.org/)**: (Desktop:) WebApp Load Testing
+- WebApp Load-Testing
+  - (Web/Self-Hosted:) [**Gatling** Open Source](https://gatling.io/open-source/)
+  - (Desktop:) **[JMeter](https://jmeter.apache.org/)**
 - **[Cucumber](https://cucumber.io/docs/installation/)**: BDD-Testing
 - **[Kiwi TCMS](https://github.com/kiwitcms/Kiwi)**: Open Source Test Case Management System
 - A/B-Testing-on-Steroids: **[Split](https://www.split.io/)** für Web-Anwendungen
@@ -179,25 +187,24 @@ Hinweise:
 ## Wireframing & Prototyping & UX
 
 - **[Uizard](https://uizard.io/)**: Cloud-basiertes Wireframing & Prototyping Werkzeug (wie Figma et al.), aber mit KI-Komponente: Es kann Handzeichnungen in einen Prototypen umwandeln (sog. [Design Assistant](https://uizard.io/design-assistant/))
-- **[Figma](https://www.figma.com/)** als Cloud-Anwendung
-  - Figma ist kostenlos für [Studierende](https://www.figma.com/education/)
+  - **[Figma](https://www.figma.com/)** als Cloud-Anwendung
+    - Figma ist kostenlos für [Studierende](https://www.figma.com/education/)
   - Alternativen: [mydraft](https://mydraft.cc/), [Moqups](https://moqups.com/), [Framer](https://www.framer.com/), [NinjaMock](https://ninjamock.com/), uvm.
-- (Vorsicht vor **[JustInMind](https://www.justinmind.com)**: Ein sehr gutes Wireframing/Prototyping-Tool, zunächst kostenlos, aber nach 2 Monaten, was nicht in der Pricing-Übersicht steht, verliert man eine Vielzahl von Möglichkeiten und danach ist JustInMind m.E. unbrauchbar)
-- **[Adobe XD](https://www.adobe.com/de/products/xd.html)** als Desktop-Anwendung, auch für Web & Mobile
-  - Es gibt noch (Stand Mai 2022), etwas versteckt, eine [kostenlose Version namens Starter Plan](https://helpx.adobe.com/de/xd/kb/changes-to-xd-starter-plan.html) mit etwas reduzierten Features
+  - (Vorsicht vor **[JustInMind](https://www.justinmind.com)**: Ein sehr gutes Wireframing/Prototyping-Tool, zunächst kostenlos, aber nach 2 Monaten, was nicht in der Pricing-Übersicht steht, verliert man eine Vielzahl von Möglichkeiten und danach ist JustInMind m.E. unbrauchbar)
+  - **[Adobe XD](https://www.adobe.com/de/products/xd.html)** als Desktop-Anwendung, auch für Web & Mobile, aber seit einiger Zeit von Adobe aufgebeben
 - **[Pencil Project](https://pencil.evolus.vn/)**: Open Source GUI Prototyping
 - Personas:
   - Deutsch: **[Make My Persona](https://www.hubspot.de/make-my-persona)**
-  - Englisch: **[SEMRush](https://de.semrush.com/persona/)**, [UserForge](https://userforge.com/) (free: 2 Personas) [UXPressia Persona Creator](https://uxpressia.com/personas-online-tool) (free: 1 Persona), , [PersonaGenerator](https://personagenerator.com/) oder [Xtensio](https://xtensio.com/user-persona-template/)
+  - Englisch: **[SEMRush](https://de.semrush.com/persona/)**, [UserForge](https://userforge.com/) (free: 2 Personas) [UXPressia Persona Creator](https://uxpressia.com/personas-online-tool) (free: 1 Persona), [PersonaGenerator](https://personagenerator.com/) oder [Xtensio](https://xtensio.com/user-persona-template/)
   - KI-gestützter Generator (auf Basis von Google Analytics Daten): **[delve.ai](https://www.delve.ai/live-persona)**
   - Portrait-Bilder: **[This Person Does Not Exist](https://thispersondoesnotexist.com/)** (oder [Pexels](https://www.pexels.com/) sowie [Unsplash](https://unsplash.com/de))
 
 ## Modellierung & Architektur
 
-- (Mit [draw.io](https://drawio-app.com/) bzw. Microsoft Visio kann man natürlich ein [Klassendiagramm](https://drawio-app.com/uml-class-diagrams-in-draw-io/) zeichnen)
+- (Mit [draw.io/diagrams.net](https://drawio-app.com/) bzw. Microsoft Visio kann man natürlich ein [Klassendiagramm](https://drawio-app.com/uml-class-diagrams-in-draw-io/) zeichnen)
 - **[Cloudcraft](https://www.cloudcraft.co)**: Visualisierung von Cloud-Architekturen. Als Cloud-WebApp. ([Beispiele](https://www.google.com/search?q=cloud+architecture+cloudcraft&tbm=isch))
-  - Unterstützt auch [Export nach draw.io](https://www.diagrams.net/blog/drawio-aws-cloudcraft)
-- **[Visual Paradigm](https://www.visual-paradigm.com/)**[Community Edition](https://www.visual-paradigm.com/download/community.jsp): UML, SysML, AWS/Azure/GCP Architekturdiagram, uvm.
+  - Unterstützt auch [Export nach draw.io/diagrams.net](https://www.diagrams.net/blog/drawio-aws-cloudcraft)
+- **[Visual Paradigm](https://www.visual-paradigm.com/)** [Community Edition](https://www.visual-paradigm.com/download/community.jsp): UML, SysML, AWS/Azure/GCP Architekturdiagram, uvm.
   - (Unter Windos bspw. mittels chocolatey: **choco install visualparadigm-ce**)
   - (€:) [Nur ab Standard Edition](https://www.visual-paradigm.com/editions/): Kostenpflichtige [**Code Generation/Reversal** für Java, C++, C#, SQL, **Python**, uvm.](https://www.visual-paradigm.com/features/code-engineering-tools/) (aber kein JavaScript)
   - Cloud-Alternative: **[Visual Paradigm Online](https://online.visual-paradigm.com/de/diagrams/partner/academic/)**
@@ -231,16 +238,35 @@ Hinweise:
 - **[LucidChart](https://www.lucidchart.com/)**: Sehr mächtiges Cloud-basiertes Zeichen- und Modellierungswerkzeug
   - Leider sind nur 3 Dokumente kostenlos
 - **Entity/Relationship-Modellierung** (ERM):
-  - [Schöne E/R-Diagramme per **draw.io**](https://drawio-app.com/entity-relationship-diagrams-with-draw-io/) \[**choco install drawio**\]
-  - Oder Microsoft Visio mittels [meiner eigenen E/R **Visio-Stencils**](https://www.cyberlytics.eu/theses/templates/ERD-Chen76_EERD-ElmasriNavathe94.vss) für die Chen-Notation sowie für erweiterte E/R-Diagramme nach Elmasri
-  - Oder per **[Mermaid](https://mermaid-js.GitHub.io/mermaid/#/entityRelationshipDiagram)**
-  - Oder im [Oracle **SQL Developer**](https://www.oracle.com/database/sqldeveloper/) mittels eines [Oracle Accounts](https://profile.oracle.com/myprofile/account/create-account.jspx) \[**choco install oracle-sql-developer --ignore-dependencies --params "'/Username:{oraUser} /Password:{oraPwd}'"**\] dabei ist der {oraUser} i.d.R. eine E-Mail-Adresse und die geschweiften Klammern sind nicht Teil der Syntax sondern nur Platzhaltersymbolik
-  - **Warnhinweis**: Fast alle amerikanischen Tools (u.a. MySQL-Workbench, [dbdiagram.io](https://dbdiagram.io/), etc. pp.) behaupten fälschlicherweise, Sie würden E/R-Diagramme darstellen, aber oft ist die Notation nur eine Visualisierung von Relationen und diese Tools erlauben keine konzeptionelle Modellierung nach dem E/R-Modell
+  - aka: Entity/Relationship-Diagramme (ERD)
+  - Cloud:
+    - **[ERDplus](https://erdplus.com/)** ⭐: Bestes Cloud-basiertes E/R-Werkzeug
+    - Schöne [E/R-Diagramme per **draw.io**](https://drawio-app.com/entity-relationship-diagrams-with-draw-io/) \[**choco install drawio**\]
+    - **[Mermaid](https://mermaid-js.GitHub.io/mermaid/#/entityRelationshipDiagram)**
+    - Handzeichnungsstil: [excalidraw](https://excalidraw.com/)
+    - Weitere Alternativen mit starker Limitierung der Free Plans: [creately](https://creately.com/lp/er-diagram-tool-online/), etc.
+  - Desktop:
+    - Microsoft Visio mittels [meiner eigenen E/R **Visio-Stencils**](https://www.cyberlytics.eu/theses/templates/ERD-Chen76_EERD-ElmasriNavathe94.vss) für die Chen-Notation sowie für erweiterte E/R-Diagramme nach Elmasri
+    - [Oracle **SQL Developer**](https://www.oracle.com/database/sqldeveloper/)
+      - mittels eines [Oracle Accounts](https://profile.oracle.com/myprofile/account/create-account.jspx) \[**choco install oracle-sql-developer --ignore-dependencies --params "'/Username:{oraUser} /Password:{oraPwd}'"**\] dabei ist der {oraUser} i.d.R. eine E-Mail-Adresse und die geschweiften Klammern sind nicht Teil der Syntax sondern nur Platzhaltersymbolik
+  - **Warnhinweis**: Viele amerikanischen Tools (u.a. MySQL-Workbench, [dbdiagram.io](https://dbdiagram.io/), etc. pp.) behaupten fälschlicherweise, Sie würden E/R-Diagramme darstellen, aber oft ist die Notation nur eine Visualisierung von Relationen und diese Tools erlauben keine konzeptionelle Modellierung nach dem E/R-Modell
+- DB **Schema Diagram**
+  - aka: Database Schema Diagram, Relational Diagram, Database Relationship Diagram, Schema Model, Schema Design (Mr. Obvious: es hat sich leider nie eine einheitliche Bezeichnung für diesen Typ von Diagramm gebildet) (und deswegen werden diese Diagramme häufig mit E/R fälschlich in einen Topf geworfen)
+  - Cloud: [ChartDB](https://chartdb.io/)
+    - Stark limitiert in der Free Edition (i.d.R. 10 bis 15 Tabellen, kann aber für eine Bachelor-/Masterarbeit reichen): [azimutt](https://azimutt.app/pricing), [drawSQL](https://drawsql.app/#pricing), [QuickDBD](https://www.quickdatabasediagrams.com/#pricing), [DB Designer](https://www.dbdesigner.net/plans/)
+    - Unter dem fehlgeleiteten Begriff E/R-Diagram: [dbdiagram.io](https://dbdiagram.io/), [cacoo](https://nulab.com/cacoo/examples/database-diagrams-er-diagram-tool/)
+  - Desktop: [Jetbrains **DataGrip**](https://www.jetbrains.com/datagrip/features/) (kostenlos für Studierende)
+    - Unter dem fehlgeleiteten Begriff E/R-Diagram: [MySQL-Workbench](https://www.mysql.com/products/workbench/), u.a.
+- NoSQL Document Diagrams
+  - aka: Nested Columns Diagram (auch hier gibt es derzeit keine Normung, weder zur Bezeichnung der Diagramme, noch zur Visualisierungsform)
+  - **[DbGate](https://dbgate.org)** \[**choco install dbgate.portable**\]: Open-Source Cross-Plattfrom SQL+NoSQL Editor (inkl. starkem JSON-Viewer)
+  - **[azimutt](https://azimutt.app/blog/exploring-document-databases-with-azimutt)** erlaubt die Visualisierung von Document Stores \[npx azimutt export mongodb "mongodb://user:password@localhost"\]
 - JSON-Modellierung
   - JSON ist zunächst schemalos und die wenigen Sprachen zur Spezifikation von Web-APIs (z. B. [Swagger](https://swagger.io/), [RAML](http://raml.org/)) erlauben die Spezifikation von API-Diensten und ihren Parametern, aber keine konzeptionelle Visualisierung das vollständige API-Schema
   - ABER: Das **konzeptionelle Schema** von **JSON**-Dokumenten kann man genauso **mit Entity/Relationship-Diagrammen** oder **mit UML** darstellen!
     - (Auch selten genutzte Spezifikationsmöglichkeiten wie [JSON Schema](http://json-schema.org) sind m.E. weder durch Modellierungswerkzeuge gestützt noch gibt es Round-Trip support zur Extraktion von Schemainformation aus Dokumentinstanzen rund um JSON Schema)
-  - TIPP: Visualisieren Sie das Schema, das sich hinter Ihren JSON-Dokumenten verbirgt, in UML mit **[JSON discoverer](http://som-research.uoc.edu/tools/jsonDiscoverer/#/)**
+  - TIPP #1: Visualisieren Sie das Schema, das sich hinter Ihren JSON-Dokumenten verbirgt, in UML mit **[JSON discoverer](http://som-research.uoc.edu/tools/jsonDiscoverer/#/)**
+  - TIPP #2: **[DbGate](https://dbgate.org)** ist ein SQL+NoSQL Editor, aber integriert ebenfalls einen starken JSON-Viewer
 - **ASCII**-basierte Diagramme
   - UML-Klassendiagramm: **[TextUML](http://abstratt.GitHub.io/textuml/index.html)**
   - UML-Squenzdiagramm: **[PlantUML](https://plantuml.com/ascii-art)**
@@ -252,7 +278,7 @@ Hinweise:
 - **Software-Archäologie** und -Visualisierung:
   - Open Source: **[Sourcetrail](https://github.com/CoatiSoftware/Sourcetrail/)** \[**choco install sourcetrail**\]
   - Kostenpflichtig aber **nennenswert: [Lattix](https://www.lattix.com/)**, | **[Sonargraph](https://www.hello2morrow.com/products/sonargraph/)** (früher: SotoGraph/SotoArc) | **[Structure101](https://structure101.com/)** | **[JArchitect](https://www.jarchitect.com/)** | **[NDepend](https://www.ndepend.com/)**
-- Weiterführende Quelle: [Awesome Software Architecture](https://awesome-architecture.com/) | [AWS Architecture Blueprints](https://aws.amazon.com/architecture/) | [Survey of Architecture Frameworks](http://www.iso-architecture.org/ieee-1471/afs/frameworks-table.html)
+- Weiterführende Quelle: [Awesome Software Architecture](https://awesome-architecture.com/) | [Awesome Diagramming](https://github.com/shubhamgrg04/awesome-diagramming) | [AWS Architecture Blueprints](https://aws.amazon.com/architecture/) | [Survey of Architecture Frameworks](http://www.iso-architecture.org/ieee-1471/afs/frameworks-table.html)
 
 ## DevOps
 
