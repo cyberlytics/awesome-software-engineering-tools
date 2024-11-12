@@ -204,6 +204,12 @@ Hinweise:
 - (Mit [draw.io/diagrams.net](https://drawio-app.com/) bzw. Microsoft Visio kann man natürlich ein [Klassendiagramm](https://drawio-app.com/uml-class-diagrams-in-draw-io/) zeichnen)
 - **[Cloudcraft](https://www.cloudcraft.co)**: Visualisierung von Cloud-Architekturen. Als Cloud-WebApp. ([Beispiele](https://www.google.com/search?q=cloud+architecture+cloudcraft&tbm=isch))
   - Unterstützt auch [Export nach draw.io/diagrams.net](https://www.diagrams.net/blog/drawio-aws-cloudcraft)
+- REST-Schnittstellen dokumentieren?
+  - OpenAPI: **[Swagger](https://editor.swagger.io/)** ([Editor](https://editor.swagger.io/) und [Beispiel](https://petstore.swagger.io/))
+    - Reverse Engineering von einer bestehenden App: [mitmproxy2swagger](https://github.com/alufers/mitmproxy2swagger) ([Tutorial-Webartikel](https://medium.com/@amaraltohami30/reverse-engineer-an-api-using-mitmweb-and-postman-and-create-a-swagger-file-crapi-99f01b58511c))
+    - YAML-to-LaTeX? (1) [YAML-to-MD](https://github.com/OpenAPITools/openapi-generator-cli) \[npm install @openapitools/openapi-generator-cli\] (2) Cloud-based [Aspose md-to-tex](https://products.aspose.app/pdf/conversion/md-to-tex)
+- Event-Driven Architecture / Asynchronous APIs dokumentieren? (WebSockets, Kafka, ...)
+  - **[AsyncAPI](https://www.asyncapi.com/)** ([Editor](https://studio.asyncapi.com) und [Übersicht](https://www.asyncapi.com/docs/tutorials/getting-started/coming-from-openapi))
 - **[Visual Paradigm](https://www.visual-paradigm.com/)** [Community Edition](https://www.visual-paradigm.com/download/community.jsp): UML, SysML, AWS/Azure/GCP Architekturdiagram, uvm.
   - (Unter Windos bspw. mittels chocolatey: **choco install visualparadigm-ce**)
   - (€:) [Nur ab Standard Edition](https://www.visual-paradigm.com/editions/): Kostenpflichtige [**Code Generation/Reversal** für Java, C++, C#, SQL, **Python**, uvm.](https://www.visual-paradigm.com/features/code-engineering-tools/) (aber kein JavaScript)
