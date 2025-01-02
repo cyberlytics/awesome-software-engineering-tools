@@ -203,20 +203,20 @@ Hinweise:
 
 ## Modellierung & Architektur
 
-- **[PlantUML](https://plantuml.com/de/)** ⭐⭐⭐
+- **[PlantUML](https://plantuml.com/)** ⭐⭐⭐
   - Eigenschaften: Diagrams-as-Code / git-fähig / Kommandozeilen-Anwendung / auf Basis einer textuellen Notation
   - Desktop: **choco install plantuml** | Cloud: **[planttext.com](https://www.planttext.com)**
-  - [Wofür](https://plantuml.com/de/sitemap-language-specification)?
-    - UML ⭐: [Komponenten](https://plantuml.comcomponent-diagram) ⭐, [Klassen](https://plantuml.comclass-diagram) ⭐, [Sequenz](https://plantuml.comsequence-diagram) ⭐, [Use-Case](https://plantuml.comuse-case-diagram) ⭐, [Deployment](https://plantuml.comdeployment-diagram), [State-Charts](https://plantuml.comstate-diagram)
-    - [Entity/Relationship-Diagramme](https://plantuml.comer-diagram) ⭐ in Chen-Notation sowie auch EE/R (inkl. Vererbung)
-    - [JSON](https://plantuml.comjson) ⭐ und [YAML](https://plantuml.comyaml)
-    - [Wireframes](https://plantuml.com/salt) ⭐ in der UI/UX-Konzeption
-    - [Organigramme](https://plantuml.com/de/wbs-diagram) ⭐ und gleichsam [Projektstrukturplan (PSP)](https://plantuml.com/de/wbs-diagram)
-    - [Syntaxdiagram via EBNF](https://plantuml.comebnf) also erweiterter Backus-Naur-Form (EBNF)
-    - [Netzwerkdiagramme](https://plantuml.com/de/nwdiag)
-    - [MindMap](https://plantuml.com/de/mindmap-diagram)
-  - Nennenswert #1: Wie handgezeichnet mit „[skinparam handwritten true](https://plantuml.com/de/handwritten)“
-  - Nennenswert #2: Squenzdiagramme auch in [ASCII-Art](https://plantuml.com/de/ascii-art)
+  - [Wofür](https://plantuml.com/sitemap-language-specification)?
+    - UML ⭐: [Komponenten](https://plantuml.com/component-diagram) ⭐, [Klassen](https://plantuml.com/class-diagram) ⭐, [Sequenz](https://plantuml.com/sequence-diagram) ⭐, [Use-Case](https://plantuml.com/use-case-diagram) ⭐, [Deployment](https://plantuml.com/deployment-diagram), [State-Charts](https://plantuml.com/state-diagram)
+    - [Entity/Relationship-Diagramme](https://plantuml.com/er-diagram) ⭐ in Chen-Notation sowie auch EE/R (inkl. Vererbung)
+    - [JSON](https://plantuml.com/json) ⭐ und [YAML](https://plantuml.com/yaml)
+    - [Wireframes](https://plantuml.com//salt) ⭐ in der UI/UX-Konzeption
+    - [Organigramme](https://plantuml.com/wbs-diagram) ⭐ und gleichsam [Projektstrukturplan (PSP)](https://plantuml.com/wbs-diagram)
+    - [Syntaxdiagram via EBNF](https://plantuml.com/ebnf) also erweiterter Backus-Naur-Form (EBNF)
+    - [Netzwerkdiagramme](https://plantuml.com/nwdiag)
+    - [MindMap](https://plantuml.com/mindmap-diagram)
+  - Nennenswert #1: Wie handgezeichnet mit „[skinparam handwritten true](https://plantuml.com/handwritten)“
+  - Nennenswert #2: Squenzdiagramme auch in [ASCII-Art](https://plantuml.com/ascii-art)
   - Nennenswert #3: LaTeX-Einbindung: CTAN [plantuml](https://ctan.org/pkg/plantuml) package
   - Nennenswert #4: [Konvertierung von Quellcode nach PlantUML: **gituml.com**](https://gituml.com/listz)
   - Auswahl an Extensions: [C4 model](https://github.com/plantuml-stdlib/C4-PlantUML) ⭐, [AWS](https://github.com/awslabs/aws-icons-for-plantuml) ⭐, [Azure](https://github.com/plantuml-stdlib/Azure-PlantUML) ⭐, ...
@@ -262,7 +262,7 @@ Hinweise:
   - Leider sind nur 3 Dokumente kostenlos
 - **Entity/Relationship-Modellierung** (ERM) = konzeptionelle Datenmodellierungsebene
   - aka: Entity/Relationship-Diagramme (ERD) sowie erweiterte Entity/Relationship-Diagramme (EER) nach Elmasri & Navathe
-  - Top ⭐: [PlantUML](https://plantuml.com/de/er-diagram)
+  - Top ⭐: [PlantUML](https://plantuml.com/er-diagram)
   - Cloud:
     - **[PlantUML](https://editor.plantuml.com/uml/SoWkIImgISv8pUFYIiqhoIofL0X8BIhEprEevgg5YVZa9oUMP4B5Yb9pm9pYZCm21QVCefACWfp4v5Im71TKhwwVBf8K5v8gNKDTk75SN0wfUIbWkm40)**
     - **[ERDplus](https://erdplus.com/)** ⭐: Bestes Cloud-basiertes E/R-Werkzeug
