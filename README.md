@@ -50,7 +50,9 @@ Hinweise:
 - Git Client: **[git](https://gitforwindows.org/)** \[**choco install git.install -y --params="'/GitAndUnixToolsOnPath /WindowsTerminal /NoAutoCrlf'"**\]
   - ggf. **[TortoiseGit](https://tortoisegit.org/)** \[**choco install tortoisegit**\] | [SourceTree](https://www.sourcetreeapp.com/) \[choco install sourcetree\] | [SmartGit](https://www.syntevo.com/smartgit/) \[choco install smartgit\] | [GitKraken](https://www.gitkraken.com/GitHub-student-developer-pack-bundle) (s. unten)
 - **[GitHub CLI](https://cli.github.com/)** \[**choco install gh**\]: gh is GitHub on the command line, it brings pull requests, issues, and other GitHub concepts to the terminal ([gh-Cheatsheet](https://www.kdnuggets.com/2023/03/GitHub-cli-data-science-cheat-sheet.html))
-- Utilities: **[git-sizer](https://github.com/GitHub/git-sizer)** \[**choco install git-sizer --ignore-dependencies**\]
+- Utilities:
+  - **[git-sizer](https://github.com/GitHub/git-sizer)** \[**choco install git-sizer --ignore-dependencies**\]
+  - git-Graphen zeichnen: [Mermaid Gitgraph Diagrams](https://mermaid.js.org/syntax/gitgraph.html)
   - Fortgeschrittene Git-Repo-Analysen: **[Hercules](https://github.com/src-d/hercules)**
   - Animierte Visualisierung der Git-Repo-Historie: **[gource](https://gource.io/)**
   - Graphical Dashboard mit Git-Repo-Metriken: **[RepoGraphy](https://repography.com/)** (to embed in your README.md)
@@ -201,6 +203,29 @@ Hinweise:
 
 ## Modellierung & Architektur
 
+- **[PlantUML](https://plantuml.com/de/)** ⭐⭐⭐
+  - Eigenschaften: Diagrams-as-Code / git-fähig / Kommandozeilen-Anwendung / auf Basis einer textuellen Notation
+  - Desktop: **choco install plantuml** | Cloud: **[planttext.com](https://www.planttext.com)**
+  - [Wofür](https://plantuml.com/de/sitemap-language-specification)?
+    - UML ⭐: [Komponenten](https://plantuml.comcomponent-diagram) ⭐, [Klassen](https://plantuml.comclass-diagram) ⭐, [Sequenz](https://plantuml.comsequence-diagram) ⭐, [Use-Case](https://plantuml.comuse-case-diagram) ⭐, [Deployment](https://plantuml.comdeployment-diagram), [State-Charts](https://plantuml.comstate-diagram)
+    - [Entity/Relationship-Diagramme](https://plantuml.comer-diagram) ⭐ in Chen-Notation sowie auch EE/R (inkl. Vererbung)
+    - [JSON](https://plantuml.comjson) ⭐ und [YAML](https://plantuml.comyaml)
+    - [Wireframes](https://plantuml.com/salt) ⭐ in der UI/UX-Konzeption
+    - [Organigramme](https://plantuml.com/de/wbs-diagram) ⭐ und gleichsam [Projektstrukturplan (PSP)](https://plantuml.com/de/wbs-diagram)
+    - [Syntaxdiagram via EBNF](https://plantuml.comebnf) also erweiterter Backus-Naur-Form (EBNF)
+    - [Netzwerkdiagramme](https://plantuml.com/de/nwdiag)
+    - [MindMap](https://plantuml.com/de/mindmap-diagram)
+  - Nennenswert #1: Wie handgezeichnet mit „[skinparam handwritten true](https://plantuml.com/de/handwritten)“
+  - Nennenswert #2: Squenzdiagramme auch in [ASCII-Art](https://plantuml.com/de/ascii-art)
+  - Nennenswert #3: LaTeX-Einbindung: CTAN [plantuml](https://ctan.org/pkg/plantuml) package
+  - Nennenswert #4: [Konvertierung von Quellcode nach PlantUML: **gituml.com**](https://gituml.com/listz)
+  - Auswahl an Extensions: [C4 model](https://github.com/plantuml-stdlib/C4-PlantUML) ⭐, [AWS](https://github.com/awslabs/aws-icons-for-plantuml) ⭐, [Azure](https://github.com/plantuml-stdlib/Azure-PlantUML) ⭐, ...
+  - Cloud-Beispiele: [Hitchhiker's Guide to PlantUML](https://crashedmind.GitHub.io/PlantUMLHitchhikersGuide/aws/aws.html)
+  - Web-zentrische Alternativen: **[Mermaid](https://mermaid-js.GitHub.io/mermaid/#/entityRelationshipDiagram)** JavaScript-Bibliothek
+- **[Mermaid]()** ⭐: ähnlich geil wie PlantUML
+  - Mittlerweile nicht nur als JS-Bibliothek sondern auch als lokales [CLI-Werkzeug](https://github.com/mermaid-js/mermaid-cli) \[npm install -g @mermaid-js/mermaid-cli\], das bspw. SVGs erzeugt
+  - Überdeckung mit PlantUML: [UML](https://mermaid.js.org/syntax/zenuml.html) und [MindMaps](https://mermaid.js.org/syntax/mindmap.html)
+  - Unterstützt in Ergänzung zu PlantUML noch einige [andere Diagrammarten](https://mermaid.js.org/intro/) ⭐, bspw. [QuadrantCharts](https://mermaid.js.org/syntax/quadrantChart.html), [git-Graphen](https://mermaid.js.org/syntax/gitgraph.html), [Paket-Diagramme](https://mermaid.js.org/syntax/packet.html) und [Sankey-Diagramme](https://mermaid.js.org/syntax/sankey.html) sowie [Kanban-Diagramme](https://mermaid.js.org/syntax/kanban.html)
 - (Mit [draw.io/diagrams.net](https://drawio-app.com/) bzw. Microsoft Visio kann man natürlich ein [Klassendiagramm](https://drawio-app.com/uml-class-diagrams-in-draw-io/) zeichnen)
 - **[Cloudcraft](https://www.cloudcraft.co)**: Visualisierung von Cloud-Architekturen. Als Cloud-WebApp. ([Beispiele](https://www.google.com/search?q=cloud+architecture+cloudcraft&tbm=isch))
   - Unterstützt auch [Export nach draw.io/diagrams.net](https://www.diagrams.net/blog/drawio-aws-cloudcraft)
@@ -217,14 +242,6 @@ Hinweise:
 - **[Modelio](https://www.modelio.org/)**: Open-Source und Eclipse-basiert; UML, SysML, BPMN und TOGAF-bezogene Diagrammarten
   - (Unter Windos bspw. mittels chocolatey: **choco install modelio**)
   - Kostenlose [**Code Generation/Reversal**: Java, C++, C# und SQL](https://www.modeliosoft.com/en/features/model-driven-code-generation.html) (sonst nix, bspw. kein Python; auch kein JavaScript)
-- **[PlantUML](https://plantuml.com/de/)**: UML / Diagrams-as-Code / git-fähig / Kommandozeilen-Anwendung / auf Basis einer textuellen Notation
-  - Desktop: **choco install plantuml** | Cloud: **[planttext.com](https://www.planttext.com)**
-  - Nennenswert #1: Wie handgezeichnet mit „[skinparam handwritten true](https://plantuml.com/de/handwritten)“
-  - Nennenswert #2: Squenzdiagramme auch in [ASCII-Art](https://plantuml.com/de/ascii-art)
-  - Nennenswert #3: [Konvertierung von Quellcode nach PlantUML: **gituml.com**](https://gituml.com/listz)
-  - Auswahl an Extensions: [C4 model](https://github.com/plantuml-stdlib/C4-PlantUML), [AWS](https://github.com/awslabs/aws-icons-for-plantuml), [Azure](https://github.com/plantuml-stdlib/Azure-PlantUML)
-  - Cloud-Beispiele: [Hitchhiker's Guide to PlantUML](https://crashedmind.GitHub.io/PlantUMLHitchhikersGuide/aws/aws.html)
-  - Web-zentrische Alternativen: **[Mermaid](https://mermaid-js.GitHub.io/mermaid/#/entityRelationshipDiagram)** JavaScript-Bibliothek
 - **[Kroki](https://kroki.io)** Server: u.a. UML / Diagrams-as-Code / git-fähig / URL-Anwendung / auf Basis textueller Notationen
   - Unified API with support for PlantUML, BlockDiag, BPMN, Bytefield, C4, Ditaa, Erd, Excalidraw, GraphViz, Mermaid, Nomnoml, Pikchr, Structurizr, SvgBob, UMLet, Vega, Vega-Lite, WaveDrom
   - Beispiele: [Liste verschiedener Diagramme](https://kroki.io/examples.html)
@@ -243,20 +260,23 @@ Hinweise:
 - **[Structurizr](https://structurizr.com/)**: [C4-Model](https://en.wikipedia.org/wiki/C4_model)-bezogene Diagrammarten, bspw. auch für Cloud Architekturen
 - **[LucidChart](https://www.lucidchart.com/)**: Sehr mächtiges Cloud-basiertes Zeichen- und Modellierungswerkzeug
   - Leider sind nur 3 Dokumente kostenlos
-- **Entity/Relationship-Modellierung** (ERM):
-  - aka: Entity/Relationship-Diagramme (ERD)
+- **Entity/Relationship-Modellierung** (ERM) = konzeptionelle Datenmodellierungsebene
+  - aka: Entity/Relationship-Diagramme (ERD) sowie erweiterte Entity/Relationship-Diagramme (EER) nach Elmasri & Navathe
+  - Top ⭐: [PlantUML](https://plantuml.com/de/er-diagram)
   - Cloud:
+    - **[PlantUML](https://editor.plantuml.com/uml/SoWkIImgISv8pUFYIiqhoIofL0X8BIhEprEevgg5YVZa9oUMP4B5Yb9pm9pYZCm21QVCefACWfp4v5Im71TKhwwVBf8K5v8gNKDTk75SN0wfUIbWkm40)**
     - **[ERDplus](https://erdplus.com/)** ⭐: Bestes Cloud-basiertes E/R-Werkzeug
     - Schöne [E/R-Diagramme per **draw.io**](https://drawio-app.com/entity-relationship-diagrams-with-draw-io/) \[**choco install drawio**\]
     - **[Mermaid](https://mermaid-js.GitHub.io/mermaid/#/entityRelationshipDiagram)**
     - Handzeichnungsstil: [excalidraw](https://excalidraw.com/)
     - Weitere Alternativen mit starker Limitierung der Free Plans: [creately](https://creately.com/lp/er-diagram-tool-online/), etc.
   - Desktop:
+    - **[PlantUML](https://plantuml.com/er-diagram)** ⭐ mit E/R in Chen-Notation sowie auch EE/R also inkl. Vererbung
     - Microsoft Visio mittels [meiner eigenen E/R **Visio-Stencils**](https://www.cyberlytics.eu/theses/templates/ERD-Chen76_EERD-ElmasriNavathe94.vss) für die Chen-Notation sowie für erweiterte E/R-Diagramme nach Elmasri
     - [Oracle **SQL Developer**](https://www.oracle.com/database/sqldeveloper/)
       - mittels eines [Oracle Accounts](https://profile.oracle.com/myprofile/account/create-account.jspx) \[**choco install oracle-sql-developer --ignore-dependencies --params "'/Username:{oraUser} /Password:{oraPwd}'"**\] dabei ist der {oraUser} i.d.R. eine E-Mail-Adresse und die geschweiften Klammern sind nicht Teil der Syntax sondern nur Platzhaltersymbolik
   - **Warnhinweis**: Viele amerikanischen Tools (u.a. MySQL-Workbench, [dbdiagram.io](https://dbdiagram.io/), etc. pp.) behaupten fälschlicherweise, Sie würden E/R-Diagramme darstellen, aber oft ist die Notation nur eine Visualisierung von Relationen und diese Tools erlauben keine konzeptionelle Modellierung nach dem E/R-Modell
-- DB **Schema Diagram**
+- DB **Schema Diagram** = logische Datenmodellierungsebene: Relationen
   - aka: Database Schema Diagram, Relational Diagram, Database Relationship Diagram, Schema Model, Schema Design (Mr. Obvious: es hat sich leider nie eine einheitliche Bezeichnung für diesen Typ von Diagramm gebildet) (und deswegen werden diese Diagramme häufig mit E/R fälschlich in einen Topf geworfen)
   - Cloud: [ChartDB](https://chartdb.io/)
     - Stark limitiert in der Free Edition (i.d.R. 10 bis 15 Tabellen, kann aber für eine Bachelor-/Masterarbeit reichen): [azimutt](https://azimutt.app/pricing), [drawSQL](https://drawsql.app/#pricing), [QuickDBD](https://www.quickdatabasediagrams.com/#pricing), [DB Designer](https://www.dbdesigner.net/plans/)
