@@ -210,7 +210,7 @@ Hinweise:
     - UML ⭐: [Komponenten](https://plantuml.com/component-diagram) ⭐, [Klassen](https://plantuml.com/class-diagram) ⭐, [Sequenz](https://plantuml.com/sequence-diagram) ⭐, [Use-Case](https://plantuml.com/use-case-diagram) ⭐, [Deployment](https://plantuml.com/deployment-diagram), [State-Charts](https://plantuml.com/state-diagram)
     - [Entity/Relationship-Diagramme](https://plantuml.com/er-diagram) ⭐ in Chen-Notation sowie auch EE/R (inkl. Vererbung)
     - [JSON](https://plantuml.com/json) ⭐ und [YAML](https://plantuml.com/yaml)
-    - [Wireframes](https://plantuml.com//salt) ⭐ in der UI/UX-Konzeption
+    - [Wireframes](https://plantuml.com/salt) ⭐ in der UI/UX-Konzeption
     - [Organigramme](https://plantuml.com/wbs-diagram) ⭐ und gleichsam [Projektstrukturplan (PSP)](https://plantuml.com/wbs-diagram)
     - [Syntaxdiagram via EBNF](https://plantuml.com/ebnf) also erweiterter Backus-Naur-Form (EBNF)
     - [Netzwerkdiagramme](https://plantuml.com/nwdiag)
