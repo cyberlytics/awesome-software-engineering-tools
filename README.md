@@ -288,11 +288,13 @@ Hinweise:
   - **[DbGate](https://dbgate.org)** \[**choco install dbgate.portable**\]: Open-Source Cross-Plattfrom SQL+NoSQL Editor (inkl. starkem JSON-Viewer)
   - **[azimutt](https://azimutt.app/blog/exploring-document-databases-with-azimutt)** erlaubt die Visualisierung von Document Stores \[npx azimutt export mongodb "mongodb://user:password@localhost"\]
 - JSON-Modellierung
+  - JSON-Dokument-Visualisierung: [PlantUML](https://plantuml.com/json) ⭐
   - JSON ist zunächst schemalos und die wenigen Sprachen zur Spezifikation von Web-APIs (z. B. [Swagger](https://swagger.io/), [RAML](http://raml.org/)) erlauben die Spezifikation von API-Diensten und ihren Parametern, aber keine konzeptionelle Visualisierung das vollständige API-Schema
   - ABER: Das **konzeptionelle Schema** von **JSON**-Dokumenten kann man genauso **mit Entity/Relationship-Diagrammen** oder **mit UML** darstellen!
     - (Auch selten genutzte Spezifikationsmöglichkeiten wie [JSON Schema](http://json-schema.org) sind m.E. weder durch Modellierungswerkzeuge gestützt noch gibt es Round-Trip support zur Extraktion von Schemainformation aus Dokumentinstanzen rund um JSON Schema)
-  - TIPP #1: Visualisieren Sie das Schema, das sich hinter Ihren JSON-Dokumenten verbirgt, in UML mit **[JSON discoverer](http://som-research.uoc.edu/tools/jsonDiscoverer/#/)**
-  - TIPP #2: **[DbGate](https://dbgate.org)** ist ein SQL+NoSQL Editor, aber integriert ebenfalls einen starken JSON-Viewer
+  - TIPP #1 (wie oben bereits): [PlantUML](https://plantuml.com/json) ⭐
+  - TIPP #2: Visualisieren Sie das Schema, das sich hinter Ihren JSON-Dokumenten verbirgt, in UML mit **[JSON discoverer](http://som-research.uoc.edu/tools/jsonDiscoverer/#/)**
+  - TIPP #3: **[DbGate](https://dbgate.org)** ist ein SQL+NoSQL Editor, aber integriert ebenfalls einen starken JSON-Viewer
 - **ASCII**-basierte Diagramme
   - UML-Klassendiagramm: **[TextUML](http://abstratt.GitHub.io/textuml/index.html)**
   - UML-Squenzdiagramm: **[PlantUML](https://plantuml.com/ascii-art)**
@@ -451,7 +453,7 @@ inkl. CI / CD / ITSM:
 - Softwareverteilung? **[Opsi](https://www.opsi.org/de/produkt/ueber-opsi)**
 - Active Directory? **[Samba](https://www.samba.org/)**
 - Passwort Manager? **[Vaultwarden](https://github.com/dani-garcia/vaultwarden)** \[via docker\]
-- Doodle-Termin-/Umfragen? **[nuudel](https://nuudel.digitalcourage.de/)** (Cloud) | **[Framadate](https://framagit.org/framasoft/framadate/framadate)** (Web/Self-Hosted)
+- Doodle-Termin-/Umfragen? Cloud: **[nuudel](https://nuudel.digitalcourage.de/)** | **[fragab](https://fragab.com/)** oder Web/Self-Hosted: **[Framadate](https://framagit.org/framasoft/framadate/framadate)**
 - Chat? **[RocketChat](https://de.rocket.chat/install)** \[**choco install rocketchat**\]\[[Cloud](https://cloud.rocket.chat/)\]
 - Video Conference? **[Jitsi](https://jitsi.org/)** \[**choco install jitsi**\]\[[Cloud](https://meet.jit.si/)\]
   - Alternative: **[Nextcloud Talk](https://nextcloud.com/talk/)**, als FOSS via [NextCloud Server](https://nextcloud.com/install/) → Müsste jemand mal für mich ausprobieren…
