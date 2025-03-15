@@ -58,8 +58,8 @@ Hinweise:
   - Graphical Dashboard mit Git-Repo-Metriken: **[RepoGraphy](https://repography.com/)** (to embed in your README.md)
 - **[GitHub Education](https://education.github.com/benefits?type=student)**: insbesondere [GitHub Pro](https://docs.github.com/en/get-started/learning-about-GitHub/GitHubs-products#GitHub-pro) ist dadurch für Studierende kostenlos
 - **[GitKraken Client Pro](https://www.gitkraken.com/GitHub-student-developer-pack-bundle)** [und](https://www.gitkraken.com/GitHub-student-developer-pack-bundle) **[GitLens+ Pro](https://www.gitkraken.com/GitHub-student-developer-pack-bundle)** sind für Studierende kostenlos
-- **[gitattributes](https://www.richie-bendall.ml/gitattributes-generator/)**-Generator (Obacht: LF-formatiert)
-- **[gitignore](https://www.toptal.com/developers/gitignore/)**-Generator (Obacht: LF-formatiert)
+- **[gitattributes](https://richienb.github.io/gitattributes-generator/)**-Generator (Obacht: LF-formatiert) von Richie Bendall
+- **[gitignore](https://www.toptal.com/developers/gitignore/)**-Generator (Obacht: LF-formatiert) von Toptal
 - **[wget](https://www.gnu.org/software/wget/)** \[**choco install wget**\]: im Kontext von git u.a. für: **wget -O LICENSE "[https://www.apache.org/licenses/LICENSE-2.0.txt](https://www.apache.org/licenses/LICENSE-2.0.txt)"** (Obacht: LF-formatiert)
 - **[eolConverter](https://github.com/jurosh/Node.js-eol-converter-cli)** \[**npm i -g eol-converter-cli**\]: Unter Windows benötigen Sie u.a. für das Repo-RampUp meist ein Werkzeug für EOL-Konvertierungen, u.a. für:
   - Ramp-Up: eolConverter **crlf "\*\*/.gitattributes"** | eolConverter **crlf "\*\*/.gitignore"** | eolConverter **crlf "\*\*/LICENSE"**
