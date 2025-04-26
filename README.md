@@ -113,6 +113,8 @@ Hinweise:
   - ChatGPT: [How to Install and Run **ChatGPT** as a Windows App](https://www.makeuseof.com/run-chatgpt-windows-app/)
   - Das Original **[TabNine](https://www.tabnine.com/)** (kostenlos ist nur die Short-Code-Completion) und seine Alternativen: [GitHub **Copilot**](https://copilot.github.com/) | [OpenAI **Codex**](https://openai.com/blog/openai-codex/) (bspw. per VS Code Plug-In **[Code GPT](https://marketplace.visualstudio.com/items?itemName=DanielSanMedium.dscodegpt)** oder **[CodeGPT](https://marketplace.visualstudio.com/items?itemName=timkmecl.codegpt3)**)
   - Für SQL: Open-Source **[NSQL](https://huggingface.co/NumbersStation)** mit [Begleitartikel](https://www.numbersstation.ai/post/introducing-nsql-open-source-sql-copilot-foundation-models) | Kostenpflichtig (€): **[Cogram](https://www.cogram.com/)**
+- Vibe Coding
+  - Pack your codebase into AI-friendly formats: [Repomix](https://repomix.com)
 - **JetBrains**: Bspw. für **[PyCharm](https://www.jetbrains.com/pycharm/)** (Py), **[WebStorm](https://www.jetbrains.com/webstorm/)** (JS), **[CLion](https://www.jetbrains.com/clion/)** (C/C++), [Intellij **IDEA**](https://www.jetbrains.com/idea/) (Java, [Kotlin](https://github.com/JetBrains/kotlin)), **[ReSharper](https://www.jetbrains.com/resharper/)** (C#) / **[Rider](https://www.jetbrains.com/rider/)** (C#) sowie **[DataGrip](https://www.jetbrains.com/datagrip/)** (SQL), uvm.
   - Kostenlos über die [Free Educational Licenses](https://www.jetbrains.com/community/education/#students) für Studierende.
   - (Unter Windows bspw. mittels chocolatey: **choco install jetbrainstoolbox**)
@@ -216,7 +218,7 @@ Hinweise:
     - [Netzwerkdiagramme](https://plantuml.com/nwdiag)
     - [MindMap](https://plantuml.com/mindmap-diagram)
   - Nennenswert #1: Wie handgezeichnet mit „[skinparam handwritten true](https://plantuml.com/handwritten)“
-  - Nennenswert #2: Squenzdiagramme auch in [ASCII-Art](https://plantuml.com/ascii-art)
+  - Nennenswert #2: Sequenzdiagramme auch in [ASCII-Art](https://plantuml.com/ascii-art)
   - Nennenswert #3: LaTeX-Einbindung: CTAN [plantuml](https://ctan.org/pkg/plantuml) package
   - Nennenswert #4: [Konvertierung von Quellcode nach PlantUML: **gituml.com**](https://gituml.com/listz)
   - Auswahl an Extensions: [C4 model](https://github.com/plantuml-stdlib/C4-PlantUML) ⭐, [AWS](https://github.com/awslabs/aws-icons-for-plantuml) ⭐, [Azure](https://github.com/plantuml-stdlib/Azure-PlantUML) ⭐, ...
@@ -312,7 +314,7 @@ Hinweise:
 
 inkl. CI / CD / ITSM:
 
-- Vergleiche u.a. in der Schwesterliste den Abschnitt **[git](https://github.com/cyberlytics/awesome-software-engineering-tools#git)** und bspw. die [kostenlosen Alternativen](kostenlose-alternativen/index.html) für **Atlassian**
+- Vergleiche u.a. in der Schwesterliste den Abschnitt **[git](https://github.com/cyberlytics/awesome-software-engineering-tools#git)** und bspw. die [kostenlosen Alternativen](#kostenlose-alternativen) für **Atlassian**
 - SysOps / SysAdmin
   - Weiterführende Quellen: [Awesome Sysadmin #1](https://github.com/kahun/awesome-sysadmin) | [Awesome Sysadmin #2](https://github.com/awesome-foss/awesome-sysadmin) | [Libhunt: SysAdmin](https://sysadmin.libhunt.com/)
 - Dependency Management:
@@ -424,7 +426,7 @@ inkl. CI / CD / ITSM:
 - **VMware** Workstation
   - Desktop: **[VirtualBox](https://www.virtualbox.org/)** \[**choco install virtualbox**\] | **[Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/quick-create-virtual-machine)**
 - **VMware vSphere**
-  - **[Proxmox VE](https://www.proxmox.com/proxmox-ve)**(Linux-only)
+  - **[Proxmox VE](https://www.proxmox.com/proxmox-ve)** (Linux-only)
 - Altova **XMLSpy** / **Liquid Studio**
   - (Leider gibt es hierfür kaum adäquaten FOSS-Ersatz)
   - XML-Aspekte
@@ -443,35 +445,43 @@ inkl. CI / CD / ITSM:
   - **Konsolen?**: [Godot vs. **Consoles**](https://godotengine.org/article/godot-consoles-all-you-need-know/) (gilt auch für Unity oder Unreal, bspw. „It is a common misconception that you can download a game engine and start using it to develop for consoles without previously being approved by the console manufacturer.“)
   - **Steam?** Auch **[Godot](https://store.steampowered.com/app/404790/Godot_Engine/)** per **[GodotSteam](https://godotsteam.com/)**. (Disclaimer: [Unity wurde zur beliebtesten Game Engine für Steam](https://www.gamedeveloper.com/business/game-engines-on-steam-the-definitive-breakdown), Stand 2020.)
 
-## Extra: Studentisches Start-Up (Software-Entwicklung)
+## Bonus: Studentisches Start-Up (Software-Entwicklung)
 
-- Small Business Linux Server? **[KeyHelp](https://www.keyhelp.de/)** für Linux (Deutsch und kostenlos, aber kein Open-Source)
-- Virtuelle Maschinen? **[Proxmox VE](https://www.proxmox.com/proxmox-ve)**, eine Open-Source-Plattform für Enterprise-Virtualisierung
-- Kubernetes? Red Hat **[OKD](https://www.okd.io/)** (OpenShift-basiert) | Rancher **[RKE](https://rancher.com/products/rke)** (Pure-Container-basiert, über [RancherOS](https://github.com/rancher/os)) \[**choco install rke**\]
-- Firewall? **[OPNsense](https://opnsense.org/)**
-- VPN? **[WireGuard](https://www.wireguard.com/)** \[**choco install wireguard**\], statt IPsec oder OpenVPN
-- Softwareverteilung? **[Opsi](https://www.opsi.org/de/produkt/ueber-opsi)**
-- Active Directory? **[Samba](https://www.samba.org/)**
-- Passwort Manager? **[Vaultwarden](https://github.com/dani-garcia/vaultwarden)** \[via docker\]
-- Doodle-Termin-/Umfragen? Cloud: **[nuudel](https://nuudel.digitalcourage.de/)** | **[fragab](https://fragab.com/)** oder Web/Self-Hosted: **[Framadate](https://framagit.org/framasoft/framadate/framadate)**
-- Chat? **[RocketChat](https://de.rocket.chat/install)** \[**choco install rocketchat**\]\[[Cloud](https://cloud.rocket.chat/)\]
-- Video Conference? **[Jitsi](https://jitsi.org/)** \[**choco install jitsi**\]\[[Cloud](https://meet.jit.si/)\]
-  - Alternative: **[Nextcloud Talk](https://nextcloud.com/talk/)**, als FOSS via [NextCloud Server](https://nextcloud.com/install/) → Müsste jemand mal für mich ausprobieren…
-- DMS/CMS? [**Alfresco** Community Edition](https://www.alfresco.com/products/community/download)
-- HR? **[ConnecTeam](https://connecteam.com/)** (Cloud) | [**TimeOff**.Management](https://github.com/timeoff-management/timeoff-management-application) (FOSS, Web/Self-Hosted) | List of [Best Open-Source HRMS](https://wperp.com/68603/best-open-source-hrms/)
-- CRM? **[SuiteCRM](https://suitecrm.com/download/)** | Cloud-Alternative: [**Zoho CRM** free plan](https://www.zoho.com/crm/signup.html?plan=free&src=crmpricing), kostenlos für drei Nutzer
-- Workflow Management / Case Management? **[flowable](https://www.flowable.com/open-source)** (welches ggb. Activiti oder Camunda zu bevorzugen ist)
-- Newsletter / E-Mail Marketing: **[SendInBlue](https://de.sendinblue.com/)** | **[SendGrid](https://sendgrid.com/)**
-- Online Marketing: **[marketplan.io](https://marketplan.io/)**, **[predis.ai](https://predis.ai/)**
-- Online Lead Generation: **[apiway.ai](https://apiway.ai/)**
-- e-Commerce: Open-Source **[WooCommerce](https://github.com/woocommerce/woocommerce)** über [WordPress](https://wordpress.org/)
-- Enterprise Suite? **[WikiSuite](https://wikisuite.org/)** für Linux („Not-so-Small Business Linux Server – on Steroids“, FOSS), substituiert Ihnen nicht nur KeyHelp (SMB Linux Server) sondern auch NextCloud (Groupware-Bedürfnisse) und Chat und VidConf sowie weitere der obigen Einzel-Empfehlungen in einem großen Open-Source-Software-Bündel
-- SW-Versionsverwaltung: **[GitLab](https://about.gitlab.com/install/)**
-- SW-Artefakt-Repository: [Sonatype **Nexus**](https://de.sonatype.com/products/repository-oss-download) (OSS-Version)
-- Weiterführende Quellen: [Awesome Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
+- IT-Infrastruktur
+  - Small Business Linux Server? **[KeyHelp](https://www.keyhelp.de/)** für Linux (Deutsch und kostenlos, aber kein Open-Source)
+  - Virtuelle Maschinen? **[Proxmox VE](https://www.proxmox.com/proxmox-ve)**, eine Open-Source-Plattform für Enterprise-Virtualisierung
+  - Kubernetes? Red Hat **[OKD](https://www.okd.io/)** (OpenShift-basiert) | Rancher **[RKE](https://rancher.com/products/rke)** (Pure-Container-basiert, über [RancherOS](https://github.com/rancher/os)) \[**choco install rke**\]
+  - Firewall? **[OPNsense](https://opnsense.org/)**
+  - VPN? **[WireGuard](https://www.wireguard.com/)** \[**choco install wireguard**\], statt IPsec oder OpenVPN
+  - Softwareverteilung? **[Opsi](https://www.opsi.org/de/)**
+  - Active Directory? **[Samba](https://www.samba.org/)**
+  - Passwort Manager? **[Vaultwarden](https://github.com/dani-garcia/vaultwarden)** \[via docker\]
+- Querschnitt
+  - Doodle-Termin-/Umfragen? Cloud: **[nuudel](https://nuudel.digitalcourage.de/)** | **[fragab](https://fragab.com/)** oder Web/Self-Hosted: **[Framadate](https://framagit.org/framasoft/framadate/framadate)**
+  - Chat? **[RocketChat](https://de.rocket.chat/install)** \[**choco install rocketchat**\]\[[Cloud](https://cloud.rocket.chat/)\]
+  - Video Conference? **[Jitsi](https://jitsi.org/)** \[**choco install jitsi**\]\[[Cloud](https://meet.jit.si/)\]
+    - Alternative: **[Nextcloud Talk](https://nextcloud.com/talk/)**, als FOSS via [NextCloud Server](https://nextcloud.com/install/) → Müsste jemand mal für mich ausprobieren…
+  - DMS/CMS? [**Alfresco** Community Edition](https://www.alfresco.com/products/community/download)
+  - Workflow Management / Case Management? **[flowable](https://www.flowable.com/open-source)** (welches ggb. Activiti oder Camunda zu bevorzugen ist)
+- Vertrieb & Marketing
+  - CRM? **[SuiteCRM](https://suitecrm.com/download/)** | Cloud-Alternative: [**Zoho CRM** free plan](https://www.zoho.com/crm/signup.html?plan=free&src=crmpricing), kostenlos für drei Nutzer
+  - Newsletter / E-Mail Marketing: **[SendInBlue](https://de.sendinblue.com/)** | **[SendGrid](https://sendgrid.com/)**
+  - Online Marketing: **[marketplan.io](https://marketplan.io/)**, **[predis.ai](https://predis.ai/)**
+  - Online Lead Generation: **[apiway.ai](https://apiway.ai/)**
+  - e-Commerce: Open-Source **[WooCommerce](https://github.com/woocommerce/woocommerce)** über [WordPress](https://wordpress.org/)
+- Produktion & Softwareentwicklung
+  - SW-Versionsverwaltung: **[GitLab](https://about.gitlab.com/install/)**
+  - SW-Artefakt-Repository: [Sonatype **Nexus**](https://de.sonatype.com/products/repository-oss-download) (OSS-Version)
+- Kundendienst & Support
+  - Ticketing: [Zammad](https://zammad.org)
+- Administration & Finanzen
+  - HR? **[ConnecTeam](https://connecteam.com/)** (Cloud) | [**TimeOff**.Management](https://github.com/timeoff-management/timeoff-management-application) (FOSS, Web/Self-Hosted) | List of [Best Open-Source HRMS](https://wperp.com/68603/best-open-source-hrms/)
+- Enterprise One-Stop-Shop
+  - Enterprise Suite: **[WikiSuite](https://wikisuite.org/)** für Linux („Not-so-Small Business Linux Server – on Steroids“, FOSS), substituiert Ihnen nicht nur KeyHelp (SMB Linux Server) sondern auch NextCloud (Groupware-Bedürfnisse) und Chat und VidConf sowie weitere der obigen Einzel-Empfehlungen in einem großen Open-Source-Software-Bündel
 
 Bonusliste:
 
+- Weiterführende Quellen: [Awesome Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 - Kostenlose AWS-Budgets benötigt für ein Start-Up? **[AWS Activate](https://aws.amazon.com/de/activate/)**
 - Niedrigpreis-Logo für Start-Ups? (€:) [logogeist.de](https://www.logogeist.de/pricing)
 
