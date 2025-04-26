@@ -61,7 +61,7 @@ Hinweise:
 - **[gitattributes](https://richienb.github.io/gitattributes-generator/)**-Generator (Obacht: LF-formatiert) von Richie Bendall
 - **[gitignore](https://www.toptal.com/developers/gitignore/)**-Generator (Obacht: LF-formatiert) von Toptal
 - **[wget](https://www.gnu.org/software/wget/)** \[**choco install wget**\]: im Kontext von git u.a. für: **wget -O LICENSE "[https://www.apache.org/licenses/LICENSE-2.0.txt](https://www.apache.org/licenses/LICENSE-2.0.txt)"** (Obacht: LF-formatiert)
-- **[eolConverter](https://github.com/jurosh/Node.js-eol-converter-cli)** \[**npm i -g eol-converter-cli**\]: Unter Windows benötigen Sie u.a. für das Repo-RampUp meist ein Werkzeug für EOL-Konvertierungen, u.a. für:
+- **[eolConverter](https://github.com/jurosh/nodejs-eol-converter-cli)** \[**npm i -g eol-converter-cli**\]: Unter Windows benötigen Sie u.a. für das Repo-RampUp meist ein Werkzeug für EOL-Konvertierungen, u.a. für:
   - Ramp-Up: eolConverter **crlf "\*\*/.gitattributes"** | eolConverter **crlf "\*\*/.gitignore"** | eolConverter **crlf "\*\*/LICENSE"**
   - Sporadisch: eolConverter **crlf "src/\*\*/\*.{txt,js,java,svg}"**
 - gitlog-Hygiene hinsichtlich Autorenliste:
@@ -70,7 +70,7 @@ Hinweise:
 - git-**Hygiene** (#1) hinsichlich Security Credentials (und übergroßer Dateien):
   - Secrets Scanning (CLI): **[TruffleHog](https://github.com/trufflesecurity/trufflehog)** \[**choco install trufflehog**\], **[Gitleaks](https://github.com/gitleaks/gitleaks)** \[**choco install gitleaks**\]
   - Secrets Scanning (Cloud): **[GitGuardian](https://www.gitguardian.com/)**
-  - Cleaner (CLI): [**BFG** Repo-Cleaner](https://rtyley.GitHub.io/bfg-repo-cleaner/) (zzgl. Ramy McCarthys Artikel [Removing sensitive data from a Github repository](https://ramimac.me/security/Github-Cleanup/))
+  - Cleaner (CLI): [**BFG** Repo-Cleaner](https://rtyley.GitHub.io/bfg-repo-cleaner/) (zzgl. Ramy McCarthys Artikel [Removing sensitive data from a Github repository](https://ramimac.me/2022/07/31/Github-Cleanup/))
 - git-**Hygiene** (#2) hinsichtlich Autoren (insb. Eliminierung privater Mail-Adressen und Konsolidierung von Autorennamen):
   - Mit einer manuell erstellten **[.mailmap](https://git-scm.com/docs/gitmailmap)** und dem Skript **[git-filter-repo](https://github.com/newren/git-filter-repo/blob/main/git-filter-repo)** können Sie die Autoren auch hart umschreiben
 - **[Gravatar](https://de.gravatar.com/)**: Viele git-Analysewerkzeuge greifen auf Gravatare zurück
@@ -111,7 +111,7 @@ Hinweise:
 - KI-gestützte Programmierung bzw. Code-Completion
   - OBACHT: Gilt für eine Abschlussarbeit als High-Tech-Plagiarism
   - ChatGPT: [How to Install and Run **ChatGPT** as a Windows App](https://www.makeuseof.com/run-chatgpt-windows-app/)
-  - Das Original **[TabNine](https://www.tabnine.com/)** (kostenlos ist nur die Short-Code-Completion) und seine Alternativen: [GitHub **Copilot**](https://copilot.github.com/) | [OpenAI **Codex**](https://openai.com/blog/openai-codex/) (bspw. per VS Code Plug-In **[Code GPT](https://marketplace.visualstudio.com/items?itemName=DanielSanMedium.dscodegpt)** oder **[CodeGPT](https://marketplace.visualstudio.com/items?itemName=timkmecl.codegpt3)**)
+  - Das Original **[TabNine](https://www.tabnine.com/)** (kostenlos ist nur die Short-Code-Completion) und seine Alternativen: [GitHub **Copilot**](https://copilot.github.com/) | [OpenAI **Codex**](https://openai.com/blog/openai-codex/) (bspw. per VS Code Plug-In **[Code GPT](https://marketplace.visualstudio.com/items?itemName=DanielSanMedium.dscodegpt)**)
   - Für SQL: Open-Source **[NSQL](https://huggingface.co/NumbersStation)** mit [Begleitartikel](https://www.numbersstation.ai/post/introducing-nsql-open-source-sql-copilot-foundation-models) | Kostenpflichtig (€): **[Cogram](https://www.cogram.com/)**
 - Vibe Coding
   - Pack your codebase into AI-friendly formats: [Repomix](https://repomix.com)
@@ -127,7 +127,7 @@ Hinweise:
   - C/C++: **[Code::Blocks](https://www.codeblocks.org/)** \[**choco install codeblocks**\], [**Eclipse** IDE for **C/C++** Developers](https://www.eclipse.org/downloads/packages/) \[**choco install eclipse-cpp**\]
   - R: **[RStudio](https://posit.co/download/rstudio-desktop/)** \[**choco install r.studio**\]
   - PHP: **[Komodo IDE](https://www.activestate.com/products/komodo-ide/)** \[choco install komodo-ide\], [**Eclipse** PHP Development Tools (**PDT**)](https://www.eclipse.org/pdt/)
-- **Microsoft Azure Dev Tools for Teaching**: Lesen Sie sich auf der [RZ-Seite „Downloads“](https://www.oth-aw.de/informieren-und-entdecken/einrichtungen/rechenzentrum/downloads/) das Registrierungsverfahren und die Liste der enthaltenen Microsoft Produkte durch
+- **Microsoft Azure Dev Tools for Teaching**: Lesen Sie sich auf der [RZ-Seite „Downloads“](https://www.oth-aw.de/hochschule/services/online-services/downloads-software/) das Registrierungsverfahren und die Liste der enthaltenen Microsoft Produkte durch
 - **[Swagger UI](https://swagger.io/tools/swagger-ui/)**: Für den Entwurf und die Dokumentation von REST-APIs
   - (Unter Windows bspw. mittels docker: **docker run -p 80:8080 swaggerapi/swagger-ui**)
 - **[quicktype](https://quicktype.io/)**: Generate models and serializers from JSON, JSON schema, and GraphQL for any programming language
@@ -142,7 +142,7 @@ Hinweise:
 - für **[Java](https://github.com/akullpp/awesome-java)**
 - für C#: **[.NET Core](https://github.com/thangchung/awesome-dotnet-core)** bzw. **[.NET Framework](https://github.com/quozd/awesome-dotnet)**
 - für **[JavaScript](https://github.com/sorrycc/awesome-javascript)**
-- für **[Node.js](https://github.com/sindresorhus/awesome-Node.js)**
+- für **[Node.js](https://github.com/sindresorhus/awesome-nodejs)**
 - für **[C++](https://github.com/fffaraz/awesome-cpp)**
 - für **[PHP](https://github.com/ziadoz/awesome-php)**
 
@@ -156,7 +156,7 @@ Hinweise:
 - **[Jest](https://jestjs.io/)**: JavaScript Unit-Testing ([Cheat Sheet](https://devhints.io/jest))
 - Test web UI components in a user-centric way: **[Testing Library](https://testing-library.com/docs/)**
 - **[Mock Service Worker (MSW)](https://mswjs.io/)**: library for Web-API mocking
-- **[Ponicode Unit Tests](https://playground.ponicode.com/unit-test)**: Unit-Test-Generator für JavaScript und Python
+- **[Ponicode Unit Tests](https://www.npmjs.com/package/ponicode)**: Unit-Test-Generator für JavaScript und Python
 - WebApp End-to-End (E2E) Testing
   - **[Cypress](https://www.cypress.io/)** \[**choco install cypress**\]: open source testing for anything that runs in a browser, Fokus: JavaScript
   - **[PlayWright](https://playwright.dev/)**: testing for modern web apps (Open Source, von Microsoft), eher Multi-Language i.S.v. JavaScript, Java, Python und C#
@@ -224,7 +224,7 @@ Hinweise:
   - Auswahl an Extensions: [C4 model](https://github.com/plantuml-stdlib/C4-PlantUML) ⭐, [AWS](https://github.com/awslabs/aws-icons-for-plantuml) ⭐, [Azure](https://github.com/plantuml-stdlib/Azure-PlantUML) ⭐, ...
   - Cloud-Beispiele: [Hitchhiker's Guide to PlantUML](https://crashedmind.GitHub.io/PlantUMLHitchhikersGuide/aws/aws.html)
   - Web-zentrische Alternativen: **[Mermaid](https://mermaid-js.GitHub.io/mermaid/#/entityRelationshipDiagram)** JavaScript-Bibliothek
-- **[Mermaid]()** ⭐: ähnlich geil wie PlantUML
+- **[Mermaid](https://mermaid.js.org)** ⭐: ähnlich geil wie PlantUML
   - Mittlerweile nicht nur als JS-Bibliothek sondern auch als lokales [CLI-Werkzeug](https://github.com/mermaid-js/mermaid-cli) \[npm install -g @mermaid-js/mermaid-cli\], das bspw. SVGs erzeugt
   - Überdeckung mit PlantUML: [UML](https://mermaid.js.org/syntax/zenuml.html) und [MindMaps](https://mermaid.js.org/syntax/mindmap.html)
   - Unterstützt in Ergänzung zu PlantUML noch einige [andere Diagrammarten](https://mermaid.js.org/intro/) ⭐, bspw. [QuadrantCharts](https://mermaid.js.org/syntax/quadrantChart.html), [git-Graphen](https://mermaid.js.org/syntax/gitgraph.html), [Paket-Diagramme](https://mermaid.js.org/syntax/packet.html) und [Sankey-Diagramme](https://mermaid.js.org/syntax/sankey.html) sowie [Kanban-Diagramme](https://mermaid.js.org/syntax/kanban.html)
@@ -307,7 +307,7 @@ Hinweise:
   - Webartikel [**ChatGPT** — How to Generate UML Diagram](https://blog.devgenius.io/chatgpt-how-to-generate-uml-diagram-cb745ecba83e) (indem man sich PlantUML-Text generieren lässt)
 - **Software-Archäologie** und -Visualisierung:
   - Open Source: **[Sourcetrail](https://github.com/CoatiSoftware/Sourcetrail/)** \[**choco install sourcetrail**\]
-  - Kostenpflichtig aber **nennenswert: [Lattix](https://www.lattix.com/)**, | **[Sonargraph](https://www.hello2morrow.com/products/sonargraph/)** (früher: SotoGraph/SotoArc) | **[Structure101](https://structure101.com/)** | **[JArchitect](https://www.jarchitect.com/)** | **[NDepend](https://www.ndepend.com/)**
+  - Kostenpflichtig aber **nennenswert: [Lattix](https://www.lattix.com/)**, | **[Sonargraph](https://www.hello2morrow.com/products/sonargraph)** (früher: SotoGraph/SotoArc) | **[Structure101](https://structure101.com/)** | **[JArchitect](https://www.jarchitect.com/)** | **[NDepend](https://www.ndepend.com/)**
 - Weiterführende Quelle: [Awesome Software Architecture](https://awesome-architecture.com/) | [Awesome Diagramming](https://github.com/shubhamgrg04/awesome-diagramming) | [AWS Architecture Blueprints](https://aws.amazon.com/architecture/) | [Survey of Architecture Frameworks](http://www.iso-architecture.org/ieee-1471/afs/frameworks-table.html)
 
 ## DevOps
@@ -326,7 +326,7 @@ inkl. CI / CD / ITSM:
   - Git Hooks
     - **[Husky](https://typicode.GitHub.io/husky/#/)**: Modern native git hooks made easy
     - Vorlagen: **[Awesome Git Hooks](https://github.com/CompSciLauren/awesome-git-hooks)**
-    - **[GitHub Actions](https://docs.docker.com/build/ci/GitHub-actions/)**
+    - **[GitHub Actions](https://docs.docker.com/build/ci/github-actions/)**
   - Java Builds
     - Als Bestandteil meines Dissertationsprojekt habe ich eine Java-Build-Referenz auf Basis von Maven geschaffen: [cpnatwork/alphaflow_dev](https://github.com/cpnatwork/alphaflow_dev/tree/master/sys-src) (mit einem \*-buildhub-Modul für die Build-Komposition und mit \*configbase-Modulen für Abhängigkeitskonsolidierung mittels Maven-POM-Vererbung)
   - C# Builds
@@ -376,7 +376,7 @@ inkl. CI / CD / ITSM:
     - Java: [gettext-commons](https://github.com/jgettext/gettext-commons)
     - JS: [gettext.js](https://github.com/guillaumepotier/gettext.js/)
     - Py: [gettext](https://docs.python.org/3/library/gettext.html)
-    - C#: [i18n](https://discoverdot.net/projects/i18n) (.NET hat eine umfangreiche Lokalisierung eingebaut)
+    - C#: (.NET hat eine umfangreiche i18n Lokalisierung eingebaut)
   - [ICU](https://icu.unicode.org/):
     - C/C++: [ICU4C](https://unicode-org.GitHub.io/icu/userguide/icu4c/)
     - Java: [ICU4J](https://unicode-org.GitHub.io/icu/userguide/icu4j/), vgl. Baeldung [Java Localization – Formatting Messages](https://www.baeldung.com/java-localization-messages-formatting) (2023)
@@ -496,11 +496,11 @@ Bonusliste:
 - [Homebrew](https://brew.sh/) for macOS
 - **[Libhunt](https://www.libhunt.com/)**
 - **[DB-Engines](https://db-engines.com/en/ranking)**
-- **[landof.dev/awesome](https://landof.dev/awesome/)** | [Project Awesome](https://project-awesome.org/) | [Awesome Awesomeness](https://github.com/bayandin/awesome-awesomeness) | [Awesome Stacks](https://awesomestacks.dev) | [Track Awesome List Updates Daily](https://www.trackawesomelist.com/)
+- [Project Awesome](https://project-awesome.org/) | [Awesome Awesomeness](https://github.com/bayandin/awesome-awesomeness) | [Track Awesome List Updates Daily](https://www.trackawesomelist.com/)
 - Lesen Sie auch [freeCodeCamp **How to Choose a Tech Career** in 2022](https://www.freecodecamp.org/news/how-to-choose-a-tech-career/) mit einem Mapping von Werkzeugen auf diverse Job-Profile
 - [Liste von **Zapier**-kompatiblen Apps](https://zapier.com/apps)
 - **[FutureTools](https://www.futuretools.io)**
-- Windows: [Awesome **Windows**](https://github.com/Awesome-Windows/Awesome)
+- Windows: [Awesome **Windows**](https://github.com/thechampagne/awesome-windows)
 - Mac: [Awesome **Mac**](https://github.com/jaywcjlove/awesome-mac)
 
 ## Appendix: More Free Student Stuff
