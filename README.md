@@ -34,14 +34,14 @@ Hinweise:
 - [Software-Internationalisierung (I18n) & -Lokalisierung (L10n)](#software-internationalisierung-i18n---lokalisierung-l10n)
 - [Quantencomputing](#quantencomputing)
 - [Kostenlose Alternativen](#kostenlose-alternativen)
-- [Extra: Studentisches Start-Up (Software-Entwicklung)](#extra-studentisches-start-up-software-entwicklung)
+- [Bonus: Studentisches Start-Up (Software-Entwicklung)](#bonus-studentisches-start-up-software-entwicklung)
 - [Appendix: App Recommendations & Repos](#appendix-app-recommendations--repos)
 - [Appendix: More Free Student Stuff](#appendix-more-free-student-stuff)
 - [Footer](#footer)
-	- [Future Work](#future-work)
-	- [Contribute](#contribute)
-	- [Backers](#backers)
-	- [License](#license)
+  - [Future Work](#future-work)
+  - [Contribute](#contribute)
+  - [Backers](#backers)
+  - [License](#license)
 
 <!-- tocstop -->
 
