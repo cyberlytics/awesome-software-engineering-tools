@@ -155,8 +155,9 @@ Hinweise:
 - Testing Frameworks, wenn man selbst eine DBMS-Engine entwickelt: **[SQLsmith](https://github.com/anse1/sqlsmith)** für Query Fuzzing | **[SQLancer](https://github.com/sqlancer/sqlancer)** für SQL Logik Verifikation | **[SQL Logic Tests](https://www.sqlite.org/sqllogictest/doc/trunk/about.wiki)** from SQLite
 - **[Jest](https://jestjs.io/)**: JavaScript Unit-Testing ([Cheat Sheet](https://devhints.io/jest))
 - Test web UI components in a user-centric way: **[Testing Library](https://testing-library.com/docs/)**
-- **[Mock Service Worker (MSW)](https://mswjs.io/)**: library for Web-API mocking
 - **[Ponicode Unit Tests](https://www.npmjs.com/package/ponicode)**: Unit-Test-Generator für JavaScript und Python
+- **[WireMock](https://wiremock.org/)**: Mock Web-APIs, i.a., gRPC
+- **[Mock Service Worker (MSW)](https://mswjs.io/)**: library for Web-API mocking
 - WebApp End-to-End (E2E) Testing
 	- **[Cypress](https://www.cypress.io/)** \[**choco install cypress**\]: open source testing for anything that runs in a browser, Fokus: JavaScript
 	- **[PlayWright](https://playwright.dev/)**: testing for modern web apps (Open Source, von Microsoft), eher Multi-Language i.S.v. JavaScript, Java, Python und C#
@@ -312,9 +313,11 @@ Hinweise:
 
 ## DevOps
 
-inkl. CI / CD / ITSM:
+\[Hier: traditionell, d.h. grundlegende DevOps-Bausteine! Cloud-native DevOps Ergänzungen: vgl. Cloud-Schwesterseite [BDCC/AI » DevOps](https://github.com/cyberlytics/awesome-bdccai-tools#devops) (!)\]
 
-- Vergleiche u.a. in der Schwesterliste den Abschnitt **[git](https://github.com/cyberlytics/awesome-software-engineering-tools#git)** und bspw. die [kostenlosen Alternativen](#kostenlose-alternativen) für **Atlassian**
+- Vergleiche andere Abschnitte
+	- **[git](#git)** wg. GitOps
+	- [kostenlosen Alternativen](#kostenlose-alternativen) für **Atlassian**-Substitutionen
 - SysOps / SysAdmin
 	- Weiterführende Quellen: [Awesome Sysadmin #1](https://github.com/kahun/awesome-sysadmin) | [Awesome Sysadmin #2](https://github.com/awesome-foss/awesome-sysadmin) | [Libhunt: SysAdmin](https://sysadmin.libhunt.com/)
 - Dependency Management:
@@ -341,29 +344,26 @@ inkl. CI / CD / ITSM:
 		- **[FastPack](https://github.com/QuanosSolutions/FastPack)**: deduplication (de)compressor that is particularly useful for compressing and decompressing build artifacts
 - API Management:
 	- [**gravitee**.io](https://www.gravitee.io/pricing): Open Source API management platform
-- **Continuous Integration**: [Awesome CI](https://github.com/ligurio/awesome-ci)
-- Continuous Delivery
+- **Continuous Integration**
+	- [Awesome CI](https://github.com/ligurio/awesome-ci)
+- **Continuous Delivery**
 	- **[Awesome CI and CD](https://github.com/cicdops/awesome-ciandcd)**
 	- (Thema auch in [Awesome CI](https://github.com/ligurio/awesome-ci) tlw. inkludiert)
-	- Cloud-native: u.a. nennenswert ist **[Spinnaker](https://spinnaker.io)** (auch: GitLab, fluxcd, codefresh, Argo CD, …)
 - Lizenzen:
 	- Lizenz-Checker für den Software Bill of Materials: **[FOSSA](https://fossa.com)**
-- Cloud Automation
-	- Google **[Cloud Operations Sandbox](https://cloud-ops-sandbox.dev)**
-- [Sonatype **Nexus**](https://de.sonatype.com/products/repository-oss-download) (OSS-Version): Software-Artifact Repository \[Web/Self-Hosted\]
-	- Alternative: Inedo **[ProGet](https://inedo.com/proget/download)** (Free Version)
-- [JFrog **Artifactory**](https://jfrog.com/artifactory/) (free: 2GB, 5 Users): Software-Artifact Repository \[Cloud\]
+- Software-Artifact Repository \[Web/Self-Hosted\]
+	- [Sonatype **Nexus**](https://de.sonatype.com/products/repository-oss-download) (OSS-Version)
+	- Inedo **[ProGet](https://inedo.com/proget/download)** (Free Version)
 - [Graphviz](https://www.graphviz.org/download/) **[dot](https://graphviz.org/doc/info/lang.html)** \[choco install graphviz\]: graph description language
 - **ITSM**:
 	- «Open Source» **[Zammad](https://zammad.org/)**
 	- «Empfehlung(€€€)» **[ServiceNow](https://www.servicenow.com/)** (Leader im Gartner [Magic Quadrant for IT Service Management Platforms](https://static.ivanti.com/sites/marketing/media/images/misc/ivanti-gartner-itsm-mq-2022.png))
-- Chaos Engineering:
-	- Netflix **[Chaos Monkey](https://github.com/netflix/chaosmonkey)** (retired: [Simian Army](https://github.com/Netflix/SimianArmy)), insbesondere mittels [Spinnaker](https://spinnaker.io) (Continuous Delivery) u.a. für [Kubernetes](https://kubernetes.io) (Orchestrierung/Komposition)
-	- **[Pumba](https://github.com/alexei-led/pumba)**: chaos testing tool for Docker
-	- Chaos für Arme unter Windows (Netzwerk-only): **[clumsy](https://github.com/jagt/clumsy)** \[**choco install clumsy**\]
-- **MLOps**: vgl. Schwesterseite zu [ML / AI](https://github.com/cyberlytics/awesome-bdccai-tools#ml--ai)
-- **DevSecOps**: vgl. Schwesterseite zu [Security](https://github.com/cyberlytics/awesome-bdccai-tools#security)
-- Weiterführende Quellen: [Awesome DevOps #1](https://github.com/wmariuss/awesome-devops), [Awesome DevOps #2](https://github.com/awesome-soft/awesome-devops), [Awesome SRE Tools](https://github.com/SquadcastHub/awesome-sre-tools), [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge), [Awesome Chaos Engineering](https://github.com/dastergon/awesome-chaos-engineering)
+- **Cloud-native DevOps**: vgl. BDCC/AI-Schwesterseite [DevOps](https://github.com/cyberlytics/awesome-bdccai-tools#devops)
+- **MLOps**: vgl. BDCC/AI-Schwesterseite zu [ML / AI](https://github.com/cyberlytics/awesome-bdccai-tools#ml--ai)
+- **DevSecOps**: vgl. BDCC/AI-Schwesterseite zu [Security](https://github.com/cyberlytics/awesome-bdccai-tools#security)
+- Weiterführende Quellen (traditionell/grundlegend):
+	- [Awesome DevOps #1](https://github.com/wmariuss/awesome-devops), [Awesome DevOps #2](https://github.com/awesome-soft/awesome-devops), [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
+	- - (Cloud-native Quellen auf der [BDCC/AI-Schwesterseite](https://github.com/cyberlytics/awesome-bdccai-tools#devops))
 
 ## Software-Internationalisierung (I18n) & -Lokalisierung (L10n)
 
