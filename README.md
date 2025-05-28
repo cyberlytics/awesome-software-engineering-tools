@@ -313,7 +313,7 @@ Hinweise:
 
 ## DevOps
 
-\[Hier: traditionell, d.h. grundlegende DevOps-Bausteine! Cloud-native DevOps Ergänzungen: vgl. Cloud-Schwesterseite [BDCC/AI » DevOps](https://github.com/cyberlytics/awesome-bdccai-tools#devops) (!)\]
+\[Hier: traditionell, d.h. grundlegende DevOps-Bausteine! Cloud-spezifische Sicht: vgl. BDCC/AI-Schwesterseite zu [Cloud-native DevOps](https://github.com/cyberlytics/awesome-bdccai-tools#devops) (!)\]
 
 - Vergleiche andere Abschnitte
 	- **[git](#git)** wg. GitOps
