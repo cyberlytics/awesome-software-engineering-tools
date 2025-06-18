@@ -25,6 +25,7 @@ Hinweise:
 
 - [git](#git)
 - [Programmierung](#programmierung)
+- [Vibe Coding](#vibe-coding)
 - [SW-Bibliotheken & -Frameworks](#sw-bibliotheken---frameworks)
 - [Testing](#testing)
 - [Fehleranalyse](#fehleranalyse)
@@ -55,7 +56,6 @@ Hinweise:
 	- git-Graphen zeichnen: [Mermaid Gitgraph Diagrams](https://mermaid.js.org/syntax/gitgraph.html)
 	- Fortgeschrittene Git-Repo-Analysen: **[Hercules](https://github.com/src-d/hercules)**
 	- Animierte Visualisierung der Git-Repo-Historie: **[gource](https://gource.io/)**
-	- Graphical Dashboard mit Git-Repo-Metriken: **[RepoGraphy](https://repography.com/)** (to embed in your README.md)
 - **[GitHub Education](https://education.github.com/benefits?type=student)**: insbesondere [GitHub Pro](https://docs.github.com/en/get-started/learning-about-GitHub/GitHubs-products#GitHub-pro) ist dadurch für Studierende kostenlos
 - **[GitKraken Client Pro](https://www.gitkraken.com/GitHub-student-developer-pack-bundle)** [und](https://www.gitkraken.com/GitHub-student-developer-pack-bundle) **[GitLens+ Pro](https://www.gitkraken.com/GitHub-student-developer-pack-bundle)** sind für Studierende kostenlos
 - **[gitattributes](https://richienb.github.io/gitattributes-generator/)**-Generator (Obacht: LF-formatiert) von Richie Bendall
@@ -74,6 +74,11 @@ Hinweise:
 - git-**Hygiene** (#2) hinsichtlich Autoren (insb. Eliminierung privater Mail-Adressen und Konsolidierung von Autorennamen):
 	- Mit einer manuell erstellten **[.mailmap](https://git-scm.com/docs/gitmailmap)** und dem Skript **[git-filter-repo](https://github.com/newren/git-filter-repo/blob/main/git-filter-repo)** können Sie die Autoren auch hart umschreiben
 - **[Gravatar](https://de.gravatar.com/)**: Viele git-Analysewerkzeuge greifen auf Gravatare zurück
+- LLM-generated Commit Messages:
+	- [gitprompt](https://github.com/xyassini/gitprompt)
+- git repo README embeddings:
+	- [RepoGraphy](https://repography.com/): Graphical Dashboard mit Git-Repo-Metriken
+	- githum.com [Star History](https://www.star-history.com/#cyberlytics/awesome-basics&Date)
 - Weiterführende Quellen: [Awesome git](https://github.com/dictcp/awesome-git)
 
 ## Programmierung
@@ -108,13 +113,6 @@ Hinweise:
 	- Py-only: **[python anywhere](https://eu.pythonanywhere.com/pricing/)** (kostenlose Browser-basierte Python-WebApp-Umgebung)
 	- JS-only: **[CodeSandbox](https://codesandbox.io)**, **[StackBlitz](https://stackblitz.com)**, **[PlayCode](https://playcode.io/)**, [JSFiddle](https://jsfiddle.net/), [CodePen](https://codepen.io/pen/), [Plunker](https://plnkr.co/), [JDoodle](https://www.jdoodle.com/html-css-javascript-online-editor/), uvm.
 	- Java-only: [**JDoodle** Advanced](https://www.jdoodle.com/online-java-compiler-ide/) ([Basic](https://www.jdoodle.com/)) , tutorialspoint **[Online Java Compiler](https://www.tutorialspoint.com/compile_java_online.php)**
-- KI-gestützte Programmierung bzw. Code-Completion
-	- OBACHT: Gilt für eine Abschlussarbeit als High-Tech-Plagiarism
-	- ChatGPT: [How to Install and Run **ChatGPT** as a Windows App](https://www.makeuseof.com/run-chatgpt-windows-app/)
-	- Das Original **[TabNine](https://www.tabnine.com/)** (kostenlos ist nur die Short-Code-Completion) und seine Alternativen: [GitHub **Copilot**](https://copilot.github.com/) | [OpenAI **Codex**](https://openai.com/blog/openai-codex/) (bspw. per VS Code Plug-In **[Code GPT](https://marketplace.visualstudio.com/items?itemName=DanielSanMedium.dscodegpt)**)
-	- Für SQL: Open-Source **[NSQL](https://huggingface.co/NumbersStation)** mit [Begleitartikel](https://www.numbersstation.ai/post/introducing-nsql-open-source-sql-copilot-foundation-models) | Kostenpflichtig (€): **[Cogram](https://www.cogram.com/)**
-- Vibe Coding
-	- Pack your codebase into AI-friendly formats: [Repomix](https://repomix.com)
 - **JetBrains**: Bspw. für **[PyCharm](https://www.jetbrains.com/pycharm/)** (Py), **[WebStorm](https://www.jetbrains.com/webstorm/)** (JS), **[CLion](https://www.jetbrains.com/clion/)** (C/C++), [Intellij **IDEA**](https://www.jetbrains.com/idea/) (Java, [Kotlin](https://github.com/JetBrains/kotlin)), **[ReSharper](https://www.jetbrains.com/resharper/)** (C#) / **[Rider](https://www.jetbrains.com/rider/)** (C#) sowie **[DataGrip](https://www.jetbrains.com/datagrip/)** (SQL), uvm.
 	- Kostenlos über die [Free Educational Licenses](https://www.jetbrains.com/community/education/#students) für Studierende.
 	- (Unter Windows bspw. mittels chocolatey: **choco install jetbrainstoolbox**)
@@ -135,6 +133,43 @@ Hinweise:
 - Weiterführende Quellen
 	- Programmier-Werkzeuge: **[free-for.dev](https://free-for.dev/)** | **[The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)**
 	- Schauen Sie sich auch die Liste namens **[GitHub Student Developer Pack](https://education.github.com/pack)** an; das ist quasi auch eine Awesome-Liste aus Studierenden-Sicht, mit kuratierten Angeboten von GitHub-Partnern (allerdings überwiegend auf 6m oder 1a limitiert, solche Angebote halte ich für Studierende uninteressant)
+
+## Vibe Coding
+
+\[OBACHT: Gilt für eine Abschlussarbeit als High-Tech-Plagiarism\]
+
+- [Claude.ai](https://biela.dev/), insb. wegen großem Kontextfenster von 200K+
+	- GUI: **[Claude Desktop](https://claude.ai/download)** ⭐ \[**choco install claude**\]
+	- CLI: **[Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview)** \[**npm install -g @anthropic-ai/claude-code**\]
+- Full-Stack-Engineering Assistants:
+	- Desktop:
+		- Das Original: **[TabNine](https://www.tabnine.com/)** (kostenlos ist nur die Short-Code-Completion) und seine Alternativen: [GitHub **Copilot**](https://copilot.github.com/) | [OpenAI **Codex**](https://openai.com/blog/openai-codex/) (bspw. per VS Code Plug-In **[Code GPT](https://marketplace.visualstudio.com/items?itemName=DanielSanMedium.dscodegpt)**)
+		- **[Cursor](https://www.cursor.com/)** \[**choco install cursoride**\]
+		- **[Windsurf](https://windsurf.com/)** (formerly Codeium) \[**choco install windsurf**\]
+		- **[Void](https://voideditor.com/)**
+		- [Tabby](https://www.tabbyml.com/)
+		- ReactJS/UI-centric: [Onlook](https://onlook.com/)
+	- Cloud:
+		- Universal: [replit](https://replit.com/)
+		- Web&Mobile in General: [bolt](https://bolt.new/), [biela.dev](https://biela.dev/), [shelbula.dev](https://shelbula.dev/), [JDoodle.ai](https://www.jdoodle.ai/)
+		- ReactJS: [loveable](https://lovable.dev/), [Tempo](https://www.tempo.new)
+		- Next.js: [v0](https://v0.dev/chat) (UI-centric)
+- Für SQL:
+	- Open-Source **[NSQL](https://huggingface.co/NumbersStation)** mit [Begleitartikel](https://www.numbersstation.ai/post/introducing-nsql-open-source-sql-copilot-foundation-models)
+	- Kostenpflichtig (€): **[Cogram](https://www.cogram.com/)**
+- CLI Assistants:
+	- [tgpt](https://github.com/aandrew-me/tgpt) (= Terminal GPT) \[**choco install tgpt**\]
+	- [aider](https://aider.chat/) \[**python -m pip install aider-install && aider-install\]
+	- OpenAI [Codex CLI](npm i -g @openai/codex) \[**npm install -g @openai/codex**\]
+- Vibe Coding Prompting:
+	- Tutorials: [loveable](https://docs.lovable.dev/tips-tricks/prompting-one), [VibeCoding](https://github.com/cpjet64/vibecoding/tree/main), [bolters.io Knowledge Base](https://bolters.io/)
+	- Examples: Library by [loveable](https://docs.lovable.dev/tips-tricks/prompting-library), [cursor.directory](https://cursor.directory/rules), Examples by [VibeCodex](https://vibecodex.io/#prompts)
+	- Prompt Generators: [TinyToolStack](https://tinytoolstack.com/app/vibecodingpromptgenerator?ref=producthunt), PromptHub [Prompt Iterator](https://www.prompthub.us/prompt-enhancers/prompt-iterator), [Bolt Prompter](https://chatgpt.com/g/g-tozliiBeO-bolt-prompter)
+- Supporting Tools
+	- Pack your codebase into AI-friendly formats: [Repomix](https://repomix.com)
+- Weiterführende Referenzen: [Awesome Vibe Coding](https://github.com/filipecalegario/awesome-vibe-coding), [Awesome Vibe Coding Tools](https://github.com/furudo-erika/awesome-vibe-coding-tools?tab=readme-ov-file) 
+
+
 
 ## SW-Bibliotheken & -Frameworks
 
