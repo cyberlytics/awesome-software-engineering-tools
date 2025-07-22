@@ -94,7 +94,7 @@ Hinweise:
 	- IDE? **[DataGrip](https://www.jetbrains.com/datagrip/)** (siehe unten)
 	- SQL-Dialekt-Konvertierung: [SQLines](https://www.sqlines.com/online)
 	- SQL-Testing: siehe unten
-	- KI-gestützte SQL Code-Completion: siehe unen
+	- KI-gestützte SQL Code-Completion: siehe unten
 	- E/R-Diagramme: siehe unten
 	- Schema Diagrams: siehe unten
 - [Visual Studio **Code**](https://code.visualstudio.com/) \[**choco install vscode --ignore-dependencies**\]
@@ -136,12 +136,16 @@ Hinweise:
 
 ## Vibe Coding
 
-\[OBACHT: Gilt für eine Abschlussarbeit als High-Tech-Plagiarism\]
+\[OBACHT #1: Gilt für eine Abschlussarbeit als High-Tech-Plagiarism\]
+\[OBACHT #2: "Where 2 engineers can now create the tech debt of at least 50 engineers"\]
 
+- Übersicht/Einstieg: indiehackers [Vibe Coding Tools](https://www.indiehackers.com/vibe-coding-tools) ([free ones](https://www.indiehackers.com/vibe-coding-tools?tags=Free))
 - [Claude.ai](https://biela.dev/), insb. wegen großem Kontextfenster von 200K+
 	- GUI: **[Claude Desktop](https://claude.ai/download)** ⭐ \[**choco install claude**\]
 	- CLI: **[Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview)** \[**npm install -g @anthropic-ai/claude-code**\]
-- Full-Stack-Engineering Assistants:
+- Vibe Coding via Agentic AI (Full-Stack-Engineering Assistants)
+	- Open Source:
+		- [cline](https://cline.bot/) ([github](https://github.com/cline/cline))
 	- Desktop:
 		- Das Original: **[TabNine](https://www.tabnine.com/)** (kostenlos ist nur die Short-Code-Completion) und seine Alternativen: [GitHub **Copilot**](https://copilot.github.com/) | [OpenAI **Codex**](https://openai.com/blog/openai-codex/) (bspw. per VS Code Plug-In **[Code GPT](https://marketplace.visualstudio.com/items?itemName=DanielSanMedium.dscodegpt)**)
 		- **[Cursor](https://www.cursor.com/)** \[**choco install cursoride**\]
@@ -154,14 +158,21 @@ Hinweise:
 		- Web&Mobile in General: [bolt](https://bolt.new/), [biela.dev](https://biela.dev/), [shelbula.dev](https://shelbula.dev/), [JDoodle.ai](https://www.jdoodle.ai/)
 		- ReactJS: [loveable](https://lovable.dev/), [Tempo](https://www.tempo.new)
 		- Next.js: [v0](https://v0.dev/chat) (UI-centric)
-- Für SQL:
+- MCP
+	- MCP Repository: [smithery.ai](https://smithery.ai/)
+- Für SQL (KI-gestützte SQL Code-Completion)
 	- Open-Source **[NSQL](https://huggingface.co/NumbersStation)** mit [Begleitartikel](https://www.numbersstation.ai/post/introducing-nsql-open-source-sql-copilot-foundation-models)
 	- Kostenpflichtig (€): **[Cogram](https://www.cogram.com/)**
-- CLI Assistants:
+- Vibe Testing
+	- tbd (bspw. via [RobotFramework](https://robotframework.org/)-Testökosystem, da dessen Testbeschreibungen sehr natürlichsprachlich sind sind)
+- Vibe Hacking / Vibe Pentesting
+	- Local/CLI: [vulnhuntr](https://github.com/protectai/vulnhuntr)
+	- Cloud/GUI: [Vibe Coding Penetration Tester](https://github.com/firetix/vibe-coding-penetration-tester) (cf. [vibehack.io](http://vibehack.io/)), [ZeroThreat](https://zerothreat.ai/)
+- CLI Assistants
 	- [tgpt](https://github.com/aandrew-me/tgpt) (= Terminal GPT) \[**choco install tgpt**\]
 	- [aider](https://aider.chat/) \[**python -m pip install aider-install && aider-install\]
 	- OpenAI [Codex CLI](npm i -g @openai/codex) \[**npm install -g @openai/codex**\]
-- Vibe Coding Prompting:
+- Vibe Coding via Prompting
 	- Tutorials: [loveable](https://docs.lovable.dev/tips-tricks/prompting-one), [VibeCoding](https://github.com/cpjet64/vibecoding/tree/main), [bolters.io Knowledge Base](https://bolters.io/)
 	- Examples: Library by [loveable](https://docs.lovable.dev/tips-tricks/prompting-library), [cursor.directory](https://cursor.directory/rules), Examples by [VibeCodex](https://vibecodex.io/#prompts)
 	- Prompt Generators: [TinyToolStack](https://tinytoolstack.com/app/vibecodingpromptgenerator?ref=producthunt), PromptHub [Prompt Iterator](https://www.prompthub.us/prompt-enhancers/prompt-iterator), [Bolt Prompter](https://chatgpt.com/g/g-tozliiBeO-bolt-prompter)
@@ -187,7 +198,7 @@ Hinweise:
 	- Weiterführende Referenzen: Blogartikel [The Best Code Coverage Tools By Programming Language](https://about.codecov.io/blog/the-best-code-coverage-tools-by-programming-language/)
 - [**ArchUnit** Java](https://www.archunit.org/) | **[ArchUnitNET](https://github.com/TNG/ArchUnitNET/)**: Unit test your architecture
 - **[Testcontainers](https://www.testcontainers.org/)**: Java-Bibliothek zur leichtgewichtigen Testintegration von Datenbanksystemen, NoSQL-Systemen, Webservern, Log-Diensten u.a.
-- Testing Frameworks, wenn man selbst eine DBMS-Engine entwickelt: **[SQLsmith](https://github.com/anse1/sqlsmith)** für Query Fuzzing | **[SQLancer](https://github.com/sqlancer/sqlancer)** für SQL Logik Verifikation | **[SQL Logic Tests](https://www.sqlite.org/sqllogictest/doc/trunk/about.wiki)** from SQLite
+- SQL-Testing / Testing Frameworks, wenn man selbst eine DBMS-Engine entwickelt: **[SQLsmith](https://github.com/anse1/sqlsmith)** für Query Fuzzing | **[SQLancer](https://github.com/sqlancer/sqlancer)** für SQL Logik Verifikation | **[SQL Logic Tests](https://www.sqlite.org/sqllogictest/doc/trunk/about.wiki)** from SQLite
 - **[Jest](https://jestjs.io/)**: JavaScript Unit-Testing ([Cheat Sheet](https://devhints.io/jest))
 - Test web UI components in a user-centric way: **[Testing Library](https://testing-library.com/docs/)**
 - **[Ponicode Unit Tests](https://www.npmjs.com/package/ponicode)**: Unit-Test-Generator für JavaScript und Python
