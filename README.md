@@ -150,15 +150,17 @@ Hinweise:
 - Vibe Coding via Agentic AI (Full-Stack-Engineering Assistants)
 	- Open Source:
 		- [cline](https://cline.bot/) ([github](https://github.com/cline/cline))
+		- [Roo Code](https://github.com/RooCodeInc/Roo-Code) as fork from cline
+		- [Kilo Code](https://kilocode.ai/) ([github](https://github.com/Kilo-Org/kilocode)) = merged features from Roo Code and Cline plus own features
 	- Desktop:
 		- Das Original: **[TabNine](https://www.tabnine.com/)** (kostenlos ist nur die Short-Code-Completion) und seine Alternativen: [GitHub **Copilot**](https://copilot.github.com/) | [OpenAI **Codex**](https://openai.com/blog/openai-codex/) (bspw. per VS Code Plug-In **[Code GPT](https://marketplace.visualstudio.com/items?itemName=DanielSanMedium.dscodegpt)**)
 		- **[Cursor](https://www.cursor.com/)** \[**choco install cursoride**\]
 		- **[Windsurf](https://windsurf.com/)** (formerly Codeium) \[**choco install windsurf**\]
-		- **[Void](https://voideditor.com/)**
-		- [Tabby](https://www.tabbyml.com/)
+		- More: **[Void](https://voideditor.com/)**, [Tabby](https://www.tabbyml.com/), [Qodo Command](https://www.qodo.ai/products/qodo-command/)/[Qodo Gen](https://www.qodo.ai/products/qodo-gen/)
 		- ReactJS/UI-centric: [Onlook](https://onlook.com/)
+		- UI-Design: [SuperDesign.Dev](https://www.superdesign.dev/)
 	- Cloud:
-		- Universal: [replit](https://replit.com/)
+		- Universal: [replit](https://replit.com/), Google [jules](https://jules.google/), Google [AI Studio](https://aistudio.google.com)
 		- Web&Mobile in General: [bolt](https://bolt.new/), [biela.dev](https://biela.dev/), [shelbula.dev](https://shelbula.dev/), [JDoodle.ai](https://www.jdoodle.ai/)
 		- ReactJS: [loveable](https://lovable.dev/), [Tempo](https://www.tempo.new)
 		- Next.js: [v0](https://v0.dev/chat) (UI-centric)
@@ -168,7 +170,12 @@ Hinweise:
 	- Open-Source **[NSQL](https://huggingface.co/NumbersStation)** mit [Begleitartikel](https://www.numbersstation.ai/post/introducing-nsql-open-source-sql-copilot-foundation-models)
 	- Kostenpflichtig (€): **[Cogram](https://www.cogram.com/)**
 - Vibe Testing
-	- tbd (bspw. via [RobotFramework](https://robotframework.org/)-Testökosystem, da dessen Testbeschreibungen sehr natürlichsprachlich sind sind)
+	- [RobotFramework](https://robotframework.org/) als Testökosystem, da dessen Testbeschreibungen sehr natürlichsprachlich sind
+	- [Harness AI Test Automation](https://www.harness.io/products/ai-test-automation)
+	- [testRigor](https://testrigor.com/) (free for public open source)
+	- Teilaspekt von [Qodo Gen](https://www.qodo.ai/products/qodo-gen/)
+	- Java-centric: [diffblue](https://www.diffblue.com/)
+	- Webartikel: Vibe Testing [with Playwright](https://timdeschryver.dev/blog/vibe-testing-with-playwright)
 - Vibe Hacking / Vibe Pentesting
 	- Local/CLI: [vulnhuntr](https://github.com/protectai/vulnhuntr)
 	- Cloud/GUI: [Vibe Coding Penetration Tester](https://github.com/firetix/vibe-coding-penetration-tester) (cf. [vibehack.io](http://vibehack.io/)), [ZeroThreat](https://zerothreat.ai/)
@@ -228,8 +235,10 @@ Hinweise:
 - Debugging
 	- **[dnSpy](https://github.com/dnSpy/dnSpy)** (auch [Portable per ZIP](https://github.com/dnSpy/dnSpy/releases)): **Portable** .NET debugger (und .NET assembly editor, s. unten)
 - Netzwerk
-	- **[NETworkManager](https://borntoberoot.net/NETworkManager/)** \[**choco install networkmanager --ignore-dependencies**\]: Windows Werkzeug für die Netzwerk-Analyse (ping, traceroute, IP scanner, Portscanner, uvm.)
+	- **[NETworkManager](https://borntoberoot.net/NETworkManager/)** ⭐ \[**choco install networkmanager --ignore-dependencies**\]: Windows Werkzeug für die Netzwerk-Analyse (ping, traceroute, IP scanner, Portscanner, uvm.)
 	- ggf. **[Wireshark](https://www.wireshark.org/)** \[**choco install wireshark**\] und **[nmap](https://nmap.org/)** \[**choco install nmap**\]
+	- Bandbreitenmessung (throughput): **[iperf3](https://iperf.fr/)** ⭐ \[**choco install iperf3**\] (must run iperf3 server on backend target host)
+		- (Im professionallen Bereich weniger nützlich, da nur Lokaler-Rechner-zu-eigenem-ISP: LibreSpeed [librespeed-cli](https://github.com/librespeed/speedtest-cli) \[**choco install librespeed-cli**\], Ookla [speedtest-cli](https://www.speedtest.net/apps/cli) \[**choco install speedtest**\])
 - Logging
 	- **[Baretail](http://www.baremetalsoft.com/baretail/)** \[**choco install baretail**\]: Windows Werkzeug für Real-time Log-File Monitoring (USP: auch **Portable**)
 	- **[Tail Blazer](https://github.com/RolandPheasant/TailBlazer)** \[**choco install tailblazer**\]: Windows Werkzeug für Real-time Log-File Monitoring (USP: auch **RegExp**)
@@ -325,7 +334,7 @@ Hinweise:
 		- Weitere Alternativen mit starker Limitierung der Free Plans: [creately](https://creately.com/lp/er-diagram-tool-online/), etc.
 	- Desktop:
 		- **[PlantUML](https://plantuml.com/er-diagram)** ⭐ mit E/R in Chen-Notation sowie auch EE/R also inkl. Vererbung
-		- Microsoft Visio mittels [meiner eigenen E/R **Visio-Stencils**](https://www.cyberlytics.eu/theses/templates/ERD-Chen76_EERD-ElmasriNavathe94.vss) für die Chen-Notation sowie für erweiterte E/R-Diagramme nach Elmasri
+		- Microsoft Visio mittels [meiner eigenen E/R **Visio-Stencils**](http://www.cyberlytics.eu/theses/templates/ERD-Chen76_EERD-ElmasriNavathe94.vss) für die Chen-Notation sowie für erweiterte E/R-Diagramme nach Elmasri
 		- [Oracle **SQL Developer**](https://www.oracle.com/database/sqldeveloper/)
 			- mittels eines [Oracle Accounts](https://profile.oracle.com/myprofile/account/create-account.jspx) \[**choco install oracle-sql-developer --ignore-dependencies --params "'/Username:{oraUser} /Password:{oraPwd}'"**\] dabei ist der {oraUser} i.d.R. eine E-Mail-Adresse und die geschweiften Klammern sind nicht Teil der Syntax sondern nur Platzhaltersymbolik
 	- **Warnhinweis**: Viele amerikanischen Tools (u.a. MySQL-Workbench, [dbdiagram.io](https://dbdiagram.io/), etc. pp.) behaupten fälschlicherweise, Sie würden E/R-Diagramme darstellen, aber oft ist die Notation nur eine Visualisierung von Relationen und diese Tools erlauben keine konzeptionelle Modellierung nach dem E/R-Modell
@@ -525,6 +534,7 @@ Hinweise:
 - Kundendienst & Support
 	- Ticketing: [Zammad](https://zammad.org)
 - Administration & Finanzen
+	- Geschaftsbrief: [DIN 5008](https://leonrenner.com/din-5008-geschaeftsbrief-regeln-fuer-den-aufbau-nach-norm/)
 	- HR? **[ConnecTeam](https://connecteam.com/)** (Cloud) | [**TimeOff**.Management](https://github.com/timeoff-management/timeoff-management-application) (FOSS, Web/Self-Hosted) | List of [Best Open-Source HRMS](https://wperp.com/68603/best-open-source-hrms/)
 - Enterprise One-Stop-Shop
 	- Enterprise Suite: **[WikiSuite](https://wikisuite.org/)** für Linux („Not-so-Small Business Linux Server – on Steroids“, FOSS), substituiert Ihnen nicht nur KeyHelp (SMB Linux Server) sondern auch NextCloud (Groupware-Bedürfnisse) und Chat und VidConf sowie weitere der obigen Einzel-Empfehlungen in einem großen Open-Source-Software-Bündel
