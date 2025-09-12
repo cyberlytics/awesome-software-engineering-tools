@@ -164,6 +164,7 @@ Hinweise:
 		- Web&Mobile in General: [bolt](https://bolt.new/), [biela.dev](https://biela.dev/), [shelbula.dev](https://shelbula.dev/), [JDoodle.ai](https://www.jdoodle.ai/)
 		- ReactJS: [loveable](https://lovable.dev/), [Tempo](https://www.tempo.new)
 		- Next.js: [v0](https://v0.dev/chat) (UI-centric)
+		- Weiterführende Liste: [AI Tools Club](https://aitoolsclub.com/top-50-ai-vibe-coding-tools-for-everyone-in-2025/)
 - MCP
 	- MCP Repository: [smithery.ai](https://smithery.ai/)
 - Für SQL (KI-gestützte SQL Code-Completion)
@@ -516,7 +517,9 @@ Hinweise:
 	- Active Directory? **[Samba](https://www.samba.org/)**
 	- Passwort Manager? **[Vaultwarden](https://github.com/dani-garcia/vaultwarden)** \[via docker\]
 - Querschnitt
-	- Doodle-Termin-/Umfragen? Cloud: **[nuudel](https://nuudel.digitalcourage.de/)** | **[fragab](https://fragab.com/)** oder Web/Self-Hosted: **[Framadate](https://framagit.org/framasoft/framadate/framadate)**
+	- Doodle/Terminumfragen
+		- Cloud: **[nuudel](https://nuudel.digitalcourage.de/)** | **[fragab](https://fragab.com/)**
+		- Web/Self-Hosted: **[Framadate](https://framagit.org/framasoft/framadate/framadate)**
 	- Chat? **[RocketChat](https://de.rocket.chat/install)** \[**choco install rocketchat**\]\[[Cloud](https://cloud.rocket.chat/)\]
 	- Video Conference? **[Jitsi](https://jitsi.org/)** \[**choco install jitsi**\]\[[Cloud](https://meet.jit.si/)\]
 		- Alternative: **[Nextcloud Talk](https://nextcloud.com/talk/)**, als FOSS via [NextCloud Server](https://nextcloud.com/install/) → Müsste jemand mal für mich ausprobieren…
