@@ -29,6 +29,7 @@ Hinweise:
 
 - [git](#git)
 - [Programmierung](#programmierung)
+- [Rapid Application Development](#rapid-application-development)
 - [Vibe Coding](#vibe-coding)
 - [SW-Bibliotheken & -Frameworks](#sw-bibliotheken---frameworks)
 - [Testing](#testing)
@@ -137,6 +138,39 @@ Hinweise:
 - Weiterführende Quellen
 	- Programmier-Werkzeuge: **[free-for.dev](https://free-for.dev/)** | **[The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)**
 	- Schauen Sie sich auch die Liste namens **[GitHub Student Developer Pack](https://education.github.com/pack)** an; das ist quasi auch eine Awesome-Liste aus Studierenden-Sicht, mit kuratierten Angeboten von GitHub-Partnern (allerdings überwiegend auf 6m oder 1a limitiert, solche Angebote halte ich für Studierende uninteressant)
+	- Integrated Development Environments: [Awesome IDEs](https://github.com/zeelsheladiya/Awesome-IDEs)
+
+## Rapid Application Development
+
+\[ = RAD, eine Vor-Form von [Low-Code](https://github.com/cyberlytics/awesome-bdccai-tools#low-code--no-code) \]
+
+- RAD-Tools:
+	- Delphi: Embarcadero IDE namens [RAD Studio](https://www.embarcadero.com/products/rad-studio) = Der „Urvater“ moderner RAD-Tools, lebt bis heute!
+	- Java: [RAPIDclipse](https://rapidclipse.com/) = Low-Code Visual Java IDE auf Basis von Eclipse (von einem Unternehmen in Weiden i.d.OPf.)
+	- Python: [Anvil](https://anvil.works/) = Build seriously powerful web apps with all the flexibility of Python
+	- C++: [Ultimate++](https://www.ultimatepp.org/) aka U++ = reduce the code complexity of typical desktop applications
+	- Go: [pagoda](https://github.com/mikestefanello/pagoda) = Rapid, easy full-stack web development starter kit in Go
+	- Rust: [Slint](https://slint.dev/)
+- RAD-Programmiersprachen:
+	- [dBase](https://www.dbase.com/) über xBase bis hin zu [Harbour](https://harbour.github.io/)
+	- Microsoft [Visual FoxPro](http://msdn.microsoft.com/vfoxpro)
+	- Weitere: [FileMaker](https://www.claris.com/filemaker/), [4D](https://us.4d.com/why-4d), ..., [Ercatons](https://www.living-pages.de/ercato/)
+- Open-source RAD-Webplattformen:
+	- [Appsmith](https://www.appsmith.com/)
+	- [Budibase](https://budibase.com/)
+	- [Foundation](https://get.foundation/)
+- Microsoft RAD-Tools:
+	- Microsoft [Access](https://www.microsoft.com/access)
+	- Microsoft [Power Apps](https://www.microsoft.com/power-platform/products/power-apps)
+	- Ice Tea Group LLC [Wisej.NET](https://wisej.com/)
+- Oracle RAD-Tool:
+	- Oracle [APEX](https://apex.oracle.com/)
+- SAP RAD-Tool:
+	- Appeon [PowerBuilder](https://www.appeon.com/products/powerbuilder)
+- Rapid Prototyping (Design & UX/UI):
+	- vgl. [eigener obiger Abschnitt](#wireframing--prototyping--ux)
+	- zzgl. [Graphical User Interface Builder](https://en.wikipedia.org/wiki/Graphical_user_interface_builder) (aka GUI designer aka RAD IDE)
+- Low Code: vgl. [Schwesterseite](https://github.com/cyberlytics/awesome-bdccai-tools#low-code--no-code)
 
 ## Vibe Coding
 
@@ -222,9 +256,10 @@ Hinweise:
 	- **[Protractor](https://www.protractortest.org)** speziell für AngularJS und Angular
 	- (Weitere Alternativen: Selenium, …)
 - AI-powerd E2E Test Automation: **[testRigor](https://testrigor.com/)**, kostenlos für public open source | **[testIM](https://www.testim.io/)** mit kostenlosen Kontingenten
-- WebApp Load-Testing
+- Load-Testing
 	- (Web/Self-Hosted:) [**Gatling** Open Source](https://gatling.io/open-source/)
-	- (Desktop:) **[JMeter](https://jmeter.apache.org/)**
+	- (Desktop:) **[JMeter](https://jmeter.apache.org/)** \[choco install jmeter\]
+	- (CLI:) **[k6](https://k6.io/open-source/)** \[choco install k6\]
 - **[Cucumber](https://cucumber.io/docs/installation/)**: BDD-Testing
 - **[Kiwi TCMS](https://github.com/kiwitcms/Kiwi)**: Open Source Test Case Management System
 - A/B-Testing-on-Steroids: **[Split](https://www.split.io/)** für Web-Anwendungen
