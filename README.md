@@ -55,6 +55,9 @@ Hinweise:
 
 - Git Client: **[git](https://gitforwindows.org/)** \[**choco install git.install -y --params="'/GitAndUnixToolsOnPath /WindowsTerminal /NoAutoCrlf'"**\]
 	- ggf. **[TortoiseGit](https://tortoisegit.org/)** \[**choco install tortoisegit**\] | [SourceTree](https://www.sourcetreeapp.com/) \[choco install sourcetree\] | [SmartGit](https://www.syntevo.com/smartgit/) \[choco install smartgit\] | [GitKraken](https://www.gitkraken.com/GitHub-student-developer-pack-bundle) (s. unten)
+- Git Server:
+	- **[Gogs](https://gogs.io/)** \[**choco install gogs**\]: painless self-hosted Git service in go
+	- Weitere Alternativen per Linux oder Docker: [Forgejo](https://forgejo.org/) (community-governed fork of [Gitea](https://about.gitea.com/)) sowie [GitLab CE](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
 - **[GitHub CLI](https://cli.github.com/)** \[**choco install gh**\]: gh is GitHub on the command line, it brings pull requests, issues, and other GitHub concepts to the terminal ([gh-Cheatsheet](https://www.kdnuggets.com/2023/03/GitHub-cli-data-science-cheat-sheet.html))
 - Utilities:
 	- **[git-sizer](https://github.com/GitHub/git-sizer)** \[**choco install git-sizer --ignore-dependencies**\]
@@ -199,6 +202,9 @@ Hinweise:
 		- ReactJS: [loveable](https://lovable.dev/), [Tempo](https://www.tempo.new)
 		- Next.js: [v0](https://v0.dev/chat) (UI-centric)
 		- Weiterführende Liste: [AI Tools Club](https://aitoolsclub.com/top-50-ai-vibe-coding-tools-for-everyone-in-2025/)
+	- Nennenswerte weitere Ansätze:
+		- [MetaGPT](https://github.com/FoundationAgents/MetaGPT): Multi-Agent Framework that assigns different roles to GPTs to form a collaborative entity for complex tasks ([Docs](https://docs.deepwisdom.ai/main/en/guide/get_started/introduction.html))
+			- MetaGPT X (= Spin-off product by MetaGPT inventors): [MGX](https://mgx.dev/)
 - MCP
 	- MCP Repository: [smithery.ai](https://smithery.ai/)
 - Für SQL (KI-gestützte SQL Code-Completion)
