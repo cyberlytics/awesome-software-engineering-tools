@@ -226,7 +226,7 @@ Hinweise:
 	- OpenAI [Codex CLI](npm i -g @openai/codex) \[**npm install -g @openai/codex**\]
 - Vibe Coding via Prompting
 	- Tutorials: [loveable](https://docs.lovable.dev/tips-tricks/prompting-one), [VibeCoding](https://github.com/cpjet64/vibecoding/tree/main), [bolters.io Knowledge Base](https://bolters.io/)
-	- Examples: Library by [loveable](https://docs.lovable.dev/tips-tricks/prompting-library), [cursor.directory](https://cursor.directory/rules), Examples by [VibeCodex](https://vibecodex.io/#prompts)
+	- Prompting Recipies: Prompting Library by [loveable](https://docs.lovable.dev/prompting/prompting-library), [cursor.directory](https://cursor.directory/rules), Examples by [VibeCodex](https://vibecodex.io/#prompts)
 	- Prompt Generators: [TinyToolStack](https://tinytoolstack.com/app/vibecodingpromptgenerator?ref=producthunt), PromptHub [Prompt Iterator](https://www.prompthub.us/prompt-enhancers/prompt-iterator), [Bolt Prompter](https://chatgpt.com/g/g-tozliiBeO-bolt-prompter)
 - Supporting Tools
 	- Pack your codebase into AI-friendly formats: [Repomix](https://repomix.com)
