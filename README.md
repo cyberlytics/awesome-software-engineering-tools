@@ -181,26 +181,43 @@ Hinweise:
 \[OBACHT #2: "Where 2 engineers can now create the tech debt of at least 50 engineers"\]
 
 - Übersicht/Einstieg: indiehackers [Vibe Coding Tools](https://www.indiehackers.com/vibe-coding-tools) ([free ones](https://www.indiehackers.com/vibe-coding-tools?tags=Free))
-- [Claude.ai](https://biela.dev/), insb. wegen großem Kontextfenster von 200K+
-	- GUI: **[Claude Desktop](https://claude.ai/download)** ⭐ \[**choco install claude**\]
-	- CLI: **[Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview)** \[**npm install -g @anthropic-ai/claude-code**\]
+- Wegbereiter:
+	- Begriff: [Andrej Karpathy](https://x.com/karpathy/status/1886192184808149383) in February 2025
+	- Technik: "[Cursor](https://www.cursor.com/) [Composer](https://cursor101.com/article/cursor-composer) (i.e., multi-file editing), backed with Claude [Sonnet](https://www.anthropic.com/claude/sonnet) (i.a., due to its large context window of 200K+), talked to via [SuperWhisper](https://superwhisper.com/)"
 - Vibe Coding via Agentic AI (Full-Stack-Engineering Assistants)
-	- Open Source:
-		- [cline](https://cline.bot/) ([github](https://github.com/cline/cline))
-		- [Roo Code](https://github.com/RooCodeInc/Roo-Code) as fork from cline
-		- [Kilo Code](https://kilocode.ai/) ([github](https://github.com/Kilo-Org/kilocode)) = merged features from Roo Code and Cline plus own features
-	- Desktop:
-		- Das Original: **[TabNine](https://www.tabnine.com/)** (kostenlos ist nur die Short-Code-Completion) und seine Alternativen: [GitHub **Copilot**](https://copilot.github.com/) | [OpenAI **Codex**](https://openai.com/blog/openai-codex/) (bspw. per VS Code Plug-In **[Code GPT](https://marketplace.visualstudio.com/items?itemName=DanielSanMedium.dscodegpt)**)
+	- Marktführer CLIs: 
+		- Anthropic **[Claude Code CLI](https://docs.anthropic.com/en/docs/claude-code/overview)** \[**npm install -g @anthropic-ai/claude-code**\]
+		- OpenAI [Codex CLI](https://openai.com/codex/) \[**npm i -g @openai/codex**\]
+		- Google [Gemini CLI](https://github.com/google-gemini/gemini-cli) \[**npm install -g @google/gemini-cli**\]
+		- GitHub [Copilot CLI](https://github.com/github/copilot-cli) \[**npm install -g @github/copilot**\]
+	- Open Source CLIs:
+		- [cline](https://cline.bot/) ([github](https://github.com/cline/cline)) \[**npm install -g cline**\]
+			- [Roo Code](https://github.com/RooCodeInc/Roo-Code) as fork from cline
+			- [Kilo Code](https://kilocode.ai/) ([github](https://github.com/Kilo-Org/kilocode)) = merged features from Roo Code and Cline plus own features
+		- ollama-based CLIs:
+			- [ollama code cli](https://github.com/vigyatgoel/ollama-code-cli) \[pip install ollama-code-cli\]
+			- [tlm CLI](https://github.com/yusufcanb/tlm) \[irm https://raw.githubusercontent.com/yusufcanb/tlm/1.2/install.ps1 | iex\]
+		- [LocalAGI](https://github.com/mudler/LocalAGI)
+		- [aider](https://aider.chat/): AI pair programming \[**pip install aider-install && aider-install\]
+		- [tgpt](https://github.com/aandrew-me/tgpt) (= Terminal GPT) \[**choco install tgpt**\]
+	- Desktop (u.a. VS Code Extensions):
 		- **[Cursor](https://www.cursor.com/)** \[**choco install cursoride**\]
 		- **[Windsurf](https://windsurf.com/)** (formerly Codeium) \[**choco install windsurf**\]
+		- **[TRAE IDE](https://www.trae.ai/)** (zzgl. [TRAE Solo](https://www.trae.ai/solo))
 		- More: **[Void](https://voideditor.com/)**, [Tabby](https://www.tabbyml.com/), [Qodo Command](https://www.qodo.ai/products/qodo-command/)/[Qodo Gen](https://www.qodo.ai/products/qodo-gen/)
 		- ReactJS/UI-centric: [Onlook](https://onlook.com/)
 		- UI-Design: [SuperDesign.Dev](https://www.superdesign.dev/)
+	- VS Code Extensions:
+		- **[TabNine](https://www.tabnine.com/install/vs-code/)** (kostenlos ist nur die Short-Code-Completion)
+		- GitHub [Copilot VS Code Extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
+		- OpenAI Codex als VS Code Extension: **[Code GPT](https://marketplace.visualstudio.com/items?itemName=DanielSanMedium.dscodegpt)**)
+		- [Kudo](https://www.kodu.ai/)
 	- Cloud:
 		- Universal: [replit](https://replit.com/), Google [jules](https://jules.google/), Google [AI Studio](https://aistudio.google.com)
 		- Web&Mobile in General: [bolt](https://bolt.new/), [biela.dev](https://biela.dev/), [shelbula.dev](https://shelbula.dev/), [JDoodle.ai](https://www.jdoodle.ai/)
 		- ReactJS: [loveable](https://lovable.dev/), [Tempo](https://www.tempo.new)
 		- Next.js: [v0](https://v0.dev/chat) (UI-centric)
+		- GitHub **[Copilot](https://github.com/copilot/)**
 		- Weiterführende Liste: [AI Tools Club](https://aitoolsclub.com/top-50-ai-vibe-coding-tools-for-everyone-in-2025/)
 	- Nennenswerte weitere Ansätze:
 		- [MetaGPT](https://github.com/FoundationAgents/MetaGPT): Multi-Agent Framework that assigns different roles to GPTs to form a collaborative entity for complex tasks ([Docs](https://docs.deepwisdom.ai/main/en/guide/get_started/introduction.html))
@@ -220,13 +237,9 @@ Hinweise:
 - Vibe Hacking / Vibe Pentesting
 	- Local/CLI: [vulnhuntr](https://github.com/protectai/vulnhuntr)
 	- Cloud/GUI: [Vibe Coding Penetration Tester](https://github.com/firetix/vibe-coding-penetration-tester) (cf. [vibehack.io](http://vibehack.io/)), [ZeroThreat](https://zerothreat.ai/)
-- CLI Assistants
-	- [tgpt](https://github.com/aandrew-me/tgpt) (= Terminal GPT) \[**choco install tgpt**\]
-	- [aider](https://aider.chat/) \[**python -m pip install aider-install && aider-install\]
-	- OpenAI [Codex CLI](npm i -g @openai/codex) \[**npm install -g @openai/codex**\]
 - Vibe Coding via Prompting
 	- Tutorials: [loveable](https://docs.lovable.dev/tips-tricks/prompting-one), [VibeCoding](https://github.com/cpjet64/vibecoding/tree/main), [bolters.io Knowledge Base](https://bolters.io/)
-	- Prompting Recipies: Prompting Library by [loveable](https://docs.lovable.dev/prompting/prompting-library), [cursor.directory](https://cursor.directory/rules), Examples by [VibeCodex](https://vibecodex.io/#prompts)
+	- Prompting Recipies: Prompting Library by [loveable](https://docs.lovable.dev/prompting/prompting-library), [cursor.directory](https://cursor.directory/rules), Examples by [VibeCodex](https://vibecodex.io/#prompts), OpenAI Academy [Prompt Packs](https://academy.openai.com/public/tags/prompt-packs-6849a0f98c613939acef841c)
 	- Prompt Generators: [TinyToolStack](https://tinytoolstack.com/app/vibecodingpromptgenerator?ref=producthunt), PromptHub [Prompt Iterator](https://www.prompthub.us/prompt-enhancers/prompt-iterator), [Bolt Prompter](https://chatgpt.com/g/g-tozliiBeO-bolt-prompter)
 - Supporting Tools
 	- Pack your codebase into AI-friendly formats: [Repomix](https://repomix.com)
