@@ -153,7 +153,7 @@ Hinweise:
 - RAD-Programmiersprachen:
 	- [dBase](https://www.dbase.com/) über xBase bis hin zu [Harbour](https://harbour.github.io/)
 	- Microsoft [Visual FoxPro](http://msdn.microsoft.com/vfoxpro)
-	- Weitere: [FileMaker](https://www.claris.com/filemaker/), [4D](https://us.4d.com/why-4d), ..., [Ercatons](https://www.living-pages.de/ercato/)
+	- Weitere: [FileMaker](https://www.claris.com/filemaker/), [4D](https://us.4d.com/why-4d), …, [Ercatons](https://www.living-pages.de/ercato/)
 - Open-source RAD-Webplattformen:
 	- [Appsmith](https://www.appsmith.com/)
 	- [Budibase](https://budibase.com/)
@@ -332,7 +332,7 @@ Hinweise:
 	- Nennenswert #2: Sequenzdiagramme auch in [ASCII-Art](https://plantuml.com/ascii-art)
 	- Nennenswert #3: LaTeX-Einbindung: CTAN [plantuml](https://ctan.org/pkg/plantuml) package
 	- Nennenswert #4: [Konvertierung von Quellcode nach PlantUML: **gituml.com**](https://gituml.com/listz)
-	- Auswahl an Extensions: [C4 model](https://github.com/plantuml-stdlib/C4-PlantUML) ⭐, [AWS](https://github.com/awslabs/aws-icons-for-plantuml) ⭐, [Azure](https://github.com/plantuml-stdlib/Azure-PlantUML) ⭐, ...
+	- Auswahl an Extensions: [C4 model](https://github.com/plantuml-stdlib/C4-PlantUML) ⭐, [AWS](https://github.com/awslabs/aws-icons-for-plantuml) ⭐, [Azure](https://github.com/plantuml-stdlib/Azure-PlantUML) ⭐, …
 	- Cloud-Beispiele: [Hitchhiker's Guide to PlantUML](https://crashedmind.GitHub.io/PlantUMLHitchhikersGuide/aws/aws.html)
 	- Web-zentrische Alternativen: **[Mermaid](https://mermaid-js.GitHub.io/mermaid/#/entityRelationshipDiagram)** JavaScript-Bibliothek
 - **[Mermaid](https://mermaid.js.org)** ⭐: ähnlich geil wie PlantUML
@@ -346,7 +346,7 @@ Hinweise:
 	- OpenAPI: **[Swagger](https://editor.swagger.io/)** ([Editor](https://editor.swagger.io/) und [Beispiel](https://petstore.swagger.io/))
 		- Reverse Engineering von einer bestehenden App: [mitmproxy2swagger](https://github.com/alufers/mitmproxy2swagger) ([Tutorial-Webartikel](https://medium.com/@amaraltohami30/reverse-engineer-an-api-using-mitmweb-and-postman-and-create-a-swagger-file-crapi-99f01b58511c))
 		- YAML-to-LaTeX? (1) [YAML-to-MD](https://github.com/OpenAPITools/openapi-generator-cli) \[npm install @openapitools/openapi-generator-cli\] (2) Cloud-based [Aspose md-to-tex](https://products.aspose.app/pdf/conversion/md-to-tex)
-- Event-Driven Architecture / Asynchronous APIs dokumentieren? (WebSockets, Kafka, ...)
+- Event-Driven Architecture / Asynchronous APIs dokumentieren? (WebSockets, Kafka, …)
 	- **[AsyncAPI](https://www.asyncapi.com/)** ([Editor](https://studio.asyncapi.com) und [Übersicht](https://www.asyncapi.com/docs/tutorials/getting-started/coming-from-openapi))
 - **[Visual Paradigm](https://www.visual-paradigm.com/)** [Community Edition](https://www.visual-paradigm.com/download/community.jsp): UML, SysML, AWS/Azure/GCP Architekturdiagram, uvm.
 	- (Unter Windos bspw. mittels chocolatey: **choco install visualparadigm-ce**)
