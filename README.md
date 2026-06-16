@@ -598,6 +598,36 @@ Bonusliste:
 - Kostenlose AWS-Budgets benötigt für ein Start-Up? **[AWS Activate](https://aws.amazon.com/de/activate/)**
 - Niedrigpreis-Logo für Start-Ups? (€:) [logogeist.de](https://www.logogeist.de/pricing)
 
+### Bonus: NGOs / Non-Profits / Gemeinnützige Vereine
+
+\[Wann "gemeinnützig"? Wenn du einen **Körperschaftsteuerfreistellungsbescheid** vom Finanzamt vorlegen kannst! \]
+
+- [Stifter-helfen](https://www.stifter-helfen.de/)
+- [GoodStack](https://goodstack.org/)
+	- [Software Discounts](https://goodstack.org/software-discounts)
+
+### Bonus: Lehrkräfte an Grundschulen, Kindergärten und weiterführenden Schulen
+
+- Kostenlos:
+	- [Canva for Education](https://www.canva.com/de_de/bildung/lehrkrafte/)
+	- [Adobe Express for Education](https://www.adobe.com/education/express)
+	- [Miro Education](https://miro.com/education/)
+	- [Loom for Education](https://www.loom.com/education)
+	- [GitHub Education for Teachers](https://education.github.com/teachers)
+	- [JetBrains Educational Licenses](https://www.jetbrains.com/community/education/)
+	- [GeoGebra](https://www.geogebra.org/)
+	- [Desmos Classroom](https://teacher.desmos.com/)
+	- [La Digitale](https://ladigitale.dev/en/)
+	- [KlassenFLOW](https://www.klassenflow.com/)
+	- [Book Creator](https://bookcreator.com/)
+	- [Scratch for Educators](https://scratch.mit.edu/educators)
+	- [Figma for Education](https://www.figma.com/education/)
+	- [Notion for Education](https://www.notion.com/product/notion-for-education)
+	- [Autodesk Education](https://www.autodesk.com/education/edu-software/overview)
+	- [Microsoft 365 Education](https://www.microsoft.com/education)
+	- [Google Workspace for Education](https://edu.google.com/products/workspace-for-education/)
+	- [Quizizz for Schools](https://quizizz.com/)
+
 ## Appendix: App Recommendations & Repos
 
 - [**Chocolatey** Packages](https://community.chocolatey.org/packages) for Windows
