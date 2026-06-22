@@ -180,6 +180,8 @@ Hinweise:
 - Wegbereiter:
 	- Begriff: [Andrej Karpathy](https://x.com/karpathy/status/1886192184808149383) in February 2025
 	- Technik: "[Cursor](https://www.cursor.com/) [Composer](https://cursor101.com/article/cursor-composer) (i.e., multi-file editing), backed with Claude [Sonnet](https://www.anthropic.com/claude/sonnet) (i.a., due to its large context window of 200K+), talked to via [SuperWhisper](https://superwhisper.com/)"
+- Methodisches State-of-the-Art:
+	- [AI Unified Process](https://unifiedprocess.ai/) (Einstieg: [software-architektur.tv](https://software-architektur.tv/2026/01/16/folge298.html), [Video](https://tube.tchncs.de/w/mUmkL5mEFzYXD8dY4ixrTY)) mit Querbezug zu [Self-contained Systems](https://scs-architecture.org/) (SCS) von Innoq
 - Vibe Coding via Agentic AI (Full-Stack-Engineering Assistants)
 	- Marktführer CLIs: 
 		- Anthropic **[Claude Code CLI](https://docs.anthropic.com/en/docs/claude-code/overview)** \[**npm install -g @anthropic-ai/claude-code**\]
