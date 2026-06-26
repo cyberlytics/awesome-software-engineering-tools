@@ -173,6 +173,8 @@ Hinweise:
 
 ## Vibe Coding
 
+- [Loopy](https://github.com/arjunkshah/loopy) - Kanban-based agent operating system orchestrating dozens of coding-agent CLIs with complexity-aware routing, named subagents, and verifiable execution receipts. Local-first, open-source. Sits alongside Claude Code, Codex CLI, and other CLI agent ecosystems.
+
 \[OBACHT #1: Gilt für eine Abschlussarbeit als High-Tech-Plagiarism\]
 \[OBACHT #2: "Where 2 engineers can now create the tech debt of at least 50 engineers"\]
 
