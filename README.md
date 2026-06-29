@@ -229,6 +229,7 @@ Hinweise:
 	- [RobotFramework](https://robotframework.org/) als Testökosystem, da dessen Testbeschreibungen sehr natürlichsprachlich sind
 	- [Harness AI Test Automation](https://www.harness.io/products/ai-test-automation)
 	- [testRigor](https://testrigor.com/) (free for public open source)
+- [SuperCompress](https://supercompress.vercel.app) - Learned prompt compression that reduces LLM token costs by ~65%% for agentic coding workflows. ~5K-param CPU policy, ~60ms latency, 65 tests, live benchmarks. Open-source (MIT).
 	- Teilaspekt von [Qodo Gen](https://www.qodo.ai/products/qodo-gen/)
 	- Java-centric: [diffblue](https://www.diffblue.com/)
 	- Webartikel: Vibe Testing [with Playwright](https://timdeschryver.dev/blog/vibe-testing-with-playwright)
