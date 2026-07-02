@@ -220,8 +220,27 @@ Hinweise:
 	- Nennenswerte weitere Ansätze:
 		- [MetaGPT](https://github.com/FoundationAgents/MetaGPT): Multi-Agent Framework that assigns different roles to GPTs to form a collaborative entity for complex tasks ([Docs](https://docs.deepwisdom.ai/main/en/guide/get_started/introduction.html))
 			- MetaGPT X (= Spin-off product by MetaGPT inventors): [MGX](https://mgx.dev/)
-- MCP
-	- MCP Repository: [smithery.ai](https://smithery.ai/)
+- Cheat Sheets
+	- [Claude Code Cheat Sheet](https://awesomeclaude.ai/code-cheatsheet)
+	- [Antigravity CLI (agy) Cheat Sheet #1](https://agentpedia.codes/blog/antigravity-cheat-sheet), [Antigravity CLI (agy) Cheat Sheet #2](https://toolsbase.dev/en/reference/antigravity-cli-commands)
+- CLAUDE.md / META.md templates
+	- [Karpathy-Inspired CLAUDE.md](https://github.com/multica-ai/andrej-karpathy-skills)
+	- Further Reading: [Awesome Claude.md](https://github.com/josix/awesome-claude-md), 
+- [MCP](https://modelcontextprotocol.io)
+	- Repos: [MCP Market](https://mcpmarket.com/), [smithery.ai](https://smithery.ai/)
+	- Further Reading: [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers)
+- [Agent Skills](https://agentskills.io/home)
+	- Coding
+		- [Everything Claude Code (ECC)](https://github.com/affaan-m/ecc) (funkioniert auch mit anderen AI coding assistants)
+		- [Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills) (funkioniert auch mit anderen AI coding assistants)
+		- [Superpowers](https://github.com/obra/superpowers)
+		- Repos: [SkillsLLM](https://skillsllm.com/), [Awesome Skills](https://awesome-skills.com/)
+		- Further Reading: [Awesome Claude Skills #1](https://github.com/travisvn/awesome-claude-skills), [Awesome Claude Skills #1](https://github.com/ComposioHQ/awesome-claude-skills), [Awesome Claude Code Subagents](https://github.com/VoltAgent/awesome-claude-code-subagents), [Official Claude Plugins Marketplace](https://claude.com/plugins)
+	- Science
+		- [Awesome Science Skills](https://github.com/K-Dense-AI/scientific-agent-skills) (i.a., Research Methodology & Planning, Scientific Writing, Data Analysis & Visualization)
+		- Further Reading: [Awesome Scientific Skills](https://github.com/InternScience/Awesome-Scientific-Skills)
+- Token Efficiency / Cost Optimization
+	- [Graphify](https://graphify.net/)
 - Für SQL (KI-gestützte SQL Code-Completion)
 	- Open-Source **[NSQL](https://huggingface.co/NumbersStation)** mit [Begleitartikel](https://www.numbersstation.ai/post/introducing-nsql-open-source-sql-copilot-foundation-models)
 	- Kostenpflichtig (€): **[Cogram](https://www.cogram.com/)**
@@ -241,6 +260,8 @@ Hinweise:
 	- Prompt Generators: [TinyToolStack](https://tinytoolstack.com/app/vibecodingpromptgenerator?ref=producthunt), PromptHub [Prompt Iterator](https://www.prompthub.us/prompt-enhancers/prompt-iterator), [Bolt Prompter](https://chatgpt.com/g/g-tozliiBeO-bolt-prompter)
 - Supporting Tools
 	- Pack your codebase into AI-friendly formats: [Repomix](https://repomix.com)
+- Vibe Science
+	- [K-Dense BYOK](https://github.com/K-Dense-AI/k-dense-byok)
 - Weiterführende Referenzen: [Awesome Vibe Coding](https://github.com/filipecalegario/awesome-vibe-coding), [Awesome Vibe Coding Tools](https://github.com/furudo-erika/awesome-vibe-coding-tools?tab=readme-ov-file) 
 
 
