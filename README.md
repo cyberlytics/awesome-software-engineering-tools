@@ -281,9 +281,9 @@ Hinweise:
 0. **„KI macht nicht deine Arbeit, sie multipliziert deine Denkqualität!“**
 	* Ein Grundprinzip, daher als 0. Eintrag vorangestellt.
 	* KI verstärkt Klarheit, Struktur und Qualität deiner Vorgaben.
-	* Wichtig: „Müll rein, Müll raus, nur schneller.“ (Human Slop → AI Slop)
-	* **Nebengesetz:** „KI skaliert nicht nur Produktivität – sie skaliert auch schlechte Entscheidungen.“
-	* OBACHT: „Vibe Coding: Where 2 engineers can now create the tech debt of at least 50 engineers.“
+	* Human Slop → AI Slop: „Müll rein, Müll raus, nur schneller.“
+	* **Nebengesetz:** „KI skaliert nicht nur Produktivität, sie skaliert auch schlechte Entscheidungen.“
+	* **Variante:** „Vibe Coding: Where 2 engineers can now create the tech debt of at least 50 engineers.“
 
 1. **„Es liegt stets am Prompt!“**
 	* Als provokantes 1. Gebot notwendig, insbesondere für Einsteiger.
