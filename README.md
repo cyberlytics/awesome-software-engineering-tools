@@ -31,6 +31,8 @@ Hinweise:
 - [Programmierung](#programmierung)
 - [Rapid Application Development](#rapid-application-development)
 - [Vibe Coding](#vibe-coding)
+- [Die 10 Gebote nach Neumann](#die-10-gebote-nach-neumann)
+- [Vibe Coding Einstiegshinweise](#vibe-coding-einstiegshinweise)
 - [SW-Bibliotheken & -Frameworks](#sw-bibliotheken---frameworks)
 - [Testing](#testing)
 - [Fehleranalyse](#fehleranalyse)
