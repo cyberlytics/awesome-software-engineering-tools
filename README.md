@@ -31,7 +31,7 @@ Hinweise:
 - [Programmierung](#programmierung)
 - [Rapid Application Development](#rapid-application-development)
 - [Vibe Coding](#vibe-coding)
-- [Engineering-Manifest für das LLM-Zeitalter](#engineering-manifest-fur-das-llm-zeitalter)
+- [Agentic Engineering Manifest](#agentic-engineering-manifest)
 - [Vibe Coding Einstiegshinweise](#vibe-coding-einstiegshinweise)
 - [SW-Bibliotheken & -Frameworks](#sw-bibliotheken---frameworks)
 - [Testing](#testing)
@@ -274,9 +274,9 @@ Hinweise:
 	- [K-Dense BYOK](https://github.com/K-Dense-AI/k-dense-byok)
 - Weiterführende Referenzen: [Awesome Vibe Coding](https://github.com/filipecalegario/awesome-vibe-coding), [Awesome Vibe Coding Tools](https://github.com/furudo-erika/awesome-vibe-coding-tools?tab=readme-ov-file) 
 
-## Engineering-Manifest für das LLM-Zeitalter
+## Agentic Engineering Manifest
 
-\[aka Die (merkfähigen) 10 Gebote nach Neumann\]
+\[aka: Die (merkfähigen) 10 Gebote nach Neumann\]
 
 0. **„KI macht nicht deine Arbeit, sie multipliziert deine Denkqualität.“**
 	* (Ein Grundprinzip, daher als 0. Eintrag vorangestellt. Informatikerhumor: Beginne den Index bei 0 und bringe „heimlich“ ein 11. Gebot unter.)
@@ -418,14 +418,15 @@ Vibe Coding Referenzprojekt für Einsteiger mit kleinen Projekten (ca. 1-wöchig
 ## Vibe Coding Einstiegshinweise
 
 Gutes Preis/Leistungsverhältnis:
-	* Kostenlos?
-		- Für Wissenschaftler mit Zugriff auf nationale Forschungsinfrastruktur: [FAU](https://hpc.fau.de/request-llm-api-key/#models) oder [GDWG](https://docs.hpc.gwdg.de/services/ai-services/chat-ai/models/index.html)
-			- Allerdings i.d.R. nur Mid-Tier-Modelle, keine Frontier-Modelle
-	* Preisgünstig?
-		- [Open Code Go](https://opencode.ai/de/go) Subscription (~€10/m)
-		- Internationale Subscriptions (bspw. indischen Ursprungs)
-			- Warnhinweis: [Ist die regionsübergreifende Weitergabe ein Verstoß gegen die Nutzungsbedingungen der Anbieter?](https://www.perplexity.ai/search/new?q=Beim+Kauf+internationaler+Subscriptions+(bspw.+indischen+Ursprungs)%3A+Ist+eine+reine+regionale+Umgehung+ein+Verstoß+gegen+deutsches+Recht%3F+Ist+es+ein+Verstoß+gegen+Googles+Nutzungsbedingungen%3F+Sind+Googles+Nutzungsbedingungen+in+Deutschland+in+der+bestehenden+Form+überhaupt+rechtswirksam%3F)
-			- Angebote u.a. via [driffle](https://driffle.com/de/store?q=Google%20AI%20Pro) oder [kinguin](https://www.kinguin.net/listing?active=1&hideUnavailable=0&type=all&phrase=Google%20AI%20Pro%2018%20months)
+
+* Kostenlos?
+	- Für Wissenschaftler mit Zugriff auf nationale Forschungsinfrastruktur: [FAU](https://hpc.fau.de/request-llm-api-key/#models) oder [GDWG](https://docs.hpc.gwdg.de/services/ai-services/chat-ai/models/index.html)
+		- Allerdings i.d.R. nur Mid-Tier-Modelle, keine Frontier-Modelle
+* Preisgünstig?
+	- [Open Code Go](https://opencode.ai/de/go) Subscription (~€10/m)
+	- Internationale Subscriptions (bspw. indischen Ursprungs)
+		- Warnhinweis: [Ist die regionsübergreifende Weitergabe ein Verstoß gegen die Nutzungsbedingungen der Anbieter?](https://www.perplexity.ai/search/new?q=Beim+Kauf+internationaler+Subscriptions+(bspw.+indischen+Ursprungs)%3A+Ist+eine+reine+regionale+Umgehung+ein+Verstoß+gegen+deutsches+Recht%3F+Ist+es+ein+Verstoß+gegen+Googles+Nutzungsbedingungen%3F+Sind+Googles+Nutzungsbedingungen+in+Deutschland+in+der+bestehenden+Form+überhaupt+rechtswirksam%3F)
+		- Angebote u.a. via [driffle](https://driffle.com/de/store?q=Google%20AI%20Pro) oder [kinguin](https://www.kinguin.net/listing?active=1&hideUnavailable=0&type=all&phrase=Google%20AI%20Pro%2018%20months)
 
 
 Exemplarische **Top-10-Liste** relevanter Slash-Commands, am Beispiel agy / antigravity CLI:
