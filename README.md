@@ -275,39 +275,45 @@ Hinweise:
 
 ### Gesetze des Prompt Engineerings nach Neumann
 
-0. **„KI macht nicht deine Arbeit – sie multipliziert deine Denkqualität.“**
+0. **„KI macht nicht deine Arbeit, sie multipliziert deine Denkqualität!“**
    * KI verstärkt Klarheit, Struktur und Qualität deiner Vorgaben.
+   * Wichtig: Müll rein, Müll raus, nur schneller.
+   * **Nebengesetz:** „Vibe Coding: Where 2 engineers can now create the tech debt of at least 50 engineers.“
+   * **Nebengesetz:** „KI skaliert nicht nur Produktivität – sie skaliert auch schlechte Entscheidungen.“
 
-1. **„Es liegt stets am Prompt.“**
+1. **„Es liegt stets am Prompt!“**
    * Als provokantes Gesetz notwendig, obwohl Modelle reale Grenzen haben.
-   * Der Mensch verantwortet schlechte Ergebnisse – nicht das Modell.
+   * **Prompt Engineering** ist ein kontinuierlicher Optimierungsprozess aus Hypothese, Test und Verbesserung.
+   * Wichtig: Der **Mensch** verantwortet schlechte Fragen/Aufgaben und schlechte Ergebnisse, nicht das Modell.
    * **Nebengesetz:** „Stille Annahmen des Menschen sind keine Instruktionen.“
+
+2. **„Wenn es nicht am Prompt liegt, liegt es am Kontext!“**
+   * Schlechte Ergebnisse entstehen meist durch fehlenden, falschen oder unstrukturierten Kontext.
+   * **Context Engineering** umfasst Prompts, System Instructions, Beispiele, Daten, Tools, Regeln und den Gesprächsverlauf.
+   * Wichtig: Der **Mensch** verantwortet schlechten Kontext und schlechte Ergebnisse, nicht das Modell.
+   * **Nebengesetz**: „Hochwertiger Kontext ist teuer: Daten müssen erzeugt, kuratiert und gepflegt werden.“
+
+3. **„System Prompts over Model Quality!“**
+   * Ein Modell ohne System Design ist nur Rohintelligenz: In der praktischen Anwendung dominiert häufig der [System Prompt](https://github.com/asgeirtj/system_prompts_leaks) die Ergebnisqualität, insbesondere innerhalb derselben Modellgeneration.
+   * Abgrenzung: Nur Foundation Model Provider konkurrieren primär über Modellqualität und Benchmarks, das allerdings lautstark.
+   * Wichtig: Ein durchschnittliches Modell mit gutem System Design kann ein besseres Modell mit schlechtem Kontext schlagen. (vgl. „Modelmaxxing“, u.a. als Gegenkonzept zu „Tokenmaxxing“)
+   * **Nebengesetz:** „Verhalten wird orchestriert, nicht erwartet.“
+
+4. **„Sprachmodelle lieben Rollenspiele!“**
+   * Eine definierte Rolle verändert Perspektive, Verhalten und Prioritäten des Modells.
+   * Wichtig: Methoden wie **Role Prompting** und **Meta Prompting** sollten von KI-Benutzern früh ritualisiert werden.
+   * **Nebengesetz:** „Die Frage ‚Wer soll denken?‘ ist oft wichtiger als ‚Was soll gedacht werden?‘“
+
+5. **„Format ist Funktion!“**
+   * Das gewünschte Ausgabeformat bestimmt maßgeblich die Nutzbarkeit des Ergebnisses.
+   * Wichtig: Methoden wie **Output Priming** sollten von KI-Benutzern früh ritualisiert werden.
    * **Nebengesetz:** „Outputqualität folgt Inputstruktur.“
 
-2. **„Wenn es nicht am Prompt liegt, liegt es am Kontext.“**
-   * Schlechte Ergebnisse entstehen meist durch fehlenden, falschen oder unstrukturierten Kontext.
-   * Anfänger sollten sich nicht nur mit Prompt Engineering Methoden auseinandersetzen, sondern auch mit Context Engineering.
-   * **Nebengesetz:** „Müll rein, Müll raus – nur schneller.“
-   * Der Mensch verantwortet den Kontext – nicht das Modell.
-
-3. **„System Prompts over Model Quality.“**
-   * Foundation Model Provider konkurrieren primär über Modellqualität und Benchmarks.
-   * In der praktischen Anwendung entscheidet jedoch häufig das System Prompting über die tatsächliche Performance – insbesondere innerhalb derselben Modellgeneration.
-   * Ein durchschnittliches Modell mit gutem System Design kann ein besseres Modell mit schlechtem Kontext schlagen.
-
-4. **„Sprachmodelle lieben Rollenspiele.“**
-   * Eine definierte Rolle verändert Perspektive, Verhalten und Prioritäten des Modells.
-
-5. **„Kontext ist eine Ressource mit Budget.“**
+6. **„Kontext ist eine Ressource mit Budget!“**
    * Kontext ist die Arbeitsumgebung des Modells.
-   * Mehr Kontext bedeutet nicht automatisch besseren Kontext.
+   * Wichtig: Mehr Kontext bedeutet nicht automatisch besseren Kontext. (vgl. [Graphify](https://graphify.net/))
+   * **Nebengesetz:** „Der beste Kontext ist nicht der vollständigste, sondern der relevanteste.“
 
-6. **„Iteriere, statt zu hoffen.“**
-   * Der erste Prompt ist selten perfekt.
-   * Prompt Engineering ist ein kontinuierlicher Optimierungsprozess aus Hypothese, Test und Verbesserung.
-
-7. **„Format ist Funktion.“**
-   * Das gewünschte Ausgabeformat bestimmt maßgeblich die Nutzbarkeit des Ergebnisses.
 
 ### Vibe Coding Einstiegshinweise
 
