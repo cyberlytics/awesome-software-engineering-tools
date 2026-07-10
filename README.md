@@ -31,7 +31,7 @@ Hinweise:
 - [Programmierung](#programmierung)
 - [Rapid Application Development](#rapid-application-development)
 - [Vibe Coding](#vibe-coding)
-- [Die 10 Gebote nach Neumann](#die-10-gebote-nach-neumann)
+- [Engineering-Manifest für das LLM-Zeitalter](#engineering-manifest-fur-das-llm-zeitalter)
 - [Vibe Coding Einstiegshinweise](#vibe-coding-einstiegshinweise)
 - [SW-Bibliotheken & -Frameworks](#sw-bibliotheken---frameworks)
 - [Testing](#testing)
@@ -274,70 +274,74 @@ Hinweise:
 	- [K-Dense BYOK](https://github.com/K-Dense-AI/k-dense-byok)
 - Weiterführende Referenzen: [Awesome Vibe Coding](https://github.com/filipecalegario/awesome-vibe-coding), [Awesome Vibe Coding Tools](https://github.com/furudo-erika/awesome-vibe-coding-tools?tab=readme-ov-file) 
 
-## Die 10 Gebote nach Neumann
+## Engineering-Manifest für das LLM-Zeitalter
 
-\[aka Engineering-Manifest für das Zeitalter von LLMs\]
+\[aka Die (merkfähigen) 10 Gebote nach Neumann\]
 
-0. **„KI macht nicht deine Arbeit, sie multipliziert deine Denkqualität!“**
-	* Ein Grundprinzip, daher als 0. Eintrag vorangestellt.
+0. **„KI macht nicht deine Arbeit, sie multipliziert deine Denkqualität.“**
+	* (Ein Grundprinzip, daher als 0. Eintrag vorangestellt. Informatikerhumor: Beginne den Index bei 0 und bringe „heimlich“ ein 11. Gebot unter.)
 	* KI verstärkt Klarheit, Struktur und Qualität deiner Vorgaben.
 	* Human Slop → AI Slop: „Müll rein, Müll raus, nur schneller.“
 	* **Nebengesetz:** „KI skaliert nicht nur Produktivität, sie skaliert auch schlechte Entscheidungen.“
 	* **Variante:** „Vibe Coding: Where 2 engineers can now create the tech debt of at least 50 engineers.“
 
-1. **„Es liegt stets am Prompt!“**
-	* Als provokantes 1. Gebot notwendig, insbesondere für Einsteiger.
-	* Dislaimer: Obwohl Modellgrenzen existieren, Tooling existiert, Kontext existiert, Retrieval existiert, System Prompts existieren.
+1. **„Es liegt stets am Prompt.“**
+	* (Als provokantes 1. Gebot notwendig, insbesondere für Einsteiger.)
+	* Disclaimer: Obwohl Modellgrenzen existieren, Tooling existiert, Kontext existiert, Retrieval existiert, System Prompts existieren.
 	* **Prompt Engineering** ist ein kontinuierlicher Optimierungsprozess aus Hypothese, Test und Verbesserung.
 	* Wichtig: Der **Mensch** verantwortet schlechte Fragen/Aufgaben und schlechte Ergebnisse, nicht das Modell.
 	* **Nebengesetz:** „Stille Annahmen des Menschen sind keine Instruktionen.“
 
-2. **„Kontext is King!“**
-	* Schlechte Ergebnisse entstehen meist durch fehlenden, falschen oder unstrukturierten Kontext.
-	* **Context Engineering** umfasst Prompts, System Instructions, Beispiele, Daten, Tools, Regeln und den Gesprächsverlauf.
-	* Wichtig: Der **Mensch** verantwortet schlechten Kontext und schlechte Ergebnisse, nicht das Modell.
+2. **„Context is King.“**
+	* Hintergrund: Schlechte Ergebnisse entstehen meist durch fehlenden, falschen oder unstrukturierten Kontext.
+	* **Context Engineering** umfasst neben dem Prompt zusätzlich die System Instructions, Beispiele, Daten, Tools und Regeln sowie den Gesprächsverlauf aus Prompt-Verlauf und Ergebnis-Verlauf.
+	* Nochmal: Der **Mensch** verantwortet schlechten Kontext und schlechte Ergebnisse, nicht das Modell.
 	* **Nebengesetz**: „Hochwertiger Kontext ist teuer: Daten müssen erzeugt, kuratiert und gepflegt werden.“
 
-3. **„System Prompt vor Modellwahl!“**
+3. **„System Prompt vor Modellwahl.“**
 	* In derselben Modellklasse und -generation dominiert häufig der [System Prompt](https://github.com/asgeirtj/system_prompts_leaks) die Ergebnisqualität.
-	* Ein Modell ohne System Design ist nur Rohintelligenz: Verhalten wird orchestriert, nicht erwartet.
+	* Ein Modell ohne System Design ist nur Rohintelligenz: Das System definiert (auch „orchestriert“) das Verhalten, nicht das Modell allein.
 	* Abgrenzung: Nur Foundation Model Provider konkurrieren primär über Modellqualität und Benchmarks, das allerdings lautstark.
 	* Wichtig: Ein durchschnittliches Modell mit gutem System Design kann ein besseres Modell mit schlechtem Kontext schlagen. (vgl. „Modelmaxxing“, u.a. als Gegenkonzept zu „Tokenmaxxing“)
 	* **Nebengesetz:** „Modellqualität ≠ Systemqualität“
 
-4. **„Sprachmodelle lieben Rollenspiele!“**
+4. **„Sprachmodelle lieben Rollenspiele.“**
 	* Eine definierte Rolle verändert Perspektive, Verhalten und Prioritäten des Modells, denn Rollen definieren Bewertungsmaßstäbe.
-	* Wichtig: Methoden wie **Role Prompting** und **Meta Prompting** sollten von KI-Benutzern früh ritualisiert werden.
+	* Wichtig: Methoden wie **[Role Prompting](https://learnprompting.org/docs/advanced/zero_shot/role_prompting)** („Act as ...“) und **Meta Prompting** („Act as a Prompt Engineer ...“) sollten von KI-Benutzern früh ritualisiert werden.
 	* **Nebengesetz:** „Die Frage ‚Wer soll denken?‘ ist oft wichtiger als ‚Was soll gedacht werden?‘“
 
-5. **„Format ist Funktion!“**
+5. **„Format ist Funktion.“**
 	* Das gewünschte Ausgabeformat bestimmt maßgeblich die Nutzbarkeit des Ergebnisses.
 	* Wichtig: Methoden wie **Output Priming** sollten von KI-Benutzern früh ritualisiert werden.
 	* **Nebengesetz:** „Outputqualität folgt Inputstruktur.“
 
-6. **„Kontext ist eine Ressource mit Budget!“**
+6. **„Kontext ist eine Ressource mit Budget.“**
+	* Hintergrund: (1) Kontext verbraucht Tokens und Tokens sind – je nach Abonnement und Modell – durch Budgets (z. B. Wochenbudget, Tagesbudget oder Cool-down-Mechanismen) begrenzt. (2) Das LLM-Kontextfenster ist ebenfalls begrenzt: Es wird sowohl durch den Eingabetext als auch durch die Ausgabe des Modells belegt.
 	* Kontext ist die Arbeitsumgebung des Modells.
-	* Wichtig: Mehr Kontext bedeutet nicht automatisch besseren Kontext. (vgl. [Graphify](https://graphify.net/))
+	* Wichtig: Mehr Kontext bedeutet nicht automatisch besseren Kontext. (Werkzeug: bspw. [Graphify](https://graphify.net/) zur Token-Ökonomie per Knowledge Graph)
 	* **Nebengesetz:** „Der beste Kontext ist nicht der vollständigste, sondern der relevanteste.“
 
-7. **„Skills sind Bausteine agentischer Software!“**
+7. **„Skills sind Bausteine agentischer Software.“**
+	* Hintergrund: Agent Skills sind im Format [technisch normiert](https://agentskills.io/specification) (SKILL.md) und bilden ein eigenes Ökosystem.
 	* Der Wettbewerb verschiebt sich von der Implementierung einzelner Funktionen zur Gestaltung wiederverwendbarer Fähigkeiten.
 	* Im Agentic Programming kapseln **Skills** wiederholbare Entscheidungslogik, Engineering-Prinzipien und technische Umsetzungsmuster.
 	* **Nebengesetz:** „Modelle denken, Werkzeuge handeln.“
 
-8.	**„Spezifikation ist die neue Implementierung!“**
-	* In der Agenten-Ära wird fachliche und technische Expertise zur Software.
+8.	**„Spezifikation ist die neue Implementierung.“**
+	* In der Agenten-Ära wird fachliche und technische Expertise generativ zu Software.
 	* Entscheidend ist die **zusätzliche** Kompetenz, KI-Systeme zielgerichtet zu orchestrieren.
 	* Auf Software-Technik-Ebene verschiebt sich der Schwerpunkt: weniger direkte Syntaxarbeit, mehr Spezifikation, Architektur, Verständnis und Kontrolle.
 	* Disclaimer: Auch Hochsprachen-Code ist letztlich „nur“ eine Spezifikation! Erst Compiler, Laufzeitumgebung, Bibliotheken und die Zielplattform formen daraus ein ausführbares System.
 	* **Nebengesetz:** „Die nächste Generation von Software wird nicht geschrieben - sie wird beschrieben.“
 
-9.	**„Iteration schlägt Perfektion!“**
+9.	**„Iteration schlägt Perfektion.“**
 	* Prompting ist Exploration. Gute Ergebnisse entstehen selten im ersten Versuch.
-	* Wichtig: Prompt Engineering folgt einem wissenschaftlichen Zyklus aus Hypothese, Experiment und Iteration.
-	* **Nebengesetz:** „Jede Antwort ist eine Hypothese. Ein LLM produziert Wahrscheinlichkeiten.“
+	* Wichtig: Prompt Engineering folgt einem wissenschaftlichen Zyklus aus **Hypothese, Experiment, Evaluation und Iteration**.
+	* Wann endet der Zyklus? Wenn die Antwort die definierten Qualitätskriterien für den jeweiligen Anwendungsfall erfüllt oder bei **abnehmendem Grenznutzen** weiterer Iterationen, d. h., wenn zusätzliche Versuche keinen wesentlichen Erkenntnis- oder Qualitätsgewinn mehr liefern.
+	* Wissenschaftliche Erkenntnis ist grundsätzlich vorläufig: Eine Hypothese gilt so lange, bis sie durch eine andere mit höherer **Erklärungsleistung** (oder Prognosekraft) ersetzt wird. Dasselbe gilt für Prompt und Kontext: sie werden nicht „wahr“, sondern durch bessere Varianten abgelöst.
+	* **Nebengesetz:** „Jede LLM-Antwort ist eine Hypothese. LLMs erzeugen Antworten auf Grundlage von Wahrscheinlichkeiten, nicht von Gewissheit.“
 
-10.	**„Agentic Engineering ist anspruchsvolle Informatik!“**
+10.	**„Agentic Engineering ist anspruchsvolle Informatik.“**
 	* Benötigt werden methodische und technische Full-Stack-Kompetenzen.
 	* Disclaimer: Der Definition nach handelt es sich bei einem **Informationssystem** schon immer um ein **Mensch-/Aufgabe-/Technik-System**.
 	* Dies widerspricht der häufigen Fehlannahme „Jetzt kann jeder Software bauen.“
