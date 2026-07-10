@@ -273,6 +273,44 @@ Hinweise:
 	- [K-Dense BYOK](https://github.com/K-Dense-AI/k-dense-byok)
 - Weiterführende Referenzen: [Awesome Vibe Coding](https://github.com/filipecalegario/awesome-vibe-coding), [Awesome Vibe Coding Tools](https://github.com/furudo-erika/awesome-vibe-coding-tools?tab=readme-ov-file) 
 
+### Gesetze des Prompt Engineerings nach Neumann
+
+0. **„KI macht nicht deine Arbeit – sie multipliziert deine Denkqualität.“**
+   * KI verstärkt Klarheit, Struktur und Qualität deiner Vorgaben.
+
+1. **„Es liegt stets am Prompt.“**
+   * Als provokantes Gesetz notwendig, obwohl Modelle reale Grenzen haben.
+   * Der Mensch verantwortet schlechte Ergebnisse – nicht das Modell.
+   * **Nebengesetz:** „Stille Annahmen des Menschen sind keine Instruktionen.“
+   * **Nebengesetz:** „Outputqualität folgt Inputstruktur.“
+
+2. **„Wenn es nicht am Prompt liegt, liegt es am Kontext.“**
+   * Schlechte Ergebnisse entstehen meist durch fehlenden, falschen oder unstrukturierten Kontext.
+   * Anfänger sollten sich nicht nur mit Prompt Engineering Methoden auseinandersetzen, sondern auch mit Context Engineering.
+   * **Nebengesetz:** „Müll rein, Müll raus – nur schneller.“
+   * Der Mensch verantwortet den Kontext – nicht das Modell.
+
+3. **„System Prompts over Model Quality.“**
+   * Foundation Model Provider konkurrieren primär über Modellqualität und Benchmarks.
+   * In der praktischen Anwendung entscheidet jedoch häufig das System Prompting über die tatsächliche Performance – insbesondere innerhalb derselben Modellgeneration.
+   * Ein durchschnittliches Modell mit gutem System Design kann ein besseres Modell mit schlechtem Kontext schlagen.
+
+4. **„Sprachmodelle lieben Rollenspiele.“**
+   * Eine definierte Rolle verändert Perspektive, Verhalten und Prioritäten des Modells.
+
+5. **„Kontext ist eine Ressource mit Budget.“**
+   * Kontext ist die Arbeitsumgebung des Modells.
+   * Mehr Kontext bedeutet nicht automatisch besseren Kontext.
+
+6. **„Iteriere, statt zu hoffen.“**
+   * Der erste Prompt ist selten perfekt.
+   * Prompt Engineering ist ein kontinuierlicher Optimierungsprozess aus Hypothese, Test und Verbesserung.
+
+7. **„Format ist Funktion.“**
+   * Das gewünschte Ausgabeformat bestimmt maßgeblich die Nutzbarkeit des Ergebnisses.
+
+### Vibe Coding Einstiegshinweise
+
 Für Einsteiger eine exemplarische Top-10-Liste relevanter Slash-Commands, am Beispiel agy / antigravity CLI:
 
 | Command                   | Semantics                                                                                 |
