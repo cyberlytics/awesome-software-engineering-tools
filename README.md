@@ -276,7 +276,7 @@ Hinweise:
 
 \[aka Engineering-Manifest für das Zeitalter von LLMs\]
 
-Grundprinzip: **„KI macht nicht deine Arbeit, sie multipliziert deine Denkqualität!“**
+0. **„KI macht nicht deine Arbeit, sie multipliziert deine Denkqualität!“**
 	* KI verstärkt Klarheit, Struktur und Qualität deiner Vorgaben.
 	* Wichtig: Müll rein, Müll raus, nur schneller.
 	* **Nebengesetz:** „Vibe Coding: Where 2 engineers can now create the tech debt of at least 50 engineers.“
@@ -343,31 +343,30 @@ Grundprinzip: **„KI macht nicht deine Arbeit, sie multipliziert deine Denkqual
 
 ### Lernpfad
 
-	* Erst eine Subscription oder ein [lokales Ollama](https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-factors.html).
-	* Dann [CLAUDE.md](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/CLAUDE.md).
-	* Dann [ECC](https://github.com/affaan-m/ecc)-analoge Skills.
-	* Dann All-In. (Mindset!)
-	* Dann die [richtige Echokammer](https://simonwillison.net/).
-	* Dann 6GL aka [Natural Language Programming](https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html) (Programmier-Ebene)
-		- Andrej Karpathy betonte „agentic programming as a tool“, bei der Vibe-Coding-Begriffsbildung
-	* Dann Spec-Driven Development (SDD) aka Agentic Engineering (SW-Technik-Ebene)
-		- Further Reading: [spec-kit](https://github.com/github/spec-kit), [SpecDD](https://specdd.ai/) (sowie exemplarisch [kiro](https://kiro.dev/) und [tessl](https://tessl.io/))
+* Erst eine Subscription oder ein [lokales Ollama](https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-factors.html).
+* Dann [CLAUDE.md](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/CLAUDE.md).
+* Dann [ECC](https://github.com/affaan-m/ecc)-analoge Skills.
+* Dann All-In. (Mindset!)
+* Dann die [richtige Echokammer](https://simonwillison.net/).
+* Dann 6GL aka [Natural Language Programming](https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html) (Programmier-Ebene)
+	- Andrej Karpathy betonte „agentic programming as a tool“, bei der Vibe-Coding-Begriffsbildung
+* Dann Spec-Driven Development (SDD) aka Agentic Engineering (SW-Technik-Ebene)
+	- Further Reading: [spec-kit](https://github.com/github/spec-kit), [SpecDD](https://specdd.ai/) (sowie exemplarisch [kiro](https://kiro.dev/) und [tessl](https://tessl.io/))
 
 ### Further Reading
 
-	* Vibe Coding Referenzprojekt für Einsteiger mit kleinen Projekten (ca. 1-wöchige SW-Prototypen)?
-		- Mein Modul Webanwendungsentwicklung, studentisches Team DeadLock: [CLAUDE.md](https://github.com/CycleByte/WAE-2026SS-TeamBlau-DeadLock/blob/main/CLAUDE.md)
+* Vibe Coding Referenzprojekt für Einsteiger mit kleinen Projekten (ca. 1-wöchige SW-Prototypen)?
+	- Mein Modul Webanwendungsentwicklung, studentisches Team DeadLock: [CLAUDE.md](https://github.com/CycleByte/WAE-2026SS-TeamBlau-DeadLock/blob/main/CLAUDE.md)
 
-	* Spec-Driven Development (SDD)?
-		- [spec-kit](https://github.com/github/spec-kit)
-		- [SpecDD](https://specdd.ai/)
-		- (sowie exemplarisch [kiro](https://kiro.dev/) und [tessl](https://tessl.io/))
+* Spec-Driven Development (SDD)?
+	- [spec-kit](https://github.com/github/spec-kit)
+	- [SpecDD](https://specdd.ai/)
+	- (sowie exemplarisch [kiro](https://kiro.dev/) und [tessl](https://tessl.io/))
 
 ### Weitere Hinweise
 
-* **Welches Modell passt in meine Grafikkarte?**
-  → Nutzt den **[VRAM Calculator](https://apxml.com/tools/vram-calculator)** ⭐
-  *(Wer die zugrunde liegenden Infos ebenfalls gelesen hat? Natürlich das freundliche Freibier-Frontier-Modell deiner Wahl. Der Bot berät dazu ebenfalls.)*
+* **Welches Modell passt in meine Grafikkarte?** → Nutzt den **[VRAM Calculator](https://apxml.com/tools/vram-calculator)** ⭐
+  * (Wer die zugrunde liegenden Infos ebenfalls gelesen hat? Natürlich das freundliche Freibier-Frontier-Modell deiner Wahl. Der Bot berät dazu ebenfalls.)*
 
 * **„DeepSeek als Alternative zu Claude Code oder GitHub Copilot?“ ist die falsche Fragestellung.**
   Die eigentliche Einordnung ist:
