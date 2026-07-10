@@ -272,34 +272,38 @@ Hinweise:
 	- [K-Dense BYOK](https://github.com/K-Dense-AI/k-dense-byok)
 - Weiterführende Referenzen: [Awesome Vibe Coding](https://github.com/filipecalegario/awesome-vibe-coding), [Awesome Vibe Coding Tools](https://github.com/furudo-erika/awesome-vibe-coding-tools?tab=readme-ov-file) 
 
-## Gesetze des Prompt Engineerings und Vibe Codings nach Neumann
+## Die 10 Gebote nach Neumann
 
-0. **„KI macht nicht deine Arbeit, sie multipliziert deine Denkqualität!“**
+\[aka Engineering-Manifest für das Zeitalter von LLMs\]
+
+Grundprinzip: **„KI macht nicht deine Arbeit, sie multipliziert deine Denkqualität!“**
 	* KI verstärkt Klarheit, Struktur und Qualität deiner Vorgaben.
 	* Wichtig: Müll rein, Müll raus, nur schneller.
 	* **Nebengesetz:** „Vibe Coding: Where 2 engineers can now create the tech debt of at least 50 engineers.“
 	* **Nebengesetz:** „KI skaliert nicht nur Produktivität – sie skaliert auch schlechte Entscheidungen.“
 
 1. **„Es liegt stets am Prompt!“**
-	* Als provokantes Gesetz notwendig, obwohl Modelle reale Grenzen haben.
+	* Als provokantes 1. Gebot notwendig, insbesondere für Einsteiger.
+	* Dislaimer: Obwohl Modellgrenzen existieren, Tooling existiert, Kontext existiert, Retrieval existiert, System Prompts existieren.
 	* **Prompt Engineering** ist ein kontinuierlicher Optimierungsprozess aus Hypothese, Test und Verbesserung.
 	* Wichtig: Der **Mensch** verantwortet schlechte Fragen/Aufgaben und schlechte Ergebnisse, nicht das Modell.
 	* **Nebengesetz:** „Stille Annahmen des Menschen sind keine Instruktionen.“
 
-2. **„Wenn es nicht am Prompt liegt, liegt es am Kontext!“**
+2. **„Kontext is King!“**
 	* Schlechte Ergebnisse entstehen meist durch fehlenden, falschen oder unstrukturierten Kontext.
 	* **Context Engineering** umfasst Prompts, System Instructions, Beispiele, Daten, Tools, Regeln und den Gesprächsverlauf.
 	* Wichtig: Der **Mensch** verantwortet schlechten Kontext und schlechte Ergebnisse, nicht das Modell.
 	* **Nebengesetz**: „Hochwertiger Kontext ist teuer: Daten müssen erzeugt, kuratiert und gepflegt werden.“
 
-3. **„System Prompts over Model Quality!“**
-	* Ein Modell ohne System Design ist nur Rohintelligenz: In der praktischen Anwendung dominiert häufig der [System Prompt](https://github.com/asgeirtj/system_prompts_leaks) die Ergebnisqualität, insbesondere innerhalb derselben Modellgeneration.
+3. **„System Prompt vor Modellwahl!“**
+	* In derselben Modellklasse und -generation dominiert häufig der [System Prompt](https://github.com/asgeirtj/system_prompts_leaks) die Ergebnisqualität.
+	* Ein Modell ohne System Design ist nur Rohintelligenz: Verhalten wird orchestriert, nicht erwartet.
 	* Abgrenzung: Nur Foundation Model Provider konkurrieren primär über Modellqualität und Benchmarks, das allerdings lautstark.
 	* Wichtig: Ein durchschnittliches Modell mit gutem System Design kann ein besseres Modell mit schlechtem Kontext schlagen. (vgl. „Modelmaxxing“, u.a. als Gegenkonzept zu „Tokenmaxxing“)
-	* **Nebengesetz:** „Verhalten wird orchestriert, nicht erwartet.“
+	* **Nebengesetz:** „Modellqualität ≠ Systemqualität“
 
 4. **„Sprachmodelle lieben Rollenspiele!“**
-	* Eine definierte Rolle verändert Perspektive, Verhalten und Prioritäten des Modells.
+	* Eine definierte Rolle verändert Perspektive, Verhalten und Prioritäten des Modells, denn Rollen definieren Bewertungsmaßstäbe.
 	* Wichtig: Methoden wie **Role Prompting** und **Meta Prompting** sollten von KI-Benutzern früh ritualisiert werden.
 	* **Nebengesetz:** „Die Frage ‚Wer soll denken?‘ ist oft wichtiger als ‚Was soll gedacht werden?‘“
 
@@ -313,13 +317,31 @@ Hinweise:
 	* Wichtig: Mehr Kontext bedeutet nicht automatisch besseren Kontext. (vgl. [Graphify](https://graphify.net/))
 	* **Nebengesetz:** „Der beste Kontext ist nicht der vollständigste, sondern der relevanteste.“
 
-7. **„Skills are the new code!“**
-	* Der Wettbewerb verschiebt sich von „Wer schreibt den besten Code?“ zu „Wer beschreibt die besten Fähigkeiten für KI-Agenten?“
+7. **„Skills sind Bausteine agentischer Software!“**
+	* Der Wettbewerb verschiebt sich von der Implementierung einzelner Funktionen zur Gestaltung wiederverwendbarer Fähigkeiten.
 	* Im Agentic Programming kapseln **Skills** wiederholbare Entscheidungslogik, Engineering-Prinzipien und technische Umsetzungsmuster.
-	* Wichtig: In der Agenten-Ära wird fachliche und technische Expertise zur Software.
+	* **Nebengesetz:** „Modelle denken, Werkzeuge handeln.“
+
+8.	**„Spezifikation ist die neue Implementierung!“**
+	* In der Agenten-Ära wird fachliche und technische Expertise zur Software.
+	* Entscheidend ist die **zusätzliche** Kompetenz, KI-Systeme zielgerichtet zu orchestrieren.
+	* Auf Software-Technik-Ebene verschiebt sich der Schwerpunkt: weniger direkte Syntaxarbeit, mehr Spezifikation, Architektur, Verständnis und Kontrolle.
+	* Disclaimer: Auch Hochsprachen-Code ist letztlich „nur“ eine Spezifikation! Erst Compiler, Laufzeitumgebung, Bibliotheken und die Zielplattform formen daraus ein ausführbares System.
 	* **Nebengesetz:** „Die nächste Generation von Software wird nicht geschrieben - sie wird beschrieben.“
 
-**Lernpfad**:
+9.	**„Iteration schlägt Perfektion!“**
+	* Prompting ist Exploration. Gute Ergebnisse entstehen selten im ersten Versuch.
+	* Wichtig: Prompt Engineering folgt einem wissenschaftlichen Zyklus aus Hypothese, Experiment und Iteration.
+	* **Nebengesetz:** „Jede Antwort ist eine Hypothese. Ein LLM produziert Wahrscheinlichkeiten.“
+
+10.	**„Agentic Engineering ist anspruchsvolle Informatik!“**
+	* Benötigt werden methodische und technische Full-Stack-Kompetenzen.
+	* Disclaimer: Der Definition nach handelt es sich bei einem **Informationssystem** schon immer um ein **Mensch-/Aufgabe-/Technik-System**.
+	* Dies widerspricht der häufigen Fehlannahme „Jetzt kann jeder Software bauen.“
+	* Für einfache Anwendungen genügen Low-Code-Ansätze, komplexe Software-Anwendungen bleiben eine Engineering-Disziplin.
+
+
+### Lernpfad
 
 	* Erst eine Subscription oder ein [lokales Ollama](https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-factors.html).
 	* Dann [CLAUDE.md](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/CLAUDE.md).
@@ -327,10 +349,11 @@ Hinweise:
 	* Dann All-In. (Mindset!)
 	* Dann die [richtige Echokammer](https://simonwillison.net/).
 	* Dann 6GL aka [Natural Language Programming](https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html) (Programmier-Ebene)
+		- Andrej Karpathy betonte „agentic programming as a tool“, bei der Vibe-Coding-Begriffsbildung
 	* Dann Spec-Driven Development (SDD) aka Agentic Engineering (SW-Technik-Ebene)
 		- Further Reading: [spec-kit](https://github.com/github/spec-kit), [SpecDD](https://specdd.ai/) (sowie exemplarisch [kiro](https://kiro.dev/) und [tessl](https://tessl.io/))
 
-**Further Reading**:
+### Further Reading
 
 	* Vibe Coding Referenzprojekt für Einsteiger mit kleinen Projekten (ca. 1-wöchige SW-Prototypen)?
 		- Mein Modul Webanwendungsentwicklung, studentisches Team DeadLock: [CLAUDE.md](https://github.com/CycleByte/WAE-2026SS-TeamBlau-DeadLock/blob/main/CLAUDE.md)
@@ -340,7 +363,7 @@ Hinweise:
 		- [SpecDD](https://specdd.ai/)
 		- (sowie exemplarisch [kiro](https://kiro.dev/) und [tessl](https://tessl.io/))
 
-**Weitere Hinweise**:
+### Weitere Hinweise
 
 * **Welches Modell passt in meine Grafikkarte?**
   → Nutzt den **[VRAM Calculator](https://apxml.com/tools/vram-calculator)** ⭐
@@ -374,7 +397,7 @@ Hinweise:
   * GOTO war nicht „falsch“, sondern Teil des 2GL-Programmierstils. Structured Programming und 3GL haben es lediglich im Mainstream verdrängt.
   * Ähnlich dürfte es mit 6GL-Techniken laufen.
 
-  Nebenbemerkung: GOTO wird beispielsweise im Linux-Kernel weiterhin intensiv für Cleanup- und Error-Handling-Muster verwendet; ein Grund könnte sein, dass sich Alternativen wie ein [`defer`-Konstrukt](https://www.open-std.org/JTC1/SC22/WG14/www/docs/n3734.pdf) noch im C-Standardisierungsprozess befinden.
+  Nebenbemerkung: GOTO wird beispielsweise im Linux-Kernel weiterhin intensiv für Cleanup- und Error-Handling-Muster verwendet; ein Grund könnte allerdings sein, dass sich bessere Alternativen wie ein [`defer`-Konstrukt](https://www.open-std.org/JTC1/SC22/WG14/www/docs/n3734.pdf) noch im C-Standardisierungsprozess befinden.
 
 * **Programmiersprachengenerationen**
 
@@ -385,13 +408,11 @@ Hinweise:
 
 * **Vibe Coding als 6GL**
 
-  Vibe Coding kann als **6GL: Natural Language Programming bzw. Spec-Driven Programming** verstanden werden.
+  Vibe Coding kann als **6GL: Natural Language Programming bzw. Spec-Driven Development** verstanden werden.
 
   * 3GL-Programmierer beherrschen heute meist weder 2GL (Assembly) noch 1GL (Maschinensprache) im Alltag.
   * Jede neue Abstraktion erzeugt eine neue Generation von Entwicklern.
   * Die 6GL wird die 3GL nicht einfach „ersetzen“, sondern die nächste dominante Abstraktionsebene bilden.
-
-  Die 6GL bleibt trotzdem anspruchsvolle Informatik. Sie verschiebt nur den Schwerpunkt: weniger direkte Syntaxarbeit, mehr Spezifikation, Architektur, Verständnis und Kontrolle.
 
 
 ## Vibe Coding Einstiegshinweise
