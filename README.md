@@ -353,15 +353,9 @@ Hinweise:
 * Dann Spec-Driven Development (SDD) aka Agentic Engineering (SW-Technik-Ebene)
 	- Further Reading: [spec-kit](https://github.com/github/spec-kit), [SpecDD](https://specdd.ai/) (sowie exemplarisch [kiro](https://kiro.dev/) und [tessl](https://tessl.io/))
 
-### Further Reading
+Vibe Coding Referenzprojekt für Einsteiger mit kleinen Projekten (ca. 1-wöchige SW-Prototypen)?
 
-* Vibe Coding Referenzprojekt für Einsteiger mit kleinen Projekten (ca. 1-wöchige SW-Prototypen)?
-	- Mein Modul Webanwendungsentwicklung, studentisches Team DeadLock: [CLAUDE.md](https://github.com/CycleByte/WAE-2026SS-TeamBlau-DeadLock/blob/main/CLAUDE.md)
-
-* Spec-Driven Development (SDD)?
-	- [spec-kit](https://github.com/github/spec-kit)
-	- [SpecDD](https://specdd.ai/)
-	- (sowie exemplarisch [kiro](https://kiro.dev/) und [tessl](https://tessl.io/))
+* Mein Modul Webanwendungsentwicklung, studentisches Team DeadLock: [CLAUDE.md](https://github.com/CycleByte/WAE-2026SS-TeamBlau-DeadLock/blob/main/CLAUDE.md)
 
 ### Weitere Hinweise
 
