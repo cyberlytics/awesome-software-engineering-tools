@@ -175,7 +175,7 @@ Hinweise:
 
 ## Vibe Coding
 
-\[OBACHT: Gilt für eine akademische Abschlussarbeit ggf. als Unterschleif i.S.v. High-Tech-Plagiarism. Hochschulrecht ist anders als reines Urheberrecht. \]
+\[OBACHT: Gilt für eine akademische Abschlussarbeit ggf. als Unterschleif i.S.v. High-Tech-Plagiarism. Hochschulrecht ist anders als reines Urheberrecht.\]
 
 - Übersicht/Einstieg: indiehackers [Vibe Coding Tools](https://www.indiehackers.com/vibe-coding-tools) ([free ones](https://www.indiehackers.com/vibe-coding-tools?tags=Free))
 - Wegbereiter:
@@ -279,10 +279,11 @@ Hinweise:
 \[aka Engineering-Manifest für das Zeitalter von LLMs\]
 
 0. **„KI macht nicht deine Arbeit, sie multipliziert deine Denkqualität!“**
+	* Ein Grundprinzip, daher als 0. Eintrag vorangestellt.
 	* KI verstärkt Klarheit, Struktur und Qualität deiner Vorgaben.
 	* Wichtig: Müll rein, Müll raus, nur schneller.
-	* **Nebengesetz:** „Vibe Coding: Where 2 engineers can now create the tech debt of at least 50 engineers.“
 	* **Nebengesetz:** „KI skaliert nicht nur Produktivität – sie skaliert auch schlechte Entscheidungen.“
+	* OBACHT: „Vibe Coding: Where 2 engineers can now create the tech debt of at least 50 engineers.“
 
 1. **„Es liegt stets am Prompt!“**
 	* Als provokantes 1. Gebot notwendig, insbesondere für Einsteiger.
