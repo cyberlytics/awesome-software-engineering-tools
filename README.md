@@ -230,14 +230,23 @@ Hinweise:
 	- Repos: [MCP Market](https://mcpmarket.com/), [smithery.ai](https://smithery.ai/)
 	- Further Reading: [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers)
 - [Agent Skills](https://agentskills.io/home)
+	- Cross Agent Tools: [npx skills](https://github.com/vercel-labs/skills)
 	- Coding
 		- [Everything Claude Code (ECC)](https://github.com/affaan-m/ecc) (funkioniert auch mit anderen AI coding assistants)
 		- [Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills) (funkioniert auch mit anderen AI coding assistants)
 		- [Superpowers](https://github.com/obra/superpowers)
-		- Repos: [SkillsLLM](https://skillsllm.com/), [Awesome Skills](https://awesome-skills.com/)
+		- Repos: [Open Agent Skills Ecosystem](https://www.skills.sh/), [SkillsLLM](https://skillsllm.com/), [Awesome Skills](https://awesome-skills.com/)
 		- Further Reading: [Awesome Claude Skills #1](https://github.com/travisvn/awesome-claude-skills), [Awesome Claude Skills #1](https://github.com/ComposioHQ/awesome-claude-skills), [Awesome Claude Code Subagents](https://github.com/VoltAgent/awesome-claude-code-subagents), [Official Claude Plugins Marketplace](https://claude.com/plugins)
+	- MS Office
+		- Anthropic: [pdf](https://www.skills.sh/anthropics/skills/pdf), [pptx](https://www.skills.sh/anthropics/skills/pptx), [docx](https://www.skills.sh/anthropics/skills/docx), [xslx](https://www.skills.sh/anthropics/skills/xlsx)
+		- [ppt-master](https://www.skills.sh/hugohe3/ppt-master/ppt-master)
+	- Entscheidungsfindung / Steel-Man the Opposition
+		- [the-fool](https://www.skills.sh/jeffallan/claude-skills/the-fool), [dissent](https://www.skills.sh/open-horizon-labs/skills/dissent), [devils-advocate](https://www.skills.sh/majesticlabs-dev/majestic-marketplace/devils-advocate), [gpt-taste](https://www.skills.sh/leonxlnx/taste-skill/gpt-taste), [reasoning personas](https://clawhub.ai/artyomx33/skills/reasoning-personas)
+	- Informatiker-Humor
+		- [gilfoyle](https://www.skills.sh/axiomhq/gilfoyle/gilfoyle), [bmad](https://www.skills.sh/bmad-code-org/bmad-method/bmad-review-adversarial-general), [caveman](https://www.skills.sh/juliusbrussee/caveman/caveman)
 	- Science
 		- [Awesome Science Skills](https://github.com/K-Dense-AI/scientific-agent-skills) (i.a., Research Methodology & Planning, Scientific Writing, Data Analysis & Visualization)
+		- [mattpocock teach](https://www.skills.sh/mattpocock/skills/teach)
 		- Further Reading: [Awesome Scientific Skills](https://github.com/InternScience/Awesome-Scientific-Skills)
 - Token Efficiency / Cost Optimization
 	- [Graphify](https://graphify.net/)
@@ -264,7 +273,34 @@ Hinweise:
 	- [K-Dense BYOK](https://github.com/K-Dense-AI/k-dense-byok)
 - Weiterführende Referenzen: [Awesome Vibe Coding](https://github.com/filipecalegario/awesome-vibe-coding), [Awesome Vibe Coding Tools](https://github.com/furudo-erika/awesome-vibe-coding-tools?tab=readme-ov-file) 
 
+Für Einsteiger eine exemplarische Top-10-Liste relevanter Slash-Commands, am Beispiel agy / antigravity CLI:
 
+| Command                   | Semantics                                                                                 |
+| ------------------------- | ----------------------------------------------------------------------------------------- |
+| `/model`                  | Switch models without leaving the current session.                                        |
+| `/usage`                  | Show quotas and rate limits across models. Check this regularly.                          |
+| `/context`                | View token usage by category and manage checkpoints.                                      |
+| `/goal`                   | Execute the plan autonomously until completion. Best when you trust the plan.             |
+| `/grill-me`               | Ask clarifying questions before taking action. Best for ambiguous or destructive tasks.   |
+| `/agent` sowie `/agents`  | Launch a named background subagent or monitor running subagents.                          |
+| `/browser`                | Enable web browsing for the current run (scraping, JS-heavy sites, OAuth).                |
+| `/config`                 | Configure settings such as model, theme, MCP servers, and Pro upgrade.                    |
+| `/export`                 | Export the session to Antigravity 2.0 to continue in the GUI.                             |
+| `/schedule`               | Schedule loops, i.e. recurring cron-style runs, or one-time tasks up to 15 minutes ahead. |
+
+Nützliches pwsh Snippet für den Einstieg (exemplarisch für agy):
+```pwsh
+agy models |
+    Where-Object { $_.Trim() } |
+    ForEach-Object {
+        "`$Prompt | agy --model `"$($_)`" --dangerously-skip-permissions"
+    }
+```
+
+Bzw. in Windows CMD:
+```cmd
+for /f "delims=" %M in ('agy models') do @echo ^%PROMPT^% ^| agy --model "%M" --dangerously-skip-permissions
+```
 
 ## SW-Bibliotheken & -Frameworks
 
