@@ -173,8 +173,7 @@ Hinweise:
 
 ## Vibe Coding
 
-\[OBACHT #1: Gilt für eine Abschlussarbeit als High-Tech-Plagiarism\]
-\[OBACHT #2: "Where 2 engineers can now create the tech debt of at least 50 engineers"\]
+\[OBACHT: Gilt für eine akademische Abschlussarbeit ggf. als Unterschleif i.S.v. High-Tech-Plagiarism. Hochschulrecht ist anders als reines Urheberrecht. \]
 
 - Übersicht/Einstieg: indiehackers [Vibe Coding Tools](https://www.indiehackers.com/vibe-coding-tools) ([free ones](https://www.indiehackers.com/vibe-coding-tools?tags=Free))
 - Wegbereiter:
@@ -273,53 +272,144 @@ Hinweise:
 	- [K-Dense BYOK](https://github.com/K-Dense-AI/k-dense-byok)
 - Weiterführende Referenzen: [Awesome Vibe Coding](https://github.com/filipecalegario/awesome-vibe-coding), [Awesome Vibe Coding Tools](https://github.com/furudo-erika/awesome-vibe-coding-tools?tab=readme-ov-file) 
 
-### Gesetze des Prompt Engineerings nach Neumann
+## Gesetze des Prompt Engineerings und Vibe Codings nach Neumann
 
 0. **„KI macht nicht deine Arbeit, sie multipliziert deine Denkqualität!“**
-   * KI verstärkt Klarheit, Struktur und Qualität deiner Vorgaben.
-   * Wichtig: Müll rein, Müll raus, nur schneller.
-   * **Nebengesetz:** „Vibe Coding: Where 2 engineers can now create the tech debt of at least 50 engineers.“
-   * **Nebengesetz:** „KI skaliert nicht nur Produktivität – sie skaliert auch schlechte Entscheidungen.“
+	* KI verstärkt Klarheit, Struktur und Qualität deiner Vorgaben.
+	* Wichtig: Müll rein, Müll raus, nur schneller.
+	* **Nebengesetz:** „Vibe Coding: Where 2 engineers can now create the tech debt of at least 50 engineers.“
+	* **Nebengesetz:** „KI skaliert nicht nur Produktivität – sie skaliert auch schlechte Entscheidungen.“
 
 1. **„Es liegt stets am Prompt!“**
-   * Als provokantes Gesetz notwendig, obwohl Modelle reale Grenzen haben.
-   * **Prompt Engineering** ist ein kontinuierlicher Optimierungsprozess aus Hypothese, Test und Verbesserung.
-   * Wichtig: Der **Mensch** verantwortet schlechte Fragen/Aufgaben und schlechte Ergebnisse, nicht das Modell.
-   * **Nebengesetz:** „Stille Annahmen des Menschen sind keine Instruktionen.“
+	* Als provokantes Gesetz notwendig, obwohl Modelle reale Grenzen haben.
+	* **Prompt Engineering** ist ein kontinuierlicher Optimierungsprozess aus Hypothese, Test und Verbesserung.
+	* Wichtig: Der **Mensch** verantwortet schlechte Fragen/Aufgaben und schlechte Ergebnisse, nicht das Modell.
+	* **Nebengesetz:** „Stille Annahmen des Menschen sind keine Instruktionen.“
 
 2. **„Wenn es nicht am Prompt liegt, liegt es am Kontext!“**
-   * Schlechte Ergebnisse entstehen meist durch fehlenden, falschen oder unstrukturierten Kontext.
-   * **Context Engineering** umfasst Prompts, System Instructions, Beispiele, Daten, Tools, Regeln und den Gesprächsverlauf.
-   * Wichtig: Der **Mensch** verantwortet schlechten Kontext und schlechte Ergebnisse, nicht das Modell.
-   * **Nebengesetz**: „Hochwertiger Kontext ist teuer: Daten müssen erzeugt, kuratiert und gepflegt werden.“
+	* Schlechte Ergebnisse entstehen meist durch fehlenden, falschen oder unstrukturierten Kontext.
+	* **Context Engineering** umfasst Prompts, System Instructions, Beispiele, Daten, Tools, Regeln und den Gesprächsverlauf.
+	* Wichtig: Der **Mensch** verantwortet schlechten Kontext und schlechte Ergebnisse, nicht das Modell.
+	* **Nebengesetz**: „Hochwertiger Kontext ist teuer: Daten müssen erzeugt, kuratiert und gepflegt werden.“
 
 3. **„System Prompts over Model Quality!“**
-   * Ein Modell ohne System Design ist nur Rohintelligenz: In der praktischen Anwendung dominiert häufig der [System Prompt](https://github.com/asgeirtj/system_prompts_leaks) die Ergebnisqualität, insbesondere innerhalb derselben Modellgeneration.
-   * Abgrenzung: Nur Foundation Model Provider konkurrieren primär über Modellqualität und Benchmarks, das allerdings lautstark.
-   * Wichtig: Ein durchschnittliches Modell mit gutem System Design kann ein besseres Modell mit schlechtem Kontext schlagen. (vgl. „Modelmaxxing“, u.a. als Gegenkonzept zu „Tokenmaxxing“)
-   * **Nebengesetz:** „Verhalten wird orchestriert, nicht erwartet.“
+	* Ein Modell ohne System Design ist nur Rohintelligenz: In der praktischen Anwendung dominiert häufig der [System Prompt](https://github.com/asgeirtj/system_prompts_leaks) die Ergebnisqualität, insbesondere innerhalb derselben Modellgeneration.
+	* Abgrenzung: Nur Foundation Model Provider konkurrieren primär über Modellqualität und Benchmarks, das allerdings lautstark.
+	* Wichtig: Ein durchschnittliches Modell mit gutem System Design kann ein besseres Modell mit schlechtem Kontext schlagen. (vgl. „Modelmaxxing“, u.a. als Gegenkonzept zu „Tokenmaxxing“)
+	* **Nebengesetz:** „Verhalten wird orchestriert, nicht erwartet.“
 
 4. **„Sprachmodelle lieben Rollenspiele!“**
-   * Eine definierte Rolle verändert Perspektive, Verhalten und Prioritäten des Modells.
-   * Wichtig: Methoden wie **Role Prompting** und **Meta Prompting** sollten von KI-Benutzern früh ritualisiert werden.
-   * **Nebengesetz:** „Die Frage ‚Wer soll denken?‘ ist oft wichtiger als ‚Was soll gedacht werden?‘“
+	* Eine definierte Rolle verändert Perspektive, Verhalten und Prioritäten des Modells.
+	* Wichtig: Methoden wie **Role Prompting** und **Meta Prompting** sollten von KI-Benutzern früh ritualisiert werden.
+	* **Nebengesetz:** „Die Frage ‚Wer soll denken?‘ ist oft wichtiger als ‚Was soll gedacht werden?‘“
 
 5. **„Format ist Funktion!“**
-   * Das gewünschte Ausgabeformat bestimmt maßgeblich die Nutzbarkeit des Ergebnisses.
-   * Wichtig: Methoden wie **Output Priming** sollten von KI-Benutzern früh ritualisiert werden.
-   * **Nebengesetz:** „Outputqualität folgt Inputstruktur.“
+	* Das gewünschte Ausgabeformat bestimmt maßgeblich die Nutzbarkeit des Ergebnisses.
+	* Wichtig: Methoden wie **Output Priming** sollten von KI-Benutzern früh ritualisiert werden.
+	* **Nebengesetz:** „Outputqualität folgt Inputstruktur.“
 
 6. **„Kontext ist eine Ressource mit Budget!“**
-   * Kontext ist die Arbeitsumgebung des Modells.
-   * Wichtig: Mehr Kontext bedeutet nicht automatisch besseren Kontext. (vgl. [Graphify](https://graphify.net/))
-   * **Nebengesetz:** „Der beste Kontext ist nicht der vollständigste, sondern der relevanteste.“
+	* Kontext ist die Arbeitsumgebung des Modells.
+	* Wichtig: Mehr Kontext bedeutet nicht automatisch besseren Kontext. (vgl. [Graphify](https://graphify.net/))
+	* **Nebengesetz:** „Der beste Kontext ist nicht der vollständigste, sondern der relevanteste.“
+
+7. **„Skills are the new code!“**
+	* Der Wettbewerb verschiebt sich von „Wer schreibt den besten Code?“ zu „Wer beschreibt die besten Fähigkeiten für KI-Agenten?“
+	* Im Agentic Programming kapseln **Skills** wiederholbare Entscheidungslogik, Engineering-Prinzipien und technische Umsetzungsmuster.
+	* Wichtig: In der Agenten-Ära wird fachliche und technische Expertise zur Software.
+	* **Nebengesetz:** „Die nächste Generation von Software wird nicht geschrieben - sie wird beschrieben.“
+
+**Lernpfad**:
+
+	* Erst eine Subscription oder ein [lokales Ollama](https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-factors.html).
+	* Dann [CLAUDE.md](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/CLAUDE.md).
+	* Dann [ECC](https://github.com/affaan-m/ecc)-analoge Skills.
+	* Dann All-In. (Mindset!)
+	* Dann die [richtige Echokammer](https://simonwillison.net/).
+	* Dann 6GL aka [Natural Language Programming](https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html) (Programmier-Ebene)
+	* Dann Spec-Driven Development (SDD) aka Agentic Engineering (SW-Technik-Ebene)
+		- Further Reading: [spec-kit](https://github.com/github/spec-kit), [SpecDD](https://specdd.ai/) (sowie exemplarisch [kiro](https://kiro.dev/) und [tessl](https://tessl.io/))
+
+**Further Reading**:
+
+	* Vibe Coding Referenzprojekt für Einsteiger mit kleinen Projekten (ca. 1-wöchige SW-Prototypen)?
+		- Mein Modul Webanwendungsentwicklung, studentisches Team DeadLock: [CLAUDE.md](https://github.com/CycleByte/WAE-2026SS-TeamBlau-DeadLock/blob/main/CLAUDE.md)
+
+	* Spec-Driven Development (SDD)?
+		- [spec-kit](https://github.com/github/spec-kit)
+		- [SpecDD](https://specdd.ai/)
+		- (sowie exemplarisch [kiro](https://kiro.dev/) und [tessl](https://tessl.io/))
+
+**Weitere Hinweise**:
+
+* **Welches Modell passt in meine Grafikkarte?**
+  → Nutzt den **[VRAM Calculator](https://apxml.com/tools/vram-calculator)** ⭐
+  *(Wer die zugrunde liegenden Infos ebenfalls gelesen hat? Natürlich das freundliche Freibier-Frontier-Modell deiner Wahl. Der Bot berät dazu ebenfalls.)*
+
+* **„DeepSeek als Alternative zu Claude Code oder GitHub Copilot?“ ist die falsche Fragestellung.**
+  Die eigentliche Einordnung ist:
+
+  * **Frontier-Modelle**: 1T+ Parameter, typischerweise Cloud-Modelle der Big-Tech-Anbieter
+  * **Mid-Tier-Modelle**: lokal nutzbar mit sehr viel Speicher (z. B. 128+ GB RAM, etwa auf Geräten wie NVIDIA DGX Spark oder Ryzen AI 395-Systemen)
+  * **Edge-Modelle**: abhängig von verfügbarer Hardware – von Desktop-GPUs bis Smartphones
+
+  NVIDIA DGX Spark könnte man entsprechend auch als **Premium-AI-Edge** bezeichnen.
+
+  DeepSeek R1 (Release Januar 2025) war ein **671B-Modell** mit **37B aktiven Parametern durch Mixture-of-Experts (MoE)**. Die lokal auf Laptops und PCs genutzten DeepSeek-Varianten sind dagegen typischerweise **3B/7B/9B-Modelle**. Das große 671B(37B)-Modell ist Open Source, läuft aber nicht auf gewöhnlicher Edge-Hardware.
+
+* **Modelmaxxing als Kostenoptimierung**
+
+  Der bewusste Wechsel zwischen Modellklassen etabliert sich zunehmend als *modelmaxxing*:
+
+  * Planung mit einem High-End-Modell
+  * Implementierung mit einem günstigeren Mid-Tier-Modell
+
+  Gerade Studierende profitieren davon, weil Kosten eine zentrale Rolle spielen.
+
+* **Vibe-Coding-Anpassungsstörungen?**
+
+  Die [aktuelle Zerrissenheit](https://writer.com/blog/enterprise-ai-adoption-survey-results-press-release/) erinnert an frühere Paradigmenwechsel:
+
+  * Dijkstra wurde nicht nur für „[GOTO considered harmful](https://www.perplexity.ai/search/new?q=Wurde+Dijkstra+nicht+nur+gefeiert+für+%22Goto+considered+harmful%22+sondern+auch+angefeindet%3F+Wie+kontrovers+war+die+Modernisierung+zu+seiner+Zeit%3F)“ gefeiert, sondern auch kontrovers diskutiert.
+  * GOTO war nicht „falsch“, sondern Teil des 2GL-Programmierstils. Structured Programming und 3GL haben es lediglich im Mainstream verdrängt.
+  * Ähnlich dürfte es mit 6GL-Techniken laufen.
+
+  Nebenbemerkung: GOTO wird beispielsweise im Linux-Kernel weiterhin intensiv für Cleanup- und Error-Handling-Muster verwendet; ein Grund könnte sein, dass sich Alternativen wie ein [`defer`-Konstrukt](https://www.open-std.org/JTC1/SC22/WG14/www/docs/n3734.pdf) noch im C-Standardisierungsprozess befinden.
+
+* **Programmiersprachengenerationen**
+
+  Kennt ihr die Entwicklung von **[1GL bis 5GL](https://en.wikipedia.org/wiki/Programming_language_generations)**?
+
+  * 4GL (deklarativ) und 5GL (logikbasiert) wurden nie ein Massenphänomen und haben 3GL-Hochsprachen nicht verdrängt.
+  * Uncle Bobs Vortrag **„[The Future of Programming](https://www.youtube.com/watch?v=ecIWPzGEbFc)“** ist hierzu weiterhin relevant.
+
+* **Vibe Coding als 6GL**
+
+  Vibe Coding kann als **6GL: Natural Language Programming bzw. Spec-Driven Programming** verstanden werden.
+
+  * 3GL-Programmierer beherrschen heute meist weder 2GL (Assembly) noch 1GL (Maschinensprache) im Alltag.
+  * Jede neue Abstraktion erzeugt eine neue Generation von Entwicklern.
+  * Die 6GL wird die 3GL nicht einfach „ersetzen“, sondern die nächste dominante Abstraktionsebene bilden.
+
+  Die 6GL bleibt trotzdem anspruchsvolle Informatik. Sie verschiebt nur den Schwerpunkt: weniger direkte Syntaxarbeit, mehr Spezifikation, Architektur, Verständnis und Kontrolle.
 
 
-### Vibe Coding Einstiegshinweise
+## Vibe Coding Einstiegshinweise
 
-Für Einsteiger eine exemplarische Top-10-Liste relevanter Slash-Commands, am Beispiel agy / antigravity CLI:
+Gutes Preis/Leistungsverhältnis:
+	* Kostenlos?
+		- Für Wissenschaftler mit Zugriff auf nationale Forschungsinfrastruktur: [FAU](https://hpc.fau.de/request-llm-api-key/#models) oder [GDWG](https://docs.hpc.gwdg.de/services/ai-services/chat-ai/models/index.html)
+			- Allerdings i.d.R. nur Mid-Tier-Modelle, keine Frontier-Modelle
+	* Preisgünstig?
+		- [Open Code Go](https://opencode.ai/de/go) Subscription (~€10/m)
+		- Internationale Subscriptions (bspw. indischen Ursprungs)
+			- Warnhinweis: [Ist die regionsübergreifende Weitergabe ein Verstoß gegen die Nutzungsbedingungen der Anbieter?](https://www.perplexity.ai/search/new?q=Beim+Kauf+internationaler+Subscriptions+(bspw.+indischen+Ursprungs)%3A+Ist+eine+reine+regionale+Umgehung+ein+Verstoß+gegen+deutsches+Recht%3F+Ist+es+ein+Verstoß+gegen+Googles+Nutzungsbedingungen%3F+Sind+Googles+Nutzungsbedingungen+in+Deutschland+in+der+bestehenden+Form+überhaupt+rechtswirksam%3F)
+			- Angebote u.a. via [driffle](https://driffle.com/de/store?q=Google%20AI%20Pro) oder [kinguin](https://www.kinguin.net/listing?active=1&hideUnavailable=0&type=all&phrase=Google%20AI%20Pro%2018%20months)
 
-| Command                   | Semantics                                                                                 |
+
+Exemplarische **Top-10-Liste** relevanter Slash-Commands, am Beispiel agy / antigravity CLI:
+
+| Top-10 Commands           | Semantics                                                                                 |
 | ------------------------- | ----------------------------------------------------------------------------------------- |
 | `/model`                  | Switch models without leaving the current session.                                        |
 | `/usage`                  | Show quotas and rate limits across models. Check this regularly.                          |
@@ -332,18 +422,13 @@ Für Einsteiger eine exemplarische Top-10-Liste relevanter Slash-Commands, am Be
 | `/export`                 | Export the session to Antigravity 2.0 to continue in the GUI.                             |
 | `/schedule`               | Schedule loops, i.e. recurring cron-style runs, or one-time tasks up to 15 minutes ahead. |
 
-Nützliches pwsh Snippet für den Einstieg (exemplarisch für agy):
+Nützliches pwsh Snippet für lokale Automatisierungen (exemplarisch für agy):
 ```pwsh
 agy models |
     Where-Object { $_.Trim() } |
     ForEach-Object {
         "`$Prompt | agy --model `"$($_)`" --dangerously-skip-permissions"
     }
-```
-
-Bzw. in Windows CMD:
-```cmd
-for /f "delims=" %M in ('agy models') do @echo ^%PROMPT^% ^| agy --model "%M" --dangerously-skip-permissions
 ```
 
 ## SW-Bibliotheken & -Frameworks
