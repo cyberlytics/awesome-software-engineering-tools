@@ -580,6 +580,7 @@ Bonusliste:
 - Lesen Sie auch [freeCodeCamp **How to Choose a Tech Career** in 2022](https://www.freecodecamp.org/news/how-to-choose-a-tech-career/) mit einem Mapping von Werkzeugen auf diverse Job-Profile
 - [Liste von **Zapier**-kompatiblen Apps](https://zapier.com/apps)
 - **[FutureTools](https://www.futuretools.io)**
+- [Codex Quota Overlay](https://github.com/cpys/codex-quota-overlay): Datenschutzfreundliches Desktop-Overlay für Codex-Kontingente unter Windows und macOS
 - Windows: [Awesome **Windows**](https://github.com/thechampagne/awesome-windows)
 - Mac: [Awesome **Mac**](https://github.com/jaywcjlove/awesome-mac)
 
