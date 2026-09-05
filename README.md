@@ -208,6 +208,7 @@ Hinweise:
 	- **[Protractor](https://www.protractortest.org)** speziell für AngularJS und Angular
 	- (Weitere Alternativen: Selenium, …)
 - AI-powerd E2E Test Automation: **[testRigor](https://testrigor.com/)**, kostenlos für public open source | **[testIM](https://www.testim.io/)** mit kostenlosen Kontingenten
+- **[Agent QA](https://github.com/vostride/agent-qa)**: KI-gestützte Tests in natürlicher Sprache für Web-, Android- und iOS-Anwendungen, mit CLI und MCP; Source-available (FSL-1.1-ALv2), ohne Softwaregebühr für die zulässige Nutzung; Modell-, Browser- und Geräteanbieter können zusätzliche Kosten verursachen.
 - Load-Testing
 	- (Web/Self-Hosted:) [**Gatling** Open Source](https://gatling.io/open-source/)
 	- (Desktop:) **[JMeter](https://jmeter.apache.org/)** \[choco install jmeter\]
