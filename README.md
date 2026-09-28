@@ -610,6 +610,8 @@ Contributions are most welcome, please adhere to the contribution guidelines and
 
 Thank you for your suggestions!
 
+BEWARE: Only contribute best-in-class software! Do NOT contribute fresh projects for promotion! (e.g., vibe coded ones) 
+
 ### Backers
 
 Thank you to all our supporters! 🙏
