@@ -102,6 +102,7 @@ Hinweise:
 	- KI-gestützte SQL Code-Completion: siehe unten
 	- E/R-Diagramme: siehe unten
 	- Schema Diagrams: siehe unten
+- Crontab: [crontab guru](https://crontab.guru/#)
 - [Visual Studio **Code**](https://code.visualstudio.com/) \[**choco install vscode --ignore-dependencies**\]
 	- Es gibt viele wertvolle Extensions → [Awesome VS Code](https://github.com/viatsko/awesome-vscode) bzw. [Best-Of-Listen](https://metager.org/meta/meta.ger3?eingabe=best+vs+code+extensions)
 	- Auswahl: [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml), [draw.io](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio), [AsciiDoc](https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor-vscode), [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode), [TabNine](https://www.tabnine.com/install/vscode), uvm.
@@ -503,6 +504,8 @@ Hinweise:
 	- Softwareverteilung? **[Opsi](https://www.opsi.org/de/)**
 	- Active Directory? **[Samba](https://www.samba.org/)**
 	- Passwort Manager? **[Vaultwarden](https://github.com/dani-garcia/vaultwarden)** \[via docker\]
+	- System- & Service-Monitoring? **[Zabbix](https://www.zabbix.com/)** (Enterprise-Monitoring) | **[Uptime Kuma](https://github.com/louislam/uptime-kuma)** [via docker] (Schlanke Status-Dashboard-Alternative)
+	- Log-Management / Zentrales Logging? **[Graylog](https://graylog.org/)** | **[Grafana Loki](https://grafana.com/oss/loki/)**
 - Querschnitt
 	- Doodle/Terminumfragen
 		- Cloud: **[nuudel](https://nuudel.digitalcourage.de/)** | **[fragab](https://fragab.com/)**
@@ -510,11 +513,14 @@ Hinweise:
 	- Chat? **[RocketChat](https://de.rocket.chat/install)** \[**choco install rocketchat**\]\[[Cloud](https://cloud.rocket.chat/)\]
 	- Video Conference? **[Jitsi](https://jitsi.org/)** \[**choco install jitsi**\]\[[Cloud](https://meet.jit.si/)\]
 		- Alternative: **[Nextcloud Talk](https://nextcloud.com/talk/)**, als FOSS via [NextCloud Server](https://nextcloud.com/install/) → Müsste jemand mal für mich ausprobieren…
-	- DMS/CMS? [**Alfresco** Community Edition](https://www.alfresco.com/products/community/download)
+	- DMS/CMS?
+		- Schwergewichtig: [**Alfresco** Community Edition](https://www.alfresco.com/products/community/download)
+		- Leichtgewichtiger: **[Paperless-ngx](https://docs.paperless-ngx.com/)** (Docker, KI/OCR, ideal für papierloses Büro) | **[Mayan EDMS](https://www.mayan-edms.com/)**
 	- Workflow Management / Case Management? **[flowable](https://www.flowable.com/open-source)** (welches ggb. Activiti oder Camunda zu bevorzugen ist)
+	- Projekt- & Aufgabenmanagement? **[OpenProject](https://www.openproject.org/de/)** (Klassisch & Agil, FOSS) | **[Planka](https://github.com/plankanban/planka)** (Schlankes Kanban-Board) | **[Kanboard](https://kanboard.org/)**
 - Vertrieb & Marketing
-	- CRM? **[SuiteCRM](https://suitecrm.com/download/)** | Cloud-Alternative: [**Zoho CRM** free plan](https://www.zoho.com/crm/signup.html?plan=free&src=crmpricing), kostenlos für drei Nutzer
-	- Newsletter / E-Mail Marketing: **[SendInBlue](https://de.sendinblue.com/)** | **[SendGrid](https://sendgrid.com/)**
+	- CRM? Siehe unten bei Enterprise One-Stop-Shop! Sowie: **[SuiteCRM](https://suitecrm.com/download/)** | Cloud-Alternative: [**Zoho CRM** free plan](https://www.zoho.com/crm/signup.html?plan=free&src=crmpricing), kostenlos für drei Nutzer
+	- Newsletter / E-Mail Marketing: **[Brevo](https://www.brevo.com/de/)** (früher: Sendinblue) | **[SendGrid](https://sendgrid.com/)**
 	- Online Marketing: **[marketplan.io](https://marketplan.io/)**, **[predis.ai](https://predis.ai/)**
 	- Online Lead Generation: **[apiway.ai](https://apiway.ai/)**
 	- e-Commerce: Open-Source **[WooCommerce](https://github.com/woocommerce/woocommerce)** über [WordPress](https://wordpress.org/)
@@ -522,12 +528,15 @@ Hinweise:
 	- SW-Versionsverwaltung: **[GitLab](https://about.gitlab.com/install/)**
 	- SW-Artefakt-Repository: [Sonatype **Nexus**](https://de.sonatype.com/products/repository-oss-download) (OSS-Version)
 - Kundendienst & Support
-	- Ticketing: [Zammad](https://zammad.org)
+	- Ticketing: Siehe unten bei Enterprise One-Stop-Shop! Sowie: [Zammad](https://zammad.org)
 - Administration & Finanzen
-	- Geschaftsbrief: [DIN 5008](https://leonrenner.com/din-5008-geschaeftsbrief-regeln-fuer-den-aufbau-nach-norm/)
+	- ERP (Enterprise Resource Planning)? **[Odoo](https://www.odoo.com/de_DE)** (Community Edition) | **[ERPNext](https://erpnext.com/)** | [iDempiere](https://idempiere.org/) | [Tryton](https://www.tryton.org/)
+		- OBACHT: Odoo und ERPNext decken viele der oben separat aufgeführten Punkte bereits out-of-the-box ab (z. B. CRM, Ticketing/Helpdesk, HR, einfache Lagerhaltung und E-Commerce)!
 	- HR? **[ConnecTeam](https://connecteam.com/)** (Cloud) | [**TimeOff**.Management](https://github.com/timeoff-management/timeoff-management-application) (FOSS, Web/Self-Hosted) | List of [Best Open-Source HRMS](https://wperp.com/68603/best-open-source-hrms/)
+	- Geschaftsbrief: [DIN 5008](https://leonrenner.com/din-5008-geschaeftsbrief-regeln-fuer-den-aufbau-nach-norm/)
 - Enterprise One-Stop-Shop
-	- Enterprise Suite: **[WikiSuite](https://wikisuite.org/)** für Linux („Not-so-Small Business Linux Server – on Steroids“, FOSS), substituiert Ihnen nicht nur KeyHelp (SMB Linux Server) sondern auch NextCloud (Groupware-Bedürfnisse) und Chat und VidConf sowie weitere der obigen Einzel-Empfehlungen in einem großen Open-Source-Software-Bündel
+	- IT-Infrastruktur & Groupware: **[WikiSuite](https://wikisuite.org/)** für Linux („Not-so-Small Business Linux Server – on Steroids“, FOSS), substituiert Ihnen nicht nur KeyHelp (SMB Linux Server) sondern auch NextCloud (Groupware-Bedürfnisse) und Chat und VidConf sowie weitere der obigen Einzel-Empfehlungen in einem großen Open-Source-Software-Bündel
+	- Business Operations & ERP: **[Odoo](https://www.odoo.com/de_DE)** (Community Edition) | **[ERPNext](https://erpnext.com/)**
 
 Bonusliste:
 
