@@ -44,6 +44,7 @@ Hinweise:
 - [Bonus: Studentisches Start-Up (Software-Entwicklung)](#bonus-studentisches-start-up-software-entwicklung)
 - [Appendix: App Recommendations & Repos](#appendix-app-recommendations--repos)
 - [Appendix: More Free Student Stuff](#appendix-more-free-student-stuff)
+- [Schwesterseiten](#schwesterseiten)
 - [Footer](#footer)
 
 <!-- tocstop -->
